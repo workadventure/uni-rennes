@@ -232,17 +232,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"",
-                 "height":61.6672851518306,
-                 "id":12,
-                 "name":"clockPopup",
-                 "rotation":0,
-                 "visible":true,
-                 "width":93.7162209047986,
-                 "x":483.919325398621,
-                 "y":14.0269116471316
-                }, 
-                {
                  "class":"area",
                  "height":128,
                  "id":13,
@@ -322,17 +311,6 @@
                  "width":192,
                  "x":768,
                  "y":224
-                }, 
-                {
-                 "class":"area",
-                 "height":39.6969696969697,
-                 "id":17,
-                 "name":"clock",
-                 "rotation":0,
-                 "visible":true,
-                 "width":50.2727272727272,
-                 "x":438.484848484849,
-                 "y":96.3333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -422,7 +400,7 @@
          "name":"mapImage",
          "type":"string",
          "value":"map.png"
-        },
+        }, 
         {
          "name":"mapName",
          "type":"string",
@@ -431,7 +409,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"/src\/main.ts"
+         "value":"\/src\/main.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
