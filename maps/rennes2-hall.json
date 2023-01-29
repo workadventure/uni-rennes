@@ -1796,6 +1796,11 @@
                          "name":"jitsiRoomAdminTag",
                          "type":"string",
                          "value":"admin"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "visible":true,
