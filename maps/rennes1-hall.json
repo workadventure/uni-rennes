@@ -1995,17 +1995,17 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Hall de l'universit\u00e9 Rennes 2"
+         "value":"Hall de l'universit\u00e9 Rennes 1"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"rennes2-hall.png"
+         "value":"rennes1-hall.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Rennes 2 Hall"
+         "value":"Rennes 1 Hall"
         }, 
         {
          "name":"script",

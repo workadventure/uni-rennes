@@ -700,17 +700,17 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Amphi de l'universit\u00e9 Rennes 2"
+         "value":"Amphi de l'universit\u00e9 Rennes 1"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"rennes2-amphi.png"
+         "value":"rennes1-amphi.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Rennes 2 Amphi"
+         "value":"Rennes 1 Amphi"
         }, 
         {
          "name":"script",
