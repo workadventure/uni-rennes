@@ -1107,16 +1107,6 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/view.genial.ly\/63c64bec8790d50011d838a9"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour ouvrir \"Didacticiels\""
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1269,16 +1259,6 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/h5p.org\/h5p\/embed\/1341914"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour ouvrir \"MOOC M\u00e9thodologie VEC\""
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1296,16 +1276,6 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/h5p.org\/h5p\/embed\/1341904"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour ouvrir \"MOOC Discrimination\""
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1323,16 +1293,6 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/view.genial.ly\/63c6f682dc5c790013644429"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour ouvrir \"Alumni\""
                         }],
                  "rotation":0,
                  "visible":true,

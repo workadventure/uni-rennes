@@ -541,16 +541,6 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.thinglink.com\/view\/scene\/1357170246300991491"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour ouvrir \"Ressource 360\""
                         }],
                  "rotation":0,
                  "visible":true,
