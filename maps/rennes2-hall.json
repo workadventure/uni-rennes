@@ -1775,7 +1775,7 @@
                  "name":"survey",
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/limesurvey.lgeorget.eu\/index.php?r=survey\/index&sid=682458"
                         }, 
