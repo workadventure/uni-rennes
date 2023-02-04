@@ -1848,7 +1848,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/view.genial.ly\/63c56bf06382160011ca8206\/"
+                         "value":"https:\/\/view.genial.ly\/63c56bf06382160011ca8206"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -1870,7 +1870,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/view.genial.ly\/63c55e5a8790d50011d6eb32\/"
+                         "value":"https:\/\/view.genial.ly\/63c55e5a8790d50011d6eb32"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
