@@ -1,0 +1,79 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "maps/map.json": {
+            "scale": 0.360703125,
+            "selectedLayer": 11,
+            "viewCenter": {
+                "x": 834.4812648906216,
+                "y": 1057.656486896253
+            }
+        },
+        "maps/map.json#LimeZu_MI_Anim_Arrow": {
+            "scaleInDock": 1
+        },
+        "maps/map.json#LimeZu_MI_Hospital": {
+            "scaleInDock": 1
+        },
+        "maps/map.json#Sev_Map": {
+            "scaleInDock": 0.25,
+            "scaleInEditor": 0.33
+        },
+        "maps/map.json#Sev_Metro": {
+            "scaleInDock": 1
+        },
+        "maps/map.json#Sev_Props": {
+            "scaleInDock": 0.33
+        },
+        "maps/map.json#WA_Special_Zones": {
+            "scaleInDock": 1
+        },
+        "maps/map.json#WA_User_Interface": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/map.tmj": {
+            "scale": 0.360703125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 962.0099631795537,
+                "y": 1057.656486896253
+            }
+        },
+        "maps/map.tmj#LimeZu_MI_Anim_Arrow": {
+            "scaleInDock": 1
+        },
+        "maps/map.tmj#LimeZu_MI_Hospital": {
+            "scaleInDock": 1
+        },
+        "maps/map.tmj#Sev_Map": {
+            "scaleInDock": 1
+        },
+        "maps/map.tmj#Sev_Metro": {
+            "scaleInDock": 1
+        },
+        "maps/map.tmj#Sev_Props": {
+            "scaleInDock": 1
+        },
+        "maps/map.tmj#WA_Special_Zones": {
+            "scaleInDock": 1
+        },
+        "maps/map.tmj#WA_User_Interface": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/ramella_d/Documents/Sous-marin/Univers-L/GitHub/uni-rennes2D/maps",
+    "map.lastUsedExportFilter": "Fichiers de carte JSON (*.tmj *.json)",
+    "openFiles": [
+    ],
+    "project": "uni-rennes2D.tiled-project",
+    "recentFiles": [
+        "maps/map.json",
+        "maps/map.tmj"
+    ]
+}
