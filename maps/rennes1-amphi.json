@@ -124,7 +124,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes1#from-amphi"
+                 "value":"\/@\/universite-rennes-2\/metavers\/rennes1-amphi#from-amphi"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -533,20 +533,20 @@
                 }, 
                 {
                  "class":"area",
-                 "height":1153.27272727273,
+                 "height":952.909750866196,
                  "id":19,
                  "name":"Amphi_Website",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1357170246300991491"
+                         "value":"https:\/\/player.vimeo.com\/video\/798684327?h=20818fbb98"
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":1024,
-                 "x":36,
-                 "y":220.727272727273
+                 "width":1008.31941923775,
+                 "x":41.2268602540837,
+                 "y":224.211846229995
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -713,7 +713,7 @@
          "value":true
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.9.1",
  "tileheight":32,
  "tilesets":[
         {

@@ -124,7 +124,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes2#from-amphi"
+                 "value":"\/~\/universite-rennes-2\/metavers\/maps\/rennes2-hall.tmj#from-amphi"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -533,7 +533,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":1153.27272727273,
+                 "height":437.192872463292,
                  "id":19,
                  "name":"Amphi_Website",
                  "properties":[
@@ -544,9 +544,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":1024,
-                 "x":36,
-                 "y":220.727272727273
+                 "width":964.762250453721,
+                 "x":95.2377495462795,
+                 "y":936.80712753671
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -678,7 +678,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":53,
+ "nextlayerid":54,
  "nextobjectid":20,
  "orientation":"orthogonal",
  "properties":[
@@ -713,7 +713,7 @@
          "value":true
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.9.1",
  "tileheight":32,
  "tilesets":[
         {
