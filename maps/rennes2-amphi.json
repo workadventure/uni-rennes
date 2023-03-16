@@ -547,6 +547,23 @@
                  "width":964.762250453721,
                  "x":95.2377495462795,
                  "y":936.80712753671
+                }, 
+                {
+                 "class":"area",
+                 "height":596.808149405772,
+                 "id":20,
+                 "name":"Enigme 2 ",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1690707430352093988"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":985.263157894737,
+                 "x":72.3938879456706,
+                 "y":190.696095076401
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -679,7 +696,7 @@
          "y":0
         }],
  "nextlayerid":54,
- "nextobjectid":20,
+ "nextobjectid":21,
  "orientation":"orthogonal",
  "properties":[
         {
