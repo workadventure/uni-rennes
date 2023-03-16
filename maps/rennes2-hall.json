@@ -1800,7 +1800,7 @@
                         {
                          "name":"openTab",
                          "type":"string",
-                         "value":"bit.ly\/Rennes2D"
+                         "value":"https:\/\/bit.ly\/Rennes2D"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
