@@ -1163,6 +1163,23 @@
                  "width":460.212259042668,
                  "x":91.4879792072774,
                  "y":1278.0593458956
+                }, 
+                {
+                 "class":"area",
+                 "height":530,
+                 "id":27,
+                 "name":"eg",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1692884757446132325"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":750,
+                 "x":1036,
+                 "y":212
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1325,7 +1342,7 @@
          "y":0
         }],
  "nextlayerid":60,
- "nextobjectid":27,
+ "nextobjectid":28,
  "orientation":"orthogonal",
  "properties":[
         {

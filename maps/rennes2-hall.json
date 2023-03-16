@@ -2493,7 +2493,7 @@
                  "name":"Tableau de bord",
                  "properties":[
                         {
-                         "name":"openTab",
+                         "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/view.genial.ly\/640a66bf78119e00137be996"
                         }, 
