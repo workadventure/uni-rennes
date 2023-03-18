@@ -1669,8 +1669,8 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":124,
-                 "x":2416,
+                 "width":100,
+                 "x":2440,
                  "y":1860
                 }, 
                 {
@@ -2116,7 +2116,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/video.univ-rennes1.fr\/permalink\/v1263dc7afe0bg9nimnf\/iframe\/"
+                         "value":"https:\/\/video.univ-rennes1.fr\/lti\/v1263dc7afe0bg9nimnf\/"
                         }],
                  "rotation":0,
                  "visible":true,
