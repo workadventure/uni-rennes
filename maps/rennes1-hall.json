@@ -2126,7 +2126,7 @@
                         {
                          "name":"openWebsiteTiggerMessage",
                          "type":"string",
-                         "value":"Appuyez sur ESPACE pour voir la vid\u00e9o"
+                         "value":"Appuyez sur ESPACE pour voir la ressource"
                         }],
                  "rotation":0,
                  "visible":true,
