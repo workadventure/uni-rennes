@@ -1660,7 +1660,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"FR"
+                         "value":"FR1"
                         }, 
                         {
                          "name":"jitsiRoomAdminTag",
@@ -1669,8 +1669,8 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":174,
-                 "x":2366,
+                 "width":124,
+                 "x":2416,
                  "y":1860
                 }, 
                 {
@@ -2103,8 +2103,8 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":76,
-                 "x":1212,
+                 "width":116,
+                 "x":1196,
                  "y":2000
                 }, 
                 {
