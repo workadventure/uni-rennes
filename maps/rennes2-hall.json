@@ -2311,7 +2311,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"Cafet"
+                         "value":"CafetES"
                         }, 
                         {
                          "name":"jitsiRoomAdminTag",
@@ -2338,7 +2338,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"Cafet"
+                         "value":"CafetIN"
                         }, 
                         {
                          "name":"jitsiRoomAdminTag",
@@ -2365,7 +2365,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"Cafet2"
+                         "value":"Cafet21"
                         }, 
                         {
                          "name":"jitsiRoomAdminTag",
