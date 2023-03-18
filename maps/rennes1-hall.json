@@ -1692,7 +1692,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
+                         "value":"Appuyez sur ESPACE ou touchez pour voir la vid\u00e9o"
                         }],
                  "rotation":0,
                  "visible":true,
