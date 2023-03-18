@@ -2116,7 +2116,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/video.univ-rennes1.fr\/permalink\/v1263dc7afe0bg9nimnf\/"
+                         "value":"https:\/\/video.univ-rennes1.fr\/permalink\/v1263dc7afe0bg9nimnf\/iframe\/"
                         }],
                  "rotation":0,
                  "visible":true,
