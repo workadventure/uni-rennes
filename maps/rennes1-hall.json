@@ -2117,6 +2117,16 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/video.univ-rennes1.fr\/lti\/v1263dc7afe0bg9nimnf\/"
+                        }, 
+                        {
+                         "name":"openWebsiteTigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTiggerMessage",
+                         "type":"string",
+                         "value":"Appuyez sur ESPACE pour voir la vid\u00e9o"
                         }],
                  "rotation":0,
                  "visible":true,
