@@ -1597,7 +1597,7 @@
                  "name":"14 UR1",
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/mon-espace.siuaps.univ-rennes.fr\/#activites"
                         }],
