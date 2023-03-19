@@ -2630,12 +2630,6 @@
          "id":27,
          "name":"abovePlayer2",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"openWebsite",
-                 "type":"string",
-                 "value":"https:\/\/www.youtube.com\/embed\/CrPrln0L70w"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":114,
