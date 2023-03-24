@@ -1201,18 +1201,18 @@
                  "class":"area",
                  "height":232,
                  "id":20,
-                 "name":"Enigme 3",
+                 "name":"FRAME",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1689998789483430883"
+                         "value":"https:\/\/framevr.io\/jeelicc"
                         }],
                  "rotation":0,
                  "visible":true,
                  "width":576,
-                 "x":32,
-                 "y":440
+                 "x":35,
+                 "y":428
                 }, 
                 {
                  "class":"area",
@@ -1353,12 +1353,12 @@
                  "class":"area",
                  "height":544,
                  "id":27,
-                 "name":"Enigme 4 BU",
+                 "name":"Didacticiel Bienvenue \u00e0 UR2",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1690736002399732325"
+                         "value":"https:\/\/univrennes.wixsite.com\/universitederennes2"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1820,50 +1820,6 @@
                 }, 
                 {
                  "class":"area",
-                 "height":47,
-                 "id":51,
-                 "name":"L207_Website_Bonus",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/h5p.org\/h5p\/embed\/1341880"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":48.25,
-                 "x":183.875,
-                 "y":1112.5
-                }, 
-                {
-                 "class":"area",
-                 "height":47,
-                 "id":52,
-                 "name":"L208_Website_Bonus",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/framevr.io\/jeelicc"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":48.25,
-                 "x":247,
-                 "y":1368.75
-                }, 
-                {
-                 "class":"area",
                  "height":142,
                  "id":53,
                  "name":"Enigme 2",
@@ -2158,23 +2114,6 @@
                 }, 
                 {
                  "class":"area",
-                 "height":74.6666666666665,
-                 "id":70,
-                 "name":"51 UR2",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/univrennes.wixsite.com\/universitederennes2"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":38.666666666667,
-                 "x":2349.33333333333,
-                 "y":2062.66666666667
-                }, 
-                {
-                 "class":"area",
                  "height":92.6666666666661,
                  "id":71,
                  "name":"52 UR2",
@@ -2192,7 +2131,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":74.666666666667,
+                 "height":44.666666666667,
                  "id":72,
                  "name":"53 UR2",
                  "properties":[
@@ -2203,9 +2142,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":64,
-                 "x":2426,
-                 "y":2065.33333333333
+                 "width":212,
+                 "x":2342,
+                 "y":2054.33333333333
                 }, 
                 {
                  "class":"area",
