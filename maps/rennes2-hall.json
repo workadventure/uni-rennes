@@ -2541,6 +2541,28 @@
                  "width":274,
                  "x":3352,
                  "y":412
+                }, 
+                {
+                 "class":"area",
+                 "height":168,
+                 "id":102,
+                 "name":"Jitsi ESP",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"salle espa"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"admin"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":1123,
+                 "y":1859
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2723,7 +2745,7 @@
          "y":0
         }],
  "nextlayerid":57,
- "nextobjectid":102,
+ "nextobjectid":104,
  "orientation":"orthogonal",
  "properties":[
         {
