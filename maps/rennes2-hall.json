@@ -2724,9 +2724,19 @@
                  "name":"EG italien",
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/view.genial.ly\/64070b6574aec5001086f091"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Appuyez sur ESPACE pour ouvrir"
                         }],
                  "rotation":0,
                  "visible":true,
