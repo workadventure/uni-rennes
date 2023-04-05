@@ -2742,13 +2742,13 @@
                  "visible":true,
                  "width":125.333333333333,
                  "x":2592,
-                 "y":1389.33333333333
+                 "y":1382.66666666667
                 }, 
                 {
                  "class":"area",
-                 "height":92,
-                 "id":115,
-                 "name":"EG italien 2",
+                 "height":98.6666666666667,
+                 "id":116,
+                 "name":"eg ital",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -2757,9 +2757,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":89.3333333333335,
-                 "x":2348,
-                 "y":1594.66666666667
+                 "width":81.3333333333335,
+                 "x":2333.33333333333,
+                 "y":1582.66666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2942,7 +2942,7 @@
          "y":0
         }],
  "nextlayerid":57,
- "nextobjectid":116,
+ "nextobjectid":117,
  "orientation":"orthogonal",
  "properties":[
         {
