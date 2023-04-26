@@ -234,7 +234,7 @@
                  "name":"siteELICCE",
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/ed-elicce.doctorat-bretagne.fr\/fr"
                         }],
