@@ -331,6 +331,16 @@
                          "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/ed-elicce.doctorat-bretagne.fr\/fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Appuyez sur ESPACE pour ouvrir le site ELICCE"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -386,7 +396,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/drive.google.com\/file\/d\/1_PUGs_66pmBdpG0Oao7MV-j0IjImYq2g\/view"
+                         "value":"https:\/\/drive.google.com\/file\/d\/1_PUGs_66pmBdpG0Oao7MV-j0IjImYq2g\/preview"
                         }],
                  "rotation":0,
                  "visible":true,
