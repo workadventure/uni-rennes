@@ -828,7 +828,7 @@
          "height":76,
          "id":4,
          "name":"floor",
-         "opacity":0.08,
+         "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":114,
