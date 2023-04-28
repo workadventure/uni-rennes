@@ -2012,6 +2012,19 @@
          "tilecount":200,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":50,
+         "firstgid":8260,
+         "image":"..\/tilesets\/jlo5_cyberpunk.png",
+         "imageheight":1077,
+         "imagewidth":1631,
+         "margin":0,
+         "name":"ELICCE",
+         "spacing":0,
+         "tilecount":1650,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
