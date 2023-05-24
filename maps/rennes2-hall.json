@@ -2128,7 +2128,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":368,
+                 "height":230.666666666667,
                  "id":28,
                  "name":"enigme 4",
                  "properties":[
@@ -2139,7 +2139,7 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":274,
+                 "width":403.333333333333,
                  "x":3023,
                  "y":17
                 }, 
