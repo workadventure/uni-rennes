@@ -2111,23 +2111,6 @@
                 }, 
                 {
                  "class":"area",
-                 "height":544,
-                 "id":27,
-                 "name":"Didacticiel Bienvenue \u00e0 UR2",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/univrennes.wixsite.com\/universitederennes2"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":576,
-                 "x":32,
-                 "y":1568
-                }, 
-                {
-                 "class":"area",
                  "height":230.666666666667,
                  "id":28,
                  "name":"enigme 4",
@@ -3596,6 +3579,23 @@
                  "width":0,
                  "x":3184,
                  "y":905.333333333333
+                }, 
+                {
+                 "class":"area",
+                 "height":170,
+                 "id":119,
+                 "name":"Activit\u00e9 Pierre",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/moodle.lgeorget.eu\/mod\/h5pactivity\/view.php?id=34&forceview=1"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":270,
+                 "x":33,
+                 "y":1540
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3778,7 +3778,7 @@
          "y":0
         }],
  "nextlayerid":65,
- "nextobjectid":119,
+ "nextobjectid":120,
  "orientation":"orthogonal",
  "properties":[
         {
