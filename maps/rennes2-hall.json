@@ -3606,7 +3606,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/drive.google.com\/drive\/folders\/1AtuTsmKJGY6O3SkYqToVLeHlhJcByiYx?usp=sharing"
+                         "value":"https:\/\/moodle.lgeorget.eu\/mod\/folder\/view.php?id=35&forceview=1"
                         }],
                  "rotation":0,
                  "visible":true,
