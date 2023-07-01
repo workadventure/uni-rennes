@@ -2321,7 +2321,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":192,
+                 "height":68,
                  "id":38,
                  "name":"SUP",
                  "properties":[
@@ -2332,9 +2332,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":158.666666666667,
-                 "x":2426.99666666667,
-                 "y":416
+                 "width":58.666666666667,
+                 "x":2568.99666666667,
+                 "y":474
                 }, 
                 {
                  "class":"area",
@@ -3394,7 +3394,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":241,
+                 "height":117,
                  "id":110,
                  "name":"UEO PRO FLE G5",
                  "properties":[
@@ -3405,13 +3405,13 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":204,
-                 "x":1457,
-                 "y":1428
+                 "width":154,
+                 "x":1507,
+                 "y":1484
                 }, 
                 {
                  "class":"area",
-                 "height":250,
+                 "height":112,
                  "id":111,
                  "name":"ueo pro fle G7",
                  "properties":[
@@ -3422,9 +3422,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":240,
-                 "x":1976,
-                 "y":1424
+                 "width":130,
+                 "x":2008,
+                 "y":1502
                 }, 
                 {
                  "class":"area",
@@ -3630,6 +3630,45 @@
                  "width":176,
                  "x":449,
                  "y":1768
+                }, 
+                {
+                 "class":"area",
+                 "height":174,
+                 "id":123,
+                 "name":"JItsi",
+                 "properties":[
+                        {
+                         "name":"JitsiRommAdminTag",
+                         "type":"string",
+                         "value":"admin"
+                        }, 
+                        {
+                         "name":"JitsiRoom",
+                         "type":"string",
+                         "value":"salleSUP"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":130,
+                 "x":2428,
+                 "y":422
+                }, 
+                {
+                 "class":"area",
+                 "height":122,
+                 "id":124,
+                 "name":"genially",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"bit.ly\/miroir723"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":74,
+                 "x":2328,
+                 "y":516
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3812,7 +3851,7 @@
          "y":0
         }],
  "nextlayerid":65,
- "nextobjectid":123,
+ "nextobjectid":125,
  "orientation":"orthogonal",
  "properties":[
         {
