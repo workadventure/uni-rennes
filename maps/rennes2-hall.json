@@ -3638,14 +3638,14 @@
                  "name":"JItsi",
                  "properties":[
                         {
-                         "name":"JitsiRommAdminTag",
-                         "type":"string",
-                         "value":"admin"
-                        }, 
-                        {
                          "name":"JitsiRoom",
                          "type":"string",
                          "value":"salleSUP"
+                        }, 
+                        {
+                         "name":"JitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"admin"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -3662,7 +3662,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"bit.ly\/miroir723"
+                         "value":"https:\/\/bit.ly\/miroir723"
                         }],
                  "rotation":0,
                  "visible":true,
