@@ -3635,15 +3635,15 @@
                  "class":"area",
                  "height":174,
                  "id":123,
-                 "name":"JItsi",
+                 "name":"salle sup",
                  "properties":[
                         {
-                         "name":"JitsiRoom",
+                         "name":"jitsiRoom",
                          "type":"string",
                          "value":"salleSUP"
                         }, 
                         {
-                         "name":"JitsiRoomAdminTag",
+                         "name":"jitsiRoomAdminTag",
                          "type":"string",
                          "value":"admin"
                         }],
