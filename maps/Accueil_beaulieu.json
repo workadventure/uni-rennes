@@ -68,7 +68,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":120,
          "x":0,
          "y":0
@@ -145,7 +145,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":120,
          "x":0,
          "y":0
@@ -216,7 +216,7 @@
          "name":"Herbe1",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":120,
          "x":0,
          "y":0
@@ -285,7 +285,7 @@
          "height":60,
          "id":6,
          "name":"herbe 2",
-         "opacity":0.58,
+         "opacity":0.73,
          "type":"tilelayer",
          "visible":true,
          "width":120,
@@ -509,7 +509,7 @@
          "height":60,
          "id":1,
          "name":"abovePlayer2",
-         "opacity":0.35,
+         "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":120,
