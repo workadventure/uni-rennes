@@ -506,7 +506,7 @@
                  "value":"\/@\/universite-rennes-2\/metavers\/accueil_beaulieu"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":120,
          "x":0,
          "y":0
