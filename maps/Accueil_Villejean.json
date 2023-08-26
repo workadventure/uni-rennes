@@ -503,7 +503,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"@\/universite-rennes-2\/metavers\/accueil_beaulieu"
+                 "value":"\/@\/universite-rennes-2\/metavers\/accueil_beaulieu"
                 }],
          "type":"tilelayer",
          "visible":false,
