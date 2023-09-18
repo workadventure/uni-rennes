@@ -403,8 +403,8 @@
          "height":33,
          "id":9,
          "name":"Posters",
-         "offsetx":141.938617034389,
-         "offsety":139.882903981265,
+         "offsetx":153.938617034389,
+         "offsety":142.549570647932,
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -449,6 +449,8 @@
          "height":33,
          "id":13,
          "name":"MICRO",
+         "offsetx":30.6666666666665,
+         "offsety":1.33333333333337,
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -463,7 +465,7 @@
          "objects":[
                 {
                  "class":"area",
-                 "height":264,
+                 "height":106.666666666667,
                  "id":10,
                  "name":"Podium",
                  "properties":[
@@ -479,9 +481,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":320,
-                 "x":732,
-                 "y":622
+                 "width":164,
+                 "x":826.666666666667,
+                 "y":648.666666666667
                 }, 
                 {
                  "class":"area",
@@ -507,14 +509,14 @@
                 }, 
                 {
                  "class":"area",
-                 "height":258.666666666667,
+                 "height":236,
                  "id":12,
                  "name":"Didactlang",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/didaclang.fr\/my\/"
+                         "value":"https:\/\/didaclang.fr"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -609,6 +611,8 @@
          "height":33,
          "id":2,
          "name":"abovePlayer2",
+         "offsetx":200,
+         "offsety":13.3333333333335,
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
