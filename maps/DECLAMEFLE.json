@@ -494,7 +494,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"rtmp:\/\/a.rtmp.youtube.com\/live2"
+                         "value":"https:\/\/www.youtube.com\/embed\/live_stream?channel=[c UCDX5M3-pP_EoSfWPPyV6qnQ] "
                         }, 
                         {
                          "name":"openWebsitePolicy",
