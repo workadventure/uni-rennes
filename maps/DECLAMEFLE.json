@@ -504,6 +504,23 @@
                  "width":684,
                  "x":14,
                  "y":12
+                }, 
+                {
+                 "class":"area",
+                 "height":258.666666666667,
+                 "id":12,
+                 "name":"Didactlang",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/didaclang.fr\/my\/"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":286.666666666667,
+                 "x":814.666666666667,
+                 "y":156
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -600,7 +617,7 @@
          "y":0
         }],
  "nextlayerid":14,
- "nextobjectid":12,
+ "nextobjectid":14,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
