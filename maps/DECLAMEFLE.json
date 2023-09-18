@@ -458,23 +458,6 @@
                  "width":684,
                  "x":14,
                  "y":12
-                }, 
-                {
-                 "class":"area",
-                 "height":236,
-                 "id":12,
-                 "name":"Didactlang",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/didaclang.fr"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":286.666666666667,
-                 "x":814.666666666667,
-                 "y":156
                 }],
          "opacity":1,
          "type":"objectgroup",
