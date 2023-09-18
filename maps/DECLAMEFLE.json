@@ -367,6 +367,78 @@
          "y":0
         }, 
         {
+         "draworder":"topdown",
+         "id":4,
+         "name":"floorLayer",
+         "objects":[
+                {
+                 "class":"area",
+                 "height":106.666666666667,
+                 "id":10,
+                 "name":"Podium",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Conf\u00e9rence"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"speaker"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":164,
+                 "x":826.666666666667,
+                 "y":648.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "height":1034,
+                 "id":11,
+                 "name":"Youtube Live",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/live_stream?channel=c UCDX5M3-pP_EoSfWPPyV6qnQ"
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":684,
+                 "x":14,
+                 "y":12
+                }, 
+                {
+                 "class":"area",
+                 "height":236,
+                 "id":12,
+                 "name":"Didactlang",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/didaclang.fr"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":286.666666666667,
+                 "x":814.666666666667,
+                 "y":156
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -455,78 +527,6 @@
          "type":"tilelayer",
          "visible":true,
          "width":50,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":4,
-         "name":"floorLayer",
-         "objects":[
-                {
-                 "class":"area",
-                 "height":106.666666666667,
-                 "id":10,
-                 "name":"Podium",
-                 "properties":[
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Conf\u00e9rence"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"speaker"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":164,
-                 "x":826.666666666667,
-                 "y":648.666666666667
-                }, 
-                {
-                 "class":"area",
-                 "height":1034,
-                 "id":11,
-                 "name":"Youtube Live",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/live_stream?channel=c UCDX5M3-pP_EoSfWPPyV6qnQ"
-                        }, 
-                        {
-                         "name":"openWebsitePolicy",
-                         "type":"string",
-                         "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":684,
-                 "x":14,
-                 "y":12
-                }, 
-                {
-                 "class":"area",
-                 "height":236,
-                 "id":12,
-                 "name":"Didactlang",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/didaclang.fr"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":286.666666666667,
-                 "x":814.666666666667,
-                 "y":156
-                }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
          "x":0,
          "y":0
         }, 
