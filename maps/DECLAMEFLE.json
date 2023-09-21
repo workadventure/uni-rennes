@@ -508,6 +508,28 @@
                  "width":684,
                  "x":748,
                  "y":940
+                }, 
+                {
+                 "class":"area",
+                 "height":736,
+                 "id":14,
+                 "name":"YT 2",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/live_stream?channel=UCDX5M3-pP_EoSfWPPyV6qnQ"
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":748,
+                 "x":32,
+                 "y":144
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -606,7 +628,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":14,
+ "nextobjectid":15,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
