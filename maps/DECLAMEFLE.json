@@ -489,7 +489,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":860,
+                 "height":206,
                  "id":14,
                  "name":"YT 2",
                  "properties":[
@@ -505,7 +505,7 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":738,
+                 "width":230,
                  "x":7,
                  "y":170
                 }, 
