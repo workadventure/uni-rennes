@@ -2434,7 +2434,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"\/src\/main.ts"
+         "value":"..\/src\/main.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
