@@ -404,7 +404,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -1006,17 +1006,8 @@
          "tilewidth":32
         }, 
         {
-         "columns":6,
          "firstgid":36369,
-         "image":"..\/tilesets\/WA_Special_Zones.png",
-         "imageheight":64,
-         "imagewidth":192,
-         "margin":0,
-         "name":"wa spetial zones",
-         "spacing":0,
-         "tilecount":12,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"..\/tilesets\/wa spetial zones.tsx"
         }, 
         {
          "columns":8,
