@@ -312,24 +312,7 @@
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
-         "objects":[
-                {
-                 "class":"area",
-                 "height":104,
-                 "id":1,
-                 "name":"visite edulab360\u00b0",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1765757839810232997"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":148,
-                 "x":989,
-                 "y":882
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
