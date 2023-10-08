@@ -686,6 +686,24 @@
                  "width":100,
                  "x":240,
                  "y":108
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":552,
+                 "id":3,
+                 "name":"to Museum",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"\/@\/universite-rennes-2\/metavers\/erasmusdays23"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":808,
+                 "x":2892,
+                 "y":1276
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -836,7 +854,7 @@
          "y":0
         }],
  "nextlayerid":15,
- "nextobjectid":3,
+ "nextobjectid":6,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
