@@ -669,7 +669,24 @@
          "draworder":"topdown",
          "id":4,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"area",
+                 "height":104,
+                 "id":2,
+                 "name":"metro",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"\/@\/universite-rennes-2\/metavers\/metro"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":100,
+                 "x":240,
+                 "y":108
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -819,7 +836,7 @@
          "y":0
         }],
  "nextlayerid":15,
- "nextobjectid":1,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
