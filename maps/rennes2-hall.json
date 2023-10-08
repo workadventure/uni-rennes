@@ -1,12 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"json",
-         "target":"..\/export\/rennes2-hall.tmj"
-        }
-    },
  "height":76,
  "infinite":false,
  "layers":[
@@ -4633,8 +4625,27 @@
          "tilewidth":32
         }, 
         {
+         "columns":6,
          "firstgid":25999,
-         "source":"..\/tilesets\/wa spetial zones.tsx"
+         "image":"..\/tilesets\/WA_Special_Zones.png",
+         "imageheight":64,
+         "imagewidth":192,
+         "margin":0,
+         "name":"wa spetial zones",
+         "spacing":0,
+         "tilecount":12,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":2,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
