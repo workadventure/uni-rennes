@@ -139,7 +139,7 @@
          "name":"collisions",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":120,
          "x":0,
          "y":0
@@ -1000,7 +1000,7 @@
          "margin":0,
          "name":"m\u00e9moriel v2",
          "spacing":0,
-         "tilecount":1643,
+         "tilecount":840,
          "tileheight":32,
          "tilewidth":32
         }],
