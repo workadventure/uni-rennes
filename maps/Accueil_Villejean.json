@@ -704,6 +704,23 @@
                  "width":808,
                  "x":2892,
                  "y":1276
+                }, 
+                {
+                 "class":"area",
+                 "height":294,
+                 "id":6,
+                 "name":"i@h",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/i@h"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":288,
+                 "x":2776,
+                 "y":324
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -854,7 +871,7 @@
          "y":0
         }],
  "nextlayerid":15,
- "nextobjectid":6,
+ "nextobjectid":7,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
