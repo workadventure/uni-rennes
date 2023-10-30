@@ -831,24 +831,6 @@
                 }, 
                 {
                  "class":"area",
-                 "ellipse":true,
-                 "height":552,
-                 "id":3,
-                 "name":"to Museum",
-                 "properties":[
-                        {
-                         "name":"exitUrl",
-                         "type":"string",
-                         "value":"\/@\/universite-rennes-2\/metavers\/erasmusdays23"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":808,
-                 "x":2892,
-                 "y":1276
-                }, 
-                {
-                 "class":"area",
                  "height":294,
                  "id":6,
                  "name":"i@h",
