@@ -845,6 +845,24 @@
                  "width":288,
                  "x":2776,
                  "y":324
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":552,
+                 "id":7,
+                 "name":"mus\u00e9e",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/mus%C3%A9e"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":868,
+                 "x":2841.33333333333,
+                 "y":1264
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -995,7 +1013,7 @@
          "y":0
         }],
  "nextlayerid":18,
- "nextobjectid":7,
+ "nextobjectid":9,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
