@@ -1593,23 +1593,6 @@
                 }, 
                 {
                  "class":"area",
-                 "height":72.936170212766,
-                 "id":196,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/view.genial.ly\/651de34cf99fbe00101a2792\/interactive-content-genial-storyboard"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":307.967861573045,
-                 "x":675.521500129082,
-                 "y":3419.48936170213
-                }, 
-                {
-                 "class":"area",
                  "height":68.2723666666667,
                  "id":198,
                  "name":"",
