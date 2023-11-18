@@ -1497,18 +1497,18 @@
                  "class":"area",
                  "height":191.6057,
                  "id":199,
-                 "name":"",
+                 "name":"jitsi",
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"jitsiRoom",
                          "type":"string",
-                         "value":"https:\/\/view.genial.ly\/65230c58e8c5250011320683\/interactive-content-untitled-genially"
+                         "value":"Salle d'attente"
                         }],
                  "rotation":0,
                  "visible":true,
                  "width":269.103333333333,
-                 "x":30.1788297872341,
-                 "y":2314.1191358156
+                 "x":34.178829787234,
+                 "y":2320.1191358156
                 }, 
                 {
                  "class":"area",
