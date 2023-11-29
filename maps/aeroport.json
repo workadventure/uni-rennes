@@ -1543,6 +1543,40 @@
                  "width":41.0100534087337,
                  "x":698.965127238454,
                  "y":3045.32045240339
+                }, 
+                {
+                 "class":"area",
+                 "height":96,
+                 "id":232,
+                 "name":"briefing",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/youtu.be\/OmNn41KxMCM?si=cy1EYJDvocv26BKL"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":280,
+                 "x":98,
+                 "y":3352
+                }, 
+                {
+                 "class":"area",
+                 "height":144,
+                 "id":233,
+                 "name":"enigme 1",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/view.genial.ly\/6559a7472ac6b600113ed185"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":102,
+                 "x":924,
+                 "y":3278
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2277,7 +2311,7 @@
          "y":0
         }],
  "nextlayerid":126,
- "nextobjectid":232,
+ "nextobjectid":234,
  "orientation":"orthogonal",
  "properties":[
         {
