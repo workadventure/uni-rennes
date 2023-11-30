@@ -602,7 +602,7 @@
          "name":"Stair",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":51,
          "x":0,
          "y":0
@@ -723,7 +723,7 @@
          "name":"Font",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":51,
          "x":0,
          "y":0
