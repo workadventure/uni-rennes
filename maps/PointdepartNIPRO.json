@@ -2184,7 +2184,24 @@
          "draworder":"topdown",
          "id":64,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"area",
+                 "height":84,
+                 "id":231,
+                 "name":"Sant\u00e9",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/lbHTG_Wnc2Q?si=iI9ttK96jWAUEWko"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":118.666666666667,
+                 "x":520,
+                 "y":3246.66666666667
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -2797,7 +2814,7 @@
          "y":0
         }],
  "nextlayerid":148,
- "nextobjectid":231,
+ "nextobjectid":232,
  "orientation":"orthogonal",
  "properties":[
         {
