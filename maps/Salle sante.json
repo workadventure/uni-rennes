@@ -148,7 +148,7 @@
                  "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/accueil-villejean#from-campusS"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":30,
          "x":0,
          "y":0
@@ -183,7 +183,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":30,
          "x":0,
          "y":0
