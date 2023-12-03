@@ -796,7 +796,7 @@
                  "value":"\/@\/universite-rennes-2\/metavers\/tambour#from-presidence"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":120,
          "x":0,
          "y":0
@@ -873,7 +873,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":120,
          "x":0,
          "y":0
