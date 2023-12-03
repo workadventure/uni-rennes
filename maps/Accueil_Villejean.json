@@ -1376,7 +1376,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":150,
+                 "height":194,
                  "id":9,
                  "name":"International space",
                  "properties":[
@@ -1389,7 +1389,7 @@
                  "visible":true,
                  "width":120,
                  "x":1324,
-                 "y":1252
+                 "y":1208
                 }],
          "offsetx":0,
          "offsety":24,
