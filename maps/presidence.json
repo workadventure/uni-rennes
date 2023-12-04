@@ -2075,7 +2075,24 @@
          "draworder":"topdown",
          "id":64,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"area",
+                 "height":94.666666666667,
+                 "id":232,
+                 "name":"CHATBOOT",
+                 "properties":[
+                        {
+                         "name":"openURL",
+                         "type":"string",
+                         "value":"https:\/\/yourhelp.fly.dev\/chat\/2378"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":117.333333333333,
+                 "x":1028,
+                 "y":3073.33333333333
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -2446,7 +2463,7 @@
          "y":0
         }],
  "nextlayerid":159,
- "nextobjectid":232,
+ "nextobjectid":233,
  "orientation":"orthogonal",
  "properties":[
         {
