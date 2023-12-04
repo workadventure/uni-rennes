@@ -247,7 +247,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":30,
          "x":0,
          "y":0
@@ -282,7 +282,7 @@
                  "value":"\/@\/universite-rennes-2\/metavers\/presidence#from-interieur"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":30,
          "x":0,
          "y":0
