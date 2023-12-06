@@ -2903,7 +2903,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":""
+                         "value":"https:\/\/view.genial.ly\/6570d2b8dcff660014196dce"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -3663,7 +3663,7 @@
          "y":0
         }],
  "nextlayerid":155,
- "nextobjectid":238,
+ "nextobjectid":239,
  "orientation":"orthogonal",
  "properties":[
         {
