@@ -15,11 +15,11 @@
    viewBox="0 0 84.666665 169.33334"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="C:\Users\ramella_d\Documents\Sous-marin\Univers-L\GitHub\uni-rennes2D\tilesets\dolly_assset3.png"
+   inkscape:export-filename="C:\Users\ramella_d\Documents\Sous-marin\Univers-L\GitHub\uni-rennes2D\tilesets\paneau.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="dolly_assets.svg">
+   sodipodi:docname="dolly_assets - Copie.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -30,7 +30,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="130.05264"
+     inkscape:cx="18.683323"
      inkscape:cy="447.69082"
      inkscape:document-units="mm"
      inkscape:current-layer="g908-0"
@@ -362,6 +362,45 @@
            x="9.5945444"
            y="213.09772"
            style="stroke-width:0.26458332">Rennes Villejean</tspan></text>
+      <rect
+         y="198.57362"
+         x="33.232079"
+         height="8.4666662"
+         width="8.4666662"
+         id="rect819-4-2-8-72"
+         style="opacity:0.97000002;fill:#009688;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="198.57362"
+         x="7.8320765"
+         height="8.4666662"
+         width="8.4666662"
+         id="rect819-5-0-7-0-4"
+         style="opacity:0.97000002;fill:#009688;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="198.57362"
+         x="16.298744"
+         height="8.4666662"
+         width="8.4666662"
+         id="rect819-53-4-0-8-8"
+         style="opacity:0.97000002;fill:#009688;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="198.57362"
+         x="24.765411"
+         height="8.4666662"
+         width="8.4666662"
+         id="rect819-2-9-7-2-3"
+         style="opacity:0.97000002;fill:#009688;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text817-4-2-4-9"
+         y="204.83299"
+         x="9.8473167"
+         style="font-style:normal;font-weight:normal;font-size:5.61126423px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ALEF;-inkscape-font-specification:ALEF;fill:#ffffff;stroke-width:0.26458332"
+           y="204.83299"
+           x="9.8473167"
+           id="tspan815-4-8-5-5"
+           sodipodi:role="line">Atelier H5P</tspan></text>
     </g>
   </g>
 </svg>
