@@ -30,7 +30,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="99.727954"
+     inkscape:cx="-57.772046"
      inkscape:cy="249.0118"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -498,5 +498,51 @@
            id="tspan815-8-1-4-2-9"
            sodipodi:role="line">Skills</tspan></text>
     </g>
+    <rect
+       style="opacity:0.97000002;fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect819-9"
+       width="8.4666662"
+       height="8.4666662"
+       x="25.399996"
+       y="280.06665" />
+    <rect
+       style="opacity:0.97000002;fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect819-5-5"
+       width="8.4666662"
+       height="8.4666662"
+       x="-7.6232177e-06"
+       y="280.06665" />
+    <rect
+       style="opacity:0.97000002;fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect819-53-1"
+       width="8.4666662"
+       height="8.4666662"
+       x="8.4666576"
+       y="280.06665" />
+    <rect
+       style="opacity:0.97000002;fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect819-2-0"
+       width="8.4666662"
+       height="8.4666662"
+       x="16.933329"
+       y="280.06665" />
+    <rect
+       style="opacity:0.97000002;fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect819-8-8"
+       width="8.4666662"
+       height="8.4666662"
+       x="33.866669"
+       y="280.06665" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.61126423px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="0.90385056"
+       y="286.41196"
+       id="text817-8"><tspan
+         sodipodi:role="line"
+         id="tspan815-83"
+         x="0.90385056"
+         y="286.41196"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ALEF;-inkscape-font-specification:ALEF;fill:#ffffff;stroke-width:0.26458332">Formulaires ici</tspan></text>
   </g>
 </svg>
