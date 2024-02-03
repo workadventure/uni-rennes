@@ -1175,7 +1175,7 @@
                  "value":"\/@\/universite-rennes-2\/metavers\/cequinousconcerne2#from-ceki"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":120,
          "x":0,
          "y":0
@@ -1252,7 +1252,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":120,
          "x":0,
          "y":0
@@ -1329,7 +1329,7 @@
                  "value":"\/@\/universite-rennes-2\/metavers\/declame'fle#DECLAME"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":120,
          "x":0,
          "y":0
@@ -1406,7 +1406,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":120,
          "x":0,
          "y":0
