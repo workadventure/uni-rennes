@@ -1172,7 +1172,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":""
+                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/sciences-po"
                 }],
          "type":"tilelayer",
          "visible":false,
