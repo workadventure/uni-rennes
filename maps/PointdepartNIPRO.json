@@ -3669,12 +3669,12 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"Credits: Michael Moore @ project EAGER, University Rennes 2;\nWorkAdventure (https:\/\/WorkAdventu.re)\n\nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
+         "value":"Credits Dolly Ramella "
         }, 
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"CBL VE workspace"
+         "value":"RENNES2D"
         }, 
         {
          "name":"mapImage",
@@ -3684,7 +3684,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"Point de d\u00e9part"
         }, 
         {
          "name":"script",
