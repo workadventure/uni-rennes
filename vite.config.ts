@@ -1,7 +1,5 @@
 import { defineConfig } from "vite";
-import { getMaps, getMapsOptimizers, getMapsScripts } from "wa-map-optimizer-vite";
-
-const maps = getMaps();
+import { getMapsOptimizers, getMapsScripts } from "wa-map-optimizer-vite";
 
 export default defineConfig({
     base: "./",
@@ -9,11 +7,11 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 index: "./index.html",
-                ...getMapsScripts(maps),
+                ...getMapsScripts("./maps"),
             },
         },
     },
-    plugins: [...getMapsOptimizers(maps)],
+    plugins: [...getMapsOptimizers(undefined, "./maps")],
     server: {
         host: "localhost",
         headers: {
