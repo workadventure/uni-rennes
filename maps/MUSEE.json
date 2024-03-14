@@ -2017,7 +2017,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"MUSEE.png"
+         "value":""
         }, 
         {
          "name":"mapName",
