@@ -23,6 +23,7 @@ WA.onInit().then(() => {
         imageSrc: root + '/../arrows-to-center.svg',
         toolTip: "M'envoyer à l'accueil",
         callback: () => {
+            console.log("Returning to starting point from " + currentMapName);
             // If the player is already on the destination map, the page won't reload and the moveTo parameter won't be applied
             // So we make a direct call to the moveTo feature instead using the API
             if (currentMapName === "Accueil_Villejean") {
