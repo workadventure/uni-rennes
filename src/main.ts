@@ -26,7 +26,7 @@ WA.onInit().then(() => {
             console.log("Returning to starting point from " + currentMapName);
             // If the player is already on the destination map, the page won't reload and the moveTo parameter won't be applied
             // So we make a direct call to the moveTo feature instead using the API
-            if (currentMapName === "Accueil_Villejean") {
+            if (currentMapName === "accueil-villejean") {
                 const x = 25 * 32;
                 const y = 7 * 32;
                 WA.player.moveTo(x, y);
