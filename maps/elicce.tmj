@@ -619,6 +619,12 @@
  "nextlayerid":12,
  "nextobjectid":10,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"..\/src\/main.ts"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
  "tileheight":32,
