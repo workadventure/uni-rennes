@@ -124,7 +124,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes2#from-amphi"
+                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/rennes-2-hall#from-amphi"
                 }],
          "type":"tilelayer",
          "visible":true,
