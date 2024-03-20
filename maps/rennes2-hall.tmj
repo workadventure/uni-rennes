@@ -643,7 +643,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/campus#from-rennes2"
+                 "value":"\/@\/universite-rennes-2\/metavers\/campus-tmj#from-rennes2"
                 }],
          "type":"tilelayer",
          "visible":true,
