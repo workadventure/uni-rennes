@@ -403,7 +403,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes1#from-campus"
+                 "value":"\/@\/universite-rennes-2\/metavers\/rennes-1-hall#from-campus"
                 }],
          "type":"tilelayer",
          "visible":true,
