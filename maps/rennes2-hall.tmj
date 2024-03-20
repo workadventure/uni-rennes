@@ -831,7 +831,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes2-amphi"
+                 "value":"\/@\/universite-rennes-2\/metavers\/rennes-2-amphi"
                 }],
          "type":"tilelayer",
          "visible":true,
