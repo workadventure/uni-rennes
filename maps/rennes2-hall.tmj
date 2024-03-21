@@ -3881,7 +3881,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"\u2022\thttps:\/\/learningapps.org\/watch?v=pvtt7qee324"
+                         "value":"https:\/\/learningapps.org\/watch?v=pvtt7qee324"
                         }],
                  "rotation":0,
                  "visible":true,

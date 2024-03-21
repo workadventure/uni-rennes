@@ -30,8 +30,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="21.764451"
-     inkscape:cy="230.51856"
+     inkscape:cx="51.325404"
+     inkscape:cy="331.53381"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -760,5 +760,48 @@
          x="3.3049841"
          id="tspan862-7"
          sodipodi:role="line">Ce qui nous concerne</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.84681511px;line-height:1.25;font-family:alef;-inkscape-font-specification:alef;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="52.880848"
+       y="176.44833"
+       id="text960-6"
+       transform="scale(0.99484888,1.0051778)"><tspan
+         sodipodi:role="line"
+         id="tspan958-7"
+         x="52.880848"
+         y="176.44833"
+         style="stroke-width:0.26458332">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.84681511px;line-height:1.25;font-family:alef;-inkscape-font-specification:alef;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="44.6022"
+       y="175.57495"
+       id="text944"
+       transform="scale(0.99484888,1.0051778)"><tspan
+         sodipodi:role="line"
+         id="tspan942"
+         x="44.6022"
+         y="175.57495"
+         style="stroke-width:0.26458332">7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.84681511px;line-height:1.25;font-family:alef;-inkscape-font-specification:alef;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="44.640881"
+       y="184.91483"
+       id="text948"
+       transform="scale(0.99484888,1.0051778)"><tspan
+         sodipodi:role="line"
+         id="tspan946"
+         x="44.640881"
+         y="184.91483"
+         style="stroke-width:0.26458332">8</tspan></text>
+    <rect
+       style="opacity:0.97000002;fill:#009688;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect819-4-2-8-7-3"
+       width="8.4666662"
+       height="8.4666662"
+       x="25.400003"
+       y="178.46664" />
   </g>
 </svg>
