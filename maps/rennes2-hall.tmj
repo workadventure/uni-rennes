@@ -3873,23 +3873,6 @@
                  "y":486.666666666667
                 }, 
                 {
-                 "class":"are",
-                 "height":128,
-                 "id":129,
-                 "name":"Clyde et Tanguy",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/learningapps.org\/watch?v=pvtt7qee324"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":100,
-                 "x":66.6666666666667,
-                 "y":209.333333333333
-                }, 
-                {
                  "class":"area",
                  "height":125.333333333333,
                  "id":130,
@@ -3905,7 +3888,26 @@
                  "width":130.666666666667,
                  "x":482.666666666667,
                  "y":246.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "height":124,
+                 "id":131,
+                 "name":"Clyde et Tanguy",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/learningapps.org\/watch?v=pvtt7qee324"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":126.666666666667,
+                 "x":54.6666666666667,
+                 "y":205.333333333333
                 }],
+         "offsetx":-1.33333333333334,
+         "offsety":-2.66666666666669,
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -4087,7 +4089,7 @@
          "y":0
         }],
  "nextlayerid":67,
- "nextobjectid":131,
+ "nextobjectid":132,
  "orientation":"orthogonal",
  "properties":[
         {
