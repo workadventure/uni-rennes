@@ -1274,7 +1274,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"IVSC.png"
         }, 
         {
          "name":"mapLink",
