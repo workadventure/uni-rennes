@@ -1289,7 +1289,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script.js"
+         "value":"..\/src\/main.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
@@ -1298,7 +1298,7 @@
         {
          "columns":6,
          "firstgid":1,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/WA_Special_Zones.png",
+         "image":"..\/tilesets\/WA_Special_Zones.png",
          "imageheight":64,
          "imagewidth":192,
          "margin":0,
@@ -1321,7 +1321,7 @@
         {
          "columns":12,
          "firstgid":13,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/WA_Decoration.png",
+         "image":"..\/tilesets\/WA_Decoration.png",
          "imageheight":256,
          "imagewidth":384,
          "margin":0,
@@ -1334,7 +1334,7 @@
         {
          "columns":10,
          "firstgid":109,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/WA_Miscellaneous.png",
+         "image":"..\/tilesets\/WA_Miscellaneous.png",
          "imageheight":352,
          "imagewidth":320,
          "margin":0,
@@ -1347,7 +1347,7 @@
         {
          "columns":12,
          "firstgid":219,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/WA_Other_Furniture.png",
+         "image":"..\/tilesets\/WA_Other_Furniture.png",
          "imageheight":416,
          "imagewidth":384,
          "margin":0,
@@ -1360,7 +1360,7 @@
         {
          "columns":25,
          "firstgid":375,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/WA_Room_Builder.png",
+         "image":"..\/tilesets\/WA_Room_Builder.png",
          "imageheight":1280,
          "imagewidth":800,
          "margin":0,
@@ -1373,7 +1373,7 @@
         {
          "columns":13,
          "firstgid":1375,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/WA_Seats.png",
+         "image":"..\/tilesets\/WA_Seats.png",
          "imageheight":448,
          "imagewidth":416,
          "margin":0,
@@ -1386,7 +1386,7 @@
         {
          "columns":10,
          "firstgid":1557,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/WA_Tables.png",
+         "image":"..\/tilesets\/WA_Tables.png",
          "imageheight":864,
          "imagewidth":320,
          "margin":0,
@@ -1399,7 +1399,7 @@
         {
          "columns":25,
          "firstgid":1827,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/WA_Exterior.png",
+         "image":"..\/tilesets\/WA_Exterior.png",
          "imageheight":1088,
          "imagewidth":800,
          "margin":0,
@@ -1412,7 +1412,7 @@
         {
          "columns":3,
          "firstgid":2677,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/custom_tileset_1.png",
+         "image":"..\/tilesets\/custom_tileset_1.png",
          "imageheight":64,
          "imagewidth":96,
          "margin":0,
@@ -1425,7 +1425,7 @@
         {
          "columns":25,
          "firstgid":2683,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/France.png",
+         "image":"..\/tilesets\/France.png",
          "imageheight":533,
          "imagewidth":800,
          "margin":0,
@@ -1438,7 +1438,7 @@
         {
          "columns":3,
          "firstgid":3083,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/UK.png",
+         "image":"..\/tilesets\/UK.png",
          "imageheight":57,
          "imagewidth":96,
          "margin":0,
@@ -1451,7 +1451,7 @@
         {
          "columns":16,
          "firstgid":3086,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/modern_conference.png",
+         "image":"..\/tilesets\/modern_conference.png",
          "imageheight":384,
          "imagewidth":512,
          "margin":0,
@@ -1464,7 +1464,7 @@
         {
          "columns":16,
          "firstgid":3278,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/modern_livingroom.png",
+         "image":"..\/tilesets\/modern_livingroom.png",
          "imageheight":864,
          "imagewidth":512,
          "margin":0,
@@ -1477,7 +1477,7 @@
         {
          "columns":13,
          "firstgid":3710,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/modern_misc.png",
+         "image":"..\/tilesets\/modern_misc.png",
          "imageheight":896,
          "imagewidth":416,
          "margin":0,
@@ -1490,7 +1490,7 @@
         {
          "columns":1,
          "firstgid":4074,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/podium_down.png",
+         "image":"..\/tilesets\/podium_down.png",
          "imageheight":64,
          "imagewidth":32,
          "margin":0,
@@ -1503,7 +1503,7 @@
         {
          "columns":13,
          "firstgid":4076,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/WA_User_Interface.png",
+         "image":"..\/tilesets\/WA_User_Interface.png",
          "imageheight":672,
          "imagewidth":416,
          "margin":0,
@@ -1516,7 +1516,7 @@
         {
          "columns":6,
          "firstgid":4349,
-         "image":"..\/Documents\/Sous-marin\/Univers-L\/GitHub\/uni-rennes2D\/tilesets\/booth_bigger_white_6x5.png",
+         "image":"..\/tilesets\/booth_bigger_white_6x5.png",
          "imageheight":160,
          "imagewidth":192,
          "margin":0,
