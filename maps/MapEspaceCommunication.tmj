@@ -4,7 +4,7 @@
      "export":
         {
          "format":"json",
-         "target":"MapEspaceCommunication.tmj"
+         "target":"MapEspaceCommunication.json"
         }
     },
  "height":33,
