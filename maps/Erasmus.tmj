@@ -3002,7 +3002,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"MUSEE.png"
         }, 
         {
          "name":"mapName",
