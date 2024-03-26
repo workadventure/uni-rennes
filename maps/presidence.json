@@ -2479,7 +2479,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"pres.png"
         }, 
         {
          "name":"mapName",
