@@ -1,4 +1,12 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"json",
+         "target":"MapEspaceCommunication.json"
+        }
+    },
  "height":33,
  "infinite":false,
  "layers":[
@@ -511,89 +519,24 @@
  "tileheight":32,
  "tilesets":[
         {
-         "columns":0,
          "firstgid":1,
-         "grid":
-            {
-             "height":32,
-             "orientation":"orthogonal",
-             "width":32
-            },
-         "margin":0,
-         "name":"Fond de carte",
-         "spacing":0,
-         "tilecount":1,
-         "tileheight":1062,
-         "tiles":[
-                {
-                 "id":1947,
-                 "image":"..\/..\/..\/..\/Desktop\/Asset Blender\/MapEspaceDiscussionFull.png",
-                 "imageheight":1062,
-                 "imagewidth":1888
-                }],
-         "tilewidth":1888
+         "source":"..\/..\/..\/..\/Desktop\/Tile set\/Fond de carte.tsx"
         }, 
         {
-         "columns":25,
          "firstgid":1949,
-         "image":"..\/..\/..\/..\/Desktop\/Asset Blender\/SetArbres.png",
-         "imageheight":640,
-         "imagewidth":800,
-         "margin":0,
-         "name":"Arbres",
-         "spacing":0,
-         "tilecount":500,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"..\/..\/..\/..\/Desktop\/Tileseet\/Arbres.tsx"
         }, 
         {
-         "columns":59,
          "firstgid":2449,
-         "image":"..\/..\/..\/..\/Desktop\/Asset Blender\/MapEspaceDiscussionparts.png",
-         "imageheight":1062,
-         "imagewidth":1888,
-         "margin":0,
-         "name":"Overlap Carte",
-         "spacing":0,
-         "tilecount":1947,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"..\/..\/..\/..\/Desktop\/Tileseet\/Overlap Carte.tsx"
         }, 
         {
-         "columns":6,
          "firstgid":4396,
-         "image":"..\/tilesets\/WA_Special_Zones.png",
-         "imageheight":64,
-         "imagewidth":192,
-         "margin":0,
-         "name":"WA_Special_Zones",
-         "spacing":0,
-         "tilecount":12,
-         "tileheight":32,
-         "tiles":[
-                {
-                 "id":2,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
-         "tilewidth":32
+         "source":"..\/..\/..\/..\/Desktop\/Tileseet\/WA_Special_Zones.tsx"
         }, 
         {
-         "columns":59,
          "firstgid":4408,
-         "image":"..\/..\/..\/..\/Desktop\/Asset Blender\/MapEspaceDiscussionFull.png",
-         "imageheight":1062,
-         "imagewidth":1888,
-         "margin":0,
-         "name":"MapEspaceDiscussionFull",
-         "spacing":0,
-         "tilecount":1947,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"..\/..\/..\/..\/Desktop\/Tileseet\/MapEspaceDiscussionFull.tsx"
         }],
  "tilewidth":32,
  "type":"map",
