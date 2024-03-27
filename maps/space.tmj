@@ -2578,7 +2578,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"..\/..\/..\/..\/..\/..\/Downloads\/space-station-among-us-master\/space-station-among-us-master\/src\/assets\/rc3-mullana-floor-wall.png",
+         "image":"..\/tilesets\/rc3-mullana-floor-wall.png",
          "imageheight":544,
          "imagewidth":512,
          "margin":0,
@@ -2604,7 +2604,7 @@
         {
          "columns":10,
          "firstgid":529,
-         "image":"..\/..\/..\/..\/..\/..\/Downloads\/space-station-among-us-master\/space-station-among-us-master\/src\/assets\/rc3-mullana-stars.png",
+         "image":"..\/tilesets\/rc3-mullana-stars.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,
@@ -2676,7 +2676,7 @@
         {
          "columns":6,
          "firstgid":1717,
-         "image":"..\/..\/..\/..\/..\/..\/Downloads\/space-station-among-us-master\/space-station-among-us-master\/src\/assets\/watileset.png",
+         "image":"..\/tilesets\/watileset.png",
          "imageheight":512,
          "imagewidth":192,
          "margin":0,
@@ -2699,7 +2699,7 @@
         {
          "columns":10,
          "firstgid":1813,
-         "image":"..\/..\/..\/..\/..\/..\/Downloads\/space-station-among-us-master\/space-station-among-us-master\/src\/assets\/nebula.png",
+         "image":"..\/tilesets\/nebula.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,
@@ -2725,7 +2725,7 @@
         {
          "columns":10,
          "firstgid":2013,
-         "image":"..\/..\/..\/..\/..\/..\/Downloads\/space-station-among-us-master\/space-station-among-us-master\/src\/assets\/nebula_yellow.png",
+         "image":"..\/tilesets\/nebula_yellow.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,
@@ -2818,7 +2818,7 @@
         {
          "columns":18,
          "firstgid":11845,
-         "image":"..\/..\/..\/..\/..\/..\/Downloads\/space-station-among-us-master\/space-station-among-us-master\/src\/assets\/LimeZu_24_User_Interface_32x32_edited.png",
+         "image":"..\/tilesets\/LimeZu_24_User_Interface_32x32_edited.png",
          "imageheight":448,
          "imagewidth":576,
          "margin":0,
@@ -2831,7 +2831,7 @@
         {
          "columns":13,
          "firstgid":12097,
-         "image":"..\/..\/..\/..\/..\/..\/Downloads\/space-station-among-us-master\/space-station-among-us-master\/src\/assets\/WA_User_Interface.png",
+         "image":"..\/tilesets\/WA_User_Interface.png",
          "imageheight":672,
          "imagewidth":416,
          "margin":0,
@@ -2844,7 +2844,7 @@
         {
          "columns":6,
          "firstgid":12370,
-         "image":"..\/..\/..\/..\/..\/..\/Downloads\/space-station-among-us-master\/space-station-among-us-master\/src\/assets\/Special_Zones.png",
+         "image":"..\/tilesets\/Special_Zones.png",
          "imageheight":64,
          "imagewidth":192,
          "margin":0,
