@@ -477,7 +477,24 @@
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"area",
+                 "height":112,
+                 "id":2,
+                 "name":"visite 360",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1765757839810232997"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":132,
+                 "x":1088,
+                 "y":908
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -587,7 +604,7 @@
          "y":0
         }],
  "nextlayerid":13,
- "nextobjectid":2,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
