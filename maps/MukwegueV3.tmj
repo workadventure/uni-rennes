@@ -1,12 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"json",
-         "target":"MukwegueV3.tmj"
-        }
-    },
  "height":180,
  "infinite":false,
  "layers":[
