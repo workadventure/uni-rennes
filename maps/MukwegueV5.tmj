@@ -1,12 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"json",
-         "target":"MukwegueV4.tmj"
-        }
-    },
  "height":180,
  "infinite":false,
  "layers":[
@@ -3868,8 +3860,24 @@
          "tilewidth":32
         }, 
         {
+         "columns":35,
          "firstgid":57601,
-         "source":"..\/tilesets\/Set arbres Mukgwegue.tsx"
+         "image":"..\/tilesets\/SetarbreTileset.png",
+         "imageheight":832,
+         "imagewidth":1120,
+         "margin":0,
+         "name":"Set arbres Mukgwegue",
+         "spacing":0,
+         "tilecount":910,
+         "tileheight":32,
+         "tilewidth":32,
+         "transformations":
+            {
+             "hflip":false,
+             "preferuntransformed":false,
+             "rotate":false,
+             "vflip":true
+            }
         }, 
         {
          "columns":6,
