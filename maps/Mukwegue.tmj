@@ -3846,6 +3846,16 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"Cr\u00e9dits : Valentin Gerard et Dolly Ramella"
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"muk.png"
+        }, 
+        {
          "name":"script",
          "type":"string",
          "value":"..\/src\/main.ts"
