@@ -4460,7 +4460,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "Salle sante-chunk-1-ddd2a4f8.png",
+      "image": "Salle sante-chunk-1-bba184ed.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -4475,7 +4475,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "Salle sante-chunk-2-ddd2a4f8.png",
+      "image": "Salle sante-chunk-2-bba184ed.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -4490,7 +4490,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "Salle sante-chunk-3-ddd2a4f8.png",
+      "image": "Salle sante-chunk-3-bba184ed.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -4505,7 +4505,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "Salle sante-chunk-4-ddd2a4f8.png",
+      "image": "Salle sante-chunk-4-bba184ed.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -4520,7 +4520,7 @@
     {
       "columns": 15,
       "firstgid": 1025,
-      "image": "Salle sante-chunk-5-ddd2a4f8.png",
+      "image": "Salle sante-chunk-5-bba184ed.png",
       "imageheight": 480,
       "imagewidth": 480,
       "margin": 0,
