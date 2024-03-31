@@ -3007,7 +3007,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"Mus\u00e9e"
         }, 
         {
          "name":"script",
