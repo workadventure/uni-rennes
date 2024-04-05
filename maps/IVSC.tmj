@@ -1165,30 +1165,20 @@
          "objects":[
                 {
                  "class":"area",
-                 "height":52.3333333333333,
-                 "id":19,
-                 "name":"lime",
+                 "height":68.9999999999999,
+                 "id":20,
+                 "name":"LimeSurvey",
                  "properties":[
                         {
-                         "name":"openTab",
+                         "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/bit.ly\/IVSC_24"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"Cliquez sur ESPACE pour ouvrir le questionnaire"
+                         "value":"bit.ly\/IVSC_24"
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":60.6666666666665,
-                 "x":1189,
-                 "y":473
+                 "width":76,
+                 "x":1182.33333333333,
+                 "y":468
                 }],
          "offsetx":-3,
          "offsety":0,
@@ -1331,7 +1321,7 @@
          "y":0
         }],
  "nextlayerid":61,
- "nextobjectid":20,
+ "nextobjectid":21,
  "orientation":"orthogonal",
  "properties":[
         {
