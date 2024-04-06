@@ -842,6 +842,16 @@
                          "name":"door",
                          "type":"string",
                          "value":"my_door"
+                        }, 
+                        {
+                         "name":"doorVariable",
+                         "type":"string",
+                         "value":"doorOpened"
+                        }, 
+                        {
+                         "name":"zone",
+                         "type":"string",
+                         "value":"dome"
                         }],
                  "type":"tilelayer",
                  "visible":false,
