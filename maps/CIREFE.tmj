@@ -839,14 +839,9 @@
                          "value":true
                         }, 
                         {
-                         "name":"door",
-                         "type":"string",
-                         "value":"my_door"
-                        }, 
-                        {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOpened"
+                         "value":"my_door"
                         }, 
                         {
                          "name":"zone",
@@ -1339,17 +1334,7 @@
                         {
                          "name":"persist",
                          "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"readableBly",
-                         "type":"string",
-                         "value":""
-                        }, 
-                        {
-                         "name":"whiteableBy",
-                         "type":"string",
-                         "value":""
+                         "value":false
                         }],
                  "rotation":0,
                  "visible":true,
