@@ -716,7 +716,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/salle_sant\u00e9#from-campusS"
+                 "value":"\/@\/universite-rennes-2\/metavers\/salle-sant\u00e9#from-campusS"
                 }],
          "type":"tilelayer",
          "visible":false,
