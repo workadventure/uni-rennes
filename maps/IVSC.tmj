@@ -153,7 +153,7 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"Appuyez sur la barre d'espace ou touchez pour rejoindre la conversation"
+                 "value":"Press the spacebar or touch to join the conversation"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -223,7 +223,7 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"Appuyez sur la barre d'espace ou touchez pour rejoindre la conversation"
+                 "value":"Press the spacebar or touch to join the conversation"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -293,7 +293,7 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"Appuyez sur la barre d'espace ou touchez pour rejoindre la conversation"
+                 "value":"Press the spacebar or touch to join the conversation"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -363,7 +363,7 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"Appuyez sur la barre d'espace ou touchez pour rejoindre la conversation"
+                 "value":"Press the spacebar or touch to join the conversation"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -433,7 +433,7 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"Appuyez sur la barre d'espace ou touchez pour rejoindre la conversation"
+                 "value":"Press the spacebar or touch to join the conversation"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -503,7 +503,7 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"Appuyez sur la barre d'espace ou touchez pour rejoindre la conversation"
+                 "value":"Press the spacebar or touch to join the conversation"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -573,7 +573,7 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"Appuyez sur la barre d'espace ou touchez pour rejoindre la conversation"
+                 "value":"Press the spacebar or touch to join the conversation"
                 }],
          "type":"tilelayer",
          "visible":true,
