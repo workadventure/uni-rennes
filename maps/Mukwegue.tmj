@@ -3878,24 +3878,8 @@
          "tilewidth":32
         }, 
         {
-         "columns":35,
          "firstgid":57601,
-         "image":"..\/tilesets\/SetarbreTileset.png",
-         "imageheight":832,
-         "imagewidth":1120,
-         "margin":0,
-         "name":"Set arbres Mukgwegue",
-         "spacing":0,
-         "tilecount":910,
-         "tileheight":32,
-         "tilewidth":32,
-         "transformations":
-            {
-             "hflip":false,
-             "preferuntransformed":false,
-             "rotate":false,
-             "vflip":true
-            }
+         "source":"..\/tilesets\/Set arbres Mukgwegue.tsx"
         }, 
         {
          "columns":6,
