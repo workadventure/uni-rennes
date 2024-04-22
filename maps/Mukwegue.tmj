@@ -1,12 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"json",
-         "target":"MukwegueV5.tmj"
-        }
-    },
  "height":180,
  "infinite":false,
  "layers":[
@@ -3973,8 +3965,17 @@
          "tilewidth":32
         }, 
         {
+         "columns":25,
          "firstgid":61883,
-         "source":"..\/..\/..\/..\/Desktop\/Tileseet\/Arbres.tsx"
+         "image":"..\/..\/..\/..\/Desktop\/Asset Blender\/SetArbres.png",
+         "imageheight":640,
+         "imagewidth":800,
+         "margin":0,
+         "name":"Arbres",
+         "spacing":0,
+         "tilecount":500,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
