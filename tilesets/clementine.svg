@@ -20,11 +20,23 @@
   <defs
      id="defs1">
     <rect
+       x="154.34402"
+       y="62.32004"
+       width="0"
+       height="32.033665"
+       id="rect2" />
+    <rect
        x="32.947233"
        y="200.97812"
        width="68.365511"
        height="14.826255"
        id="rect1" />
+    <rect
+       x="32.947231"
+       y="200.97812"
+       width="128.81562"
+       height="23.58714"
+       id="rect1-7" />
   </defs>
   <sodipodi:namedview
      id="namedview1"
@@ -37,8 +49,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.7169437"
-     inkscape:cx="99.01315"
-     inkscape:cy="89.40305"
+     inkscape:cx="99.595578"
+     inkscape:cy="198.89994"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -66,11 +78,19 @@
     <text
        xml:space="preserve"
        id="text1"
-       style="white-space:pre;shape-inside:url(#rect1);fill:#000000"
+       style="white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000"
        transform="matrix(0,0.66480761,-0.66480761,0,155.8058,-11.591631)"><tspan
          x="32.947266"
          y="211.89702"
-         id="tspan2">En travaux</tspan></text>
+         id="tspan4">En travaux</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1-2"
+       style="white-space:pre;shape-inside:url(#rect1-7);display:inline;fill:#000000"
+       transform="matrix(1.9431234,0,0,1.9431234,3.9447434,-382.72153)"><tspan
+         x="32.947266"
+         y="211.89702"
+         id="tspan5">Salle des podcasts</tspan></text>
     <image
        width="74.725677"
        height="96.732262"
@@ -79,5 +99,9 @@
        id="image1-8"
        x="-18.853533"
        y="55.483894" />
+    <text
+       xml:space="preserve"
+       id="text2"
+       style="white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000" />
   </g>
 </svg>
