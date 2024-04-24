@@ -29,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="41.340234"
-     inkscape:cy="176.41293"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="-134.8025"
+     inkscape:cy="342.43965"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -825,5 +825,22 @@
          x="69.309181"
          y="260.92896"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ALEF;-inkscape-font-specification:ALEF;fill:#000000;stroke-width:0.26458332">CIREFE</tspan></text>
+    <circle
+       r="5.3262491"
+       cy="246.10085"
+       cx="76.333984"
+       id="path884-6-4-2"
+       style="opacity:0.98999999;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:1.10000002;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text877-5-9-20"
+       y="248.43823"
+       x="73.876312"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.65781164px;line-height:1.25;font-family:alef;-inkscape-font-specification:alef;letter-spacing:0px;word-spacing:0px;fill:#646068;fill-opacity:1;stroke:#808080;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="fill:#646068;fill-opacity:1;stroke:#808080;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="248.43823"
+         x="73.876312"
+         id="tspan875-4-5-8"
+         sodipodi:role="line">H</tspan></text>
   </g>
 </svg>
