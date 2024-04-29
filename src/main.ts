@@ -4,6 +4,15 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
+(async () => {
+    await WA.onInit();
+    await WA.players.configureTracking({
+      players: true,
+      movement: false,
+    });
+    await WA.player.getPosition();
+})();
+
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
@@ -36,6 +45,17 @@ WA.onInit().then(() => {
         }
     });
 
+    WA.ui.actionBar.addButton({
+        id: 'map-btn',
+        // @ts-ignore
+        type: 'action',
+        imageSrc: 'https://hugoaverty.github.io/map-overview/img/map.svg',
+        toolTip: 'Map overview',
+        callback: () => {
+            openMapOverview();
+        }
+    });
+
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
@@ -51,5 +71,19 @@ WA.onInit().then(() => {
         }
     }).catch(e => console.error(e));
 }).catch(e => console.error(e));
+
+const openMapOverview = async() => {
+    WA.ui.modal.closeModal();
+    const pos = await WA.player.getPosition();
+    WA.ui.modal.openModal({
+        // TODO fix map overview projet
+        //src: "https://hugoaverty.github.io/map-overview/index.html?x="+pos.x+"&y="+pos.y+"",
+        src: "https://menu.lgeorget.eu/?x="+pos.x+"&y="+pos.y,
+        allow: "fullscreen",
+        title: "Map Overview",
+        allowApi: true,
+        position: "center",
+    });
+}
 
 export {};
