@@ -2657,7 +2657,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Visite de Rennes"
+                         "value":"Visite de Rennes - Cliquez sur \"espace\""
                         }],
                  "rotation":0,
                  "visible":true,
