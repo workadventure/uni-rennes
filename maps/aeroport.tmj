@@ -2727,22 +2727,22 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"Credits: Michael Moore @ project EAGER, University Rennes 2;\nWorkAdventure (https:\/\/WorkAdventu.re)\n\nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
+         "value":"Credits: Dolly Ramella, University Rennes 2;\nWorkAdventure (https:\/\/WorkAdventu.re)\n\nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
         }, 
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"CBL VE workspace"
+         "value":"Point de d\u00e9part Escape Game"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"map1.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"Aeroport"
         }, 
         {
          "name":"script",
