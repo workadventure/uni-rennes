@@ -2693,6 +2693,7 @@
          "name":"floorLayer",
          "objects":[
                 {
+                 "class":"area",
                  "height":75,
                  "id":2,
                  "name":"metro",
@@ -2703,13 +2704,13 @@
                          "value":"\/@\/universite-rennes-2\/metavers\/metro"
                         }],
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":60,
                  "x":256,
                  "y":126
                 }, 
                 {
+                 "class":"area",
                  "height":60,
                  "id":13,
                  "name":"parcours ",
@@ -2730,7 +2731,6 @@
                          "value":"Visite de Rennes - Cliquez sur \"espace\""
                         }],
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":81,
                  "x":104.333333333333,
@@ -3530,12 +3530,22 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"Cr\u00e9dits: Dolly Ramella, Cl\u00e9ment Gautier et Valentin G\u00e9rard"
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"vil.png"
+        }, 
+        {
          "name":"script",
          "type":"string",
          "value":"..\/src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.2",
+ "tiledversion":"1.9.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -3901,6 +3911,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.10",
+ "version":"1.9",
  "width":120
 }
