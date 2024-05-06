@@ -3535,6 +3535,11 @@
          "value":"Cr\u00e9dits: Dolly Ramella, Cl\u00e9ment Gauthier et Valentin G\u00e9rard"
         }, 
         {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Accueil RENNES2D"
+        }, 
+        {
          "name":"mapImage",
          "type":"string",
          "value":"vil.png"
