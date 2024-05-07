@@ -2884,7 +2884,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"space.png"
         }, 
         {
          "name":"mapLink",
