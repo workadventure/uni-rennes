@@ -1874,7 +1874,7 @@
                  "name":"sac \u00e0 dos",
                  "properties":[
                         {
-                         "name":"openTab",
+                         "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/view.genial.ly\/6552cbf38c48ab0011d32a61"
                         }, 
