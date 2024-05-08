@@ -3006,7 +3006,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map1.png"
+         "value":"aeroport.png"
         }, 
         {
          "name":"mapName",
