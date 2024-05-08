@@ -324,6 +324,27 @@
  "nextlayerid":13,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"Credits: Dolly Ramella \nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Ascenseur CIREFE"
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"ascenseur.png"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Ascenseur CIREFE"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
  "tileheight":32,
