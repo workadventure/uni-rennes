@@ -470,6 +470,26 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"Credits: Dolly Ramella, universit\u00e9 Rennes 2"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Ce qui nous concerne"
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"ce qui nous concerne2.png"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Ce qui nous concerne"
+        }, 
+        {
          "name":"script",
          "type":"string",
          "value":"..\/src\/main.ts"

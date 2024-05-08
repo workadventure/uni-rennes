@@ -582,6 +582,26 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"Credits: Dolly Ramella \nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"DECLAME'FLE"
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"DECLAMEFLE.png"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"DECLAME'FLE"
+        }, 
+        {
          "name":"script",
          "type":"string",
          "value":"..\/src\/main.ts"
