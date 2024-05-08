@@ -1515,12 +1515,12 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"WA Village is the sole property of 100 Roads Inc. All rights are reserved by 100 Roads inc. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Inc."
+         "value":"Cr\u00e9dits : Dolly Ramella, Universit\u00e9 Rennes 2 "
         }, 
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A perfect virtual office to get started with WorkAdventure!"
+         "value":"Salle de formation pour enseignants de FLE"
         }, 
         {
          "name":"mapImage",
