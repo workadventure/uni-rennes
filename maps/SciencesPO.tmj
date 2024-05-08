@@ -484,7 +484,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"SciencePO.png"
+         "value":"SciencesPO.png"
         }, 
         {
          "name":"mapName",
