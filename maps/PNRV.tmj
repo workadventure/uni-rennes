@@ -553,7 +553,7 @@
                  "name":"site EDULAB",
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/edulab.univ-rennes2.fr\/#!\/"
                         }, 
@@ -565,7 +565,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour ouvrir le questionnaire d\u2019\u00e9valuation de la plateforme"
+                         "value":"Appuyez sur ESPACE ou touchez pour aller vers le site de l'Edulab"
                         }],
                  "rotation":0,
                  "visible":true,
