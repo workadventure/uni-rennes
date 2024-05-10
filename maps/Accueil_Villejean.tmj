@@ -1090,7 +1090,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/tambour#from-presidence"
+                 "value":"\/@\/universite-rennes-2\/metavers\/tambour-#from-presidence"
                 }],
          "type":"tilelayer",
          "visible":false,
