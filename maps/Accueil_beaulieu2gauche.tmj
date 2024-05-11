@@ -319,7 +319,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":72,
          "x":0,
          "y":0
@@ -914,6 +914,32 @@
  "nextlayerid":16,
  "nextobjectid":2,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"Cr\u00e9dits: Dolly Ramella, Cl\u00e9ment Gauthier et Valentin G\u00e9rard"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Accueil RENNES2D - Campus Beaulieu "
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"Accueil_beaulieu2gauche.png"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Accueil Beaulieu"
+        }, 
+        {
+         "name":"script",
+         "type":"string",
+         "value":"..\/src\/main.ts"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
  "tileheight":32,
