@@ -258,7 +258,24 @@
          "draworder":"topdown",
          "id":6,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"area",
+                 "height":74.6666666666667,
+                 "id":1,
+                 "name":"portes",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/view.genial.ly\/6613010e51ca9d00142e32f0"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":84.6666666666667,
+                 "x":199.333333333333,
+                 "y":242
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -322,7 +339,7 @@
          "y":0
         }],
  "nextlayerid":13,
- "nextobjectid":1,
+ "nextobjectid":2,
  "orientation":"orthogonal",
  "properties":[
         {
