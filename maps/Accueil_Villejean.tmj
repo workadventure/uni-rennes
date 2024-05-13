@@ -1546,10 +1546,10 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/ce-qui-nous-concerne-2#from-ceki"
+                 "value":"\/@\/universite-rennes-2\/metavers\/ce-qui-nous-concerne#from-ceki"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":120,
          "x":0,
          "y":0
