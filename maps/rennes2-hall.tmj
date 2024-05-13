@@ -924,7 +924,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/ce-qui-nous-concerne-2"
+                 "value":"\/@\/universite-rennes-2\/metavers\/ce-qui-nous-concerne"
                 }],
          "type":"tilelayer",
          "visible":true,
