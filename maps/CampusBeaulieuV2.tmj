@@ -652,8 +652,27 @@
          "tilewidth":32
         }, 
         {
+         "columns":6,
          "firstgid":23575,
-         "source":"..\/..\/..\/..\/Desktop\/Tileseet\/WA_Special_Zones.tsx"
+         "image":"..\/tilesets\/WA_Special_Zones.png",
+         "imageheight":64,
+         "imagewidth":192,
+         "margin":0,
+         "name":"WA_Special_Zones",
+         "spacing":0,
+         "tilecount":12,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":2,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
         }, 
         {
          "columns":27,
