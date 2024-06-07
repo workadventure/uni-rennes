@@ -2835,7 +2835,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":75,
                  "id":2,
                  "name":"metro",
@@ -2846,13 +2845,13 @@
                          "value":"\/@\/universite-rennes-2\/metavers\/metro"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":60,
                  "x":256,
                  "y":126
                 }, 
                 {
-                 "class":"area",
                  "height":60,
                  "id":13,
                  "name":"parcours ",
@@ -2873,6 +2872,7 @@
                          "value":"Visite de Rennes - Cliquez sur \"espace\""
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":81,
                  "x":104.333333333333,
@@ -3927,7 +3927,7 @@
          "value":"..\/src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -4251,9 +4251,22 @@
          "tilecount":40,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":25,
+         "firstgid":44858,
+         "image":"..\/..\/..\/..\/Desktop\/Asset Blender\/SetArbres.png",
+         "imageheight":640,
+         "imagewidth":800,
+         "margin":0,
+         "name":"Arbres",
+         "spacing":0,
+         "tilecount":500,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":120
 }
