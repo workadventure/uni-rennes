@@ -1831,6 +1831,12 @@
  "nextlayerid":17,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"scipt",
+         "type":"string",
+         "value":"..\/src\/main.ts"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
  "tileheight":32,
