@@ -1485,6 +1485,50 @@
                  "width":103.5,
                  "x":1725.5,
                  "y":567.5
+                }, 
+                {
+                 "class":"area",
+                 "height":663.333333333333,
+                 "id":38,
+                 "name":"YT 2",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/live_stream?channel=UCDX5M3-pP_EoSfWPPyV6qnQ"
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":1260.66666666667,
+                 "x":317,
+                 "y":406.333333333333
+                }, 
+                {
+                 "class":"area",
+                 "height":134.333,
+                 "id":39,
+                 "name":"Podium",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Conf\u00e9rence"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"speaker"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":249.333,
+                 "x":806.000166666667,
+                 "y":1118.16683333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1635,7 +1679,7 @@
          "y":0
         }],
  "nextlayerid":78,
- "nextobjectid":38,
+ "nextobjectid":40,
  "orientation":"orthogonal",
  "properties":[
         {
