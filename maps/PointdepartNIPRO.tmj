@@ -3669,7 +3669,7 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"Credits Dolly Ramella "
+         "value":"Credits : Dolly Ramella "
         }, 
         {
          "name":"mapDescription",
@@ -3679,7 +3679,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"NIPRO.png"
         }, 
         {
          "name":"mapName",

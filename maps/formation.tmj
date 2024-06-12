@@ -614,6 +614,26 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"Credits: Dolly Ramella \nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Salle formtation "
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"formation.png"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Salle Formation"
+        }, 
+        {
          "name":"script",
          "type":"string",
          "value":"..\/src\/main.ts"
