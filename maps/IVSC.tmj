@@ -1454,7 +1454,7 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"Cr\u00e9dits:\n- Valdo Romao https:\/\/www.linkedin.com\/in\/valdo-romao\/: carte du starter kit.\n- Florent Torregrosa https:\/\/github.com\/FlorentTorregrosa: modifications pour Drupal France.\n\nLicence: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
+         "value":"Cr\u00e9dits: Dolly Ramella et \u00e9tudiants master didactique des Langues - Licence: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
         }, 
         {
          "name":"mapDescription",
