@@ -440,6 +440,32 @@
  "nextlayerid":10,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"Cr\u00e9dits: Dolly Ramella, Cl\u00e9ment Gauthier et Valentin G\u00e9rard"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Vue du PNRB"
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"MapPNRB.png"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"MapPNRB"
+        }, 
+        {
+         "name":"scipt",
+         "type":"string",
+         "value":"..\/src\/main.ts"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
  "tileheight":32,
@@ -447,7 +473,7 @@
         {
          "columns":71,
          "firstgid":1,
-         "image":"..\/..\/..\/..\/Desktop\/Asset Blender\/FacadePNRB.png",
+         "image":"..\/tilesets\/FacadePNRB.png",
          "imageheight":1344,
          "imagewidth":2272,
          "margin":0,
