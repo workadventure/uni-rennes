@@ -1435,7 +1435,7 @@
         {
          "columns":10,
          "firstgid":65748,
-         "image":"..\/tilesets\/fichiers\ svg\/cirefe 2.svg",
+         "image":"..\/tilesets\/cirefe 2.svg",
          "imageheight":640,
          "imagewidth":320,
          "margin":0,
@@ -1448,7 +1448,7 @@
         {
          "columns":10,
          "firstgid":65948,
-         "image":"..\/tilesets\/fichiers\ svg\/clementine.svg",
+         "image":"..\/tilesets\/clementine.svg",
          "imageheight":640,
          "imagewidth":320,
          "margin":0,
@@ -1461,7 +1461,7 @@
         {
          "columns":10,
          "firstgid":66148,
-         "image":"..\/tilesets\/fichiers\ svg\/clementine.png",
+         "image":"..\/tilesets\/clementine.png",
          "imageheight":640,
          "imagewidth":320,
          "margin":0,
