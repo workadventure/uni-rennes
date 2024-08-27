@@ -2119,7 +2119,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":192,
                  "id":23,
                  "name":"L207",
@@ -2140,13 +2139,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":288,
                  "x":32,
                  "y":736
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":24,
                  "name":"L208",
@@ -2167,13 +2166,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":288,
                  "x":32,
                  "y":2176
                 }, 
                 {
-                 "class":"area",
                  "height":148,
                  "id":25,
                  "name":"Jitsi L248",
@@ -2194,13 +2193,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":3360,
                  "y":780
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":26,
                  "name":"L249",
@@ -2221,13 +2220,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":3360,
                  "y":2176
                 }, 
                 {
-                 "class":"area",
                  "height":178.000000000001,
                  "id":48,
                  "name":"Cafet2",
@@ -2243,13 +2242,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":384,
                  "x":1628,
                  "y":1133.33333333333
                 }, 
                 {
-                 "class":"area",
                  "height":72.5,
                  "id":49,
                  "name":"info",
@@ -2270,13 +2269,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour ouvrir le panneau d\u2019information"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":52.75,
                  "x":1909.375,
                  "y":2112.25
                 }, 
                 {
-                 "class":"area",
                  "height":72.5,
                  "id":50,
                  "name":"survey",
@@ -2297,13 +2296,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour ouvrir le questionnaire d\u2019\u00e9valuation de la plateforme"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":52.75,
                  "x":1684.375,
                  "y":2113
                 }, 
                 {
-                 "class":"area",
                  "height":107,
                  "id":94,
                  "name":"APUII",
@@ -2314,13 +2313,13 @@
                          "value":"https:\/\/www.youtube.com\/embed\/SabjCzwUNqU"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":75,
                  "x":1419,
                  "y":2188
                 }, 
                 {
-                 "class":"area",
                  "height":153,
                  "id":95,
                  "name":"Pr\u00e9sentation",
@@ -2331,13 +2330,13 @@
                          "value":"https:\/\/view.genial.ly\/64138eeff59a3c0019c46f93"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":62,
                  "x":1513,
                  "y":2140
                 }, 
                 {
-                 "class":"area",
                  "height":109,
                  "id":96,
                  "name":"BRIO 2",
@@ -2348,13 +2347,13 @@
                          "value":"https:\/\/view.genial.ly\/64138edfb650eb0011bf090a"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":59,
                  "x":1588,
                  "y":2188
                 }, 
                 {
-                 "class":"area",
                  "height":63,
                  "id":105,
                  "name":"UEO PRO FLE G2",
@@ -2365,13 +2364,13 @@
                          "value":"https:\/\/fr.educaplay.com\/jeu\/14060399-comprehension_orale_a_l_aeroport.html"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":177,
                  "y":1108
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":117,
                  "name":"door_elicce",
@@ -2403,13 +2402,13 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":2176,
                  "y":2276
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":118,
                  "name":"doorBRIO",
@@ -2441,13 +2440,13 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":3184,
                  "y":905.333333333333
                 }, 
                 {
-                 "class":"area",
                  "height":69,
                  "id":120,
                  "name":"Ressources activit\u00e9",
@@ -2458,10 +2457,28 @@
                          "value":"https:\/\/moodle.lgeorget.eu\/mod\/folder\/view.php?id=35&forceview=1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":79,
                  "x":554,
                  "y":1505
+                }, 
+                {
+                 "height":198,
+                 "id":125,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"onhover",
+                         "type":"string",
+                         "value":"Rennes 2 est le campus de Villejean, il regroupe les universit\u00e9s litt\u00e9raire et artistiques"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":224,
+                 "x":1706,
+                 "y":182
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2644,7 +2661,7 @@
          "y":0
         }],
  "nextlayerid":67,
- "nextobjectid":125,
+ "nextobjectid":126,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -2678,7 +2695,7 @@
          "value":true
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -3264,6 +3281,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":114
 }
