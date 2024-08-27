@@ -2471,7 +2471,7 @@
                         {
                          "name":"onHover",
                          "type":"string",
-                         "value":"Rennes 2 est le campus de Villejean, il regroupe les universit\u00e9s litt\u00e9raire et artistiques"
+                         "value":"message: Rennes 2 est le campus de Villejean, il regroupe les universit\u00e9s litt\u00e9raire et artistiques"
                         }],
                  "rotation":0,
                  "type":"",
