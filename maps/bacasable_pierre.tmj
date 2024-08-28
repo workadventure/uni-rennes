@@ -70,7 +70,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4099, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -223,6 +223,7 @@
          "name":"floorLayer",
          "objects":[
                 {
+                 "class":"area",
                  "height":173.333333333333,
                  "id":1,
                  "name":"vers le monde des bisounours",
@@ -233,13 +234,13 @@
                          "value":"https:\/\/www.youtube.com\/watch?v=SbFo5Au-F-E&pp=ygUhbGUgbW9uZGUgZGVzIGJpc291bm91cnMgZ2VuZXJpcXVl*"
                         }],
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":136,
                  "x":300,
                  "y":361.333333333333
                 }, 
                 {
+                 "class":"area",
                  "height":98.6666666666667,
                  "id":2,
                  "name":"Rickrolling",
@@ -250,13 +251,13 @@
                          "value":"https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
                         }],
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":104,
                  "x":650.67,
                  "y":333.333333333333
                 }, 
                 {
+                 "class":"area",
                  "height":121.333333333333,
                  "id":3,
                  "name":"salle jitsi",
@@ -272,7 +273,6 @@
                          "value":"admin"
                         }],
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":185.333333333333,
                  "x":454.666666666667,
@@ -376,7 +376,7 @@
          "value":"Credits: Pierre Marguerie"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.9.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -403,6 +403,16 @@
          "spacing":0,
          "tilecount":12,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":2,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
          "tilewidth":32
         }, 
         {
@@ -433,6 +443,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.10",
+ "version":"1.9",
  "width":40
 }
