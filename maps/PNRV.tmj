@@ -584,7 +584,7 @@
                          "value":"https:\/\/www.thinglink.com\/view\/scene\/1886086690666185381"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":55,
                  "x":868,
