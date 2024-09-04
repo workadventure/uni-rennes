@@ -3034,8 +3034,8 @@
                  "type":"area",
                  "visible":true,
                  "width":61,
-                 "x":1560.33333333333,
-                 "y":1123.33333333333
+                 "x":1568.33333333333,
+                 "y":1067.33333333333
                 }, 
                 {
                  "height":137.333333333333,
@@ -3070,6 +3070,23 @@
                  "width":228,
                  "x":2574.66666666667,
                  "y":1192
+                }, 
+                {
+                 "height":132,
+                 "id":17,
+                 "name":"ereve",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1886086688061522597"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":92,
+                 "x":1563.33333333333,
+                 "y":1193.33333333333
                 }],
          "offsetx":0.66666666666697,
          "offsety":14.6666666666665,
@@ -3932,7 +3949,7 @@
          "y":0
         }],
  "nextlayerid":65,
- "nextobjectid":17,
+ "nextobjectid":18,
  "orientation":"orthogonal",
  "properties":[
         {
