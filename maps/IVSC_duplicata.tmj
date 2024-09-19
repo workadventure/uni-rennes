@@ -435,7 +435,7 @@
                 {
                  "name":"autoOpen",
                  "type":"bool",
-                 "value":true
+                 "value":false
                 }, 
                 {
                  "name":"code",
@@ -445,7 +445,7 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"doorOpened"
+                 "value":"escape_game_door"
                 }, 
                 {
                  "name":"zone",
@@ -510,7 +510,7 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"doorOpened"
+                 "value":"escape_game_door"
                 }, 
                 {
                  "name":"zone",
