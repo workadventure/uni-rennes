@@ -450,7 +450,7 @@
                 {
                  "name":"zone",
                  "type":"string",
-                 "value":"door_open_zoneA"
+                 "value":"door_open_zone1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -505,7 +505,7 @@
                 {
                  "name":"autoOpen",
                  "type":"bool",
-                 "value":true
+                 "value":false
                 }, 
                 {
                  "name":"doorVariable",
@@ -515,7 +515,7 @@
                 {
                  "name":"zone",
                  "type":"string",
-                 "value":"door_open_zoneB"
+                 "value":"door_open_zone2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -869,12 +869,6 @@
          "id":30,
          "name":"closed_door",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"collides",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":58,
@@ -1212,16 +1206,6 @@
                          "name":"persist",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"readableBy",
-                         "type":"string",
-                         "value":""
-                        }, 
-                        {
-                         "name":"writableBy",
-                         "type":"string",
-                         "value":""
                         }],
                  "rotation":0,
                  "type":"variable",
