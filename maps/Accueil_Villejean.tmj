@@ -2977,7 +2977,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":75,
                  "id":2,
                  "name":"metro",
@@ -2988,13 +2987,13 @@
                          "value":"\/@\/universite-rennes-2\/metavers\/metro"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":60,
                  "x":256,
                  "y":126
                 }, 
                 {
-                 "class":"area",
                  "height":60,
                  "id":13,
                  "name":"visite de rennes",
@@ -3015,13 +3014,13 @@
                          "value":"Visite de Rennes - Cliquez sur \"espace\""
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":81,
                  "x":104.333333333333,
                  "y":212.333333333333
                 }, 
                 {
-                 "class":"area",
                  "height":103,
                  "id":14,
                  "name":"FLEscape ",
@@ -3032,10 +3031,62 @@
                          "value":"https:\/\/www.thinglink.com\/view\/scene\/1357170246300991491"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":61,
-                 "x":1560.33333333333,
-                 "y":1123.33333333333
+                 "x":1568.33333333333,
+                 "y":1067.33333333333
+                }, 
+                {
+                 "height":137.333333333333,
+                 "id":15,
+                 "name":"Sortie EREVE",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1886086680138482341"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":244,
+                 "x":2180.66666666667,
+                 "y":1188
+                }, 
+                {
+                 "height":92,
+                 "id":16,
+                 "name":"accueil bat S",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1886086681656820389"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":228,
+                 "x":2574.66666666667,
+                 "y":1192
+                }, 
+                {
+                 "height":132,
+                 "id":17,
+                 "name":"ereve",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1886086688061522597"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":92,
+                 "x":1563.33333333333,
+                 "y":1193.33333333333
                 }],
          "offsetx":0.66666666666697,
          "offsety":14.6666666666665,
@@ -3898,7 +3949,7 @@
          "y":0
         }],
  "nextlayerid":65,
- "nextobjectid":15,
+ "nextobjectid":18,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -3927,7 +3978,7 @@
          "value":"..\/src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -4280,6 +4331,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":120
 }
