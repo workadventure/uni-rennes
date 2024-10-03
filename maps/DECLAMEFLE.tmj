@@ -488,9 +488,14 @@
                  "name":"MOOC DECLAME'FLE",
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/didaclang.fr\/course\/view.php?id=2"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "visible":true,
