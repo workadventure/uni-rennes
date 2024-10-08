@@ -1114,6 +1114,7 @@
          "name":"floorLayer",
          "objects":[
                 {
+                 "class":"",
                  "height":0,
                  "id":225,
                  "name":"doorMain",
@@ -1145,13 +1146,13 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
                  "visible":true,
                  "width":0,
                  "x":1890.75,
                  "y":893
                 }, 
                 {
+                 "class":"",
                  "height":85.5,
                  "id":226,
                  "name":"zoneDoorMain",
@@ -1182,95 +1183,94 @@
                          "value":"zoneDoorMain"
                         }],
                  "rotation":0,
-                 "type":"",
                  "visible":true,
                  "width":158,
                  "x":1823.5,
                  "y":895.5
                 }, 
                 {
+                 "class":"area",
                  "height":87.3333333333333,
                  "id":228,
                  "name":"NPC_8",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":133,
                  "x":230.333333333333,
                  "y":216.666666666667
                 }, 
                 {
+                 "class":"area",
                  "height":87.3333,
                  "id":229,
                  "name":"NPC_7",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":133,
                  "x":234.5,
                  "y":375.000016666667
                 }, 
                 {
+                 "class":"area",
                  "height":87.3333,
                  "id":230,
                  "name":"NPC_6",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":133,
                  "x":581.833333333333,
                  "y":344.666683333333
                 }, 
                 {
+                 "class":"area",
                  "height":87.3333,
                  "id":231,
                  "name":"NPC_5",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":133,
                  "x":940.166666666667,
                  "y":345.000016666667
                 }, 
                 {
+                 "class":"area",
                  "height":87.3333,
                  "id":232,
                  "name":"NPC_4",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":133,
                  "x":1288.83333333333,
                  "y":344.83335
                 }, 
                 {
+                 "class":"area",
                  "height":95.9999666666666,
                  "id":233,
                  "name":"NPC_3",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":155.666666666667,
                  "x":1635.5,
                  "y":625.666683333333
                 }, 
                 {
+                 "class":"area",
                  "height":103.999966666666,
                  "id":234,
                  "name":"NPC_2",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":122,
                  "x":1963.5,
                  "y":964.83335
                 }, 
                 {
+                 "class":"area",
                  "height":103.999966666667,
                  "id":235,
                  "name":"NPC_1",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":133.833333333333,
                  "x":1042.83333333333,
@@ -1844,13 +1844,13 @@
          "value":false
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.2",
+ "tiledversion":"1.9.1",
  "tileheight":32,
  "tilesets":[
         {
          "columns":6,
          "firstgid":1,
-         "image":"tilesets\/WA_Special_Zones.png",
+         "image":"..\/tilesets\/WA_Special_Zones.png",
          "imageheight":64,
          "imagewidth":192,
          "margin":0,
@@ -1873,7 +1873,7 @@
         {
          "columns":13,
          "firstgid":13,
-         "image":"tilesets\/WA_User_Interface.png",
+         "image":"..\/tilesets\/WA_User_Interface.png",
          "imageheight":672,
          "imagewidth":416,
          "margin":0,
@@ -1886,7 +1886,7 @@
         {
          "columns":64,
          "firstgid":286,
-         "image":"tilesets\/Flat_Office.png",
+         "image":"..\/tilesets\/Flat_Office.png",
          "imageheight":2048,
          "imagewidth":2048,
          "margin":0,
@@ -2562,7 +2562,7 @@
         {
          "columns":64,
          "firstgid":4382,
-         "image":"tilesets\/Danone.png",
+         "image":"..\/tilesets\/Danone.png",
          "imageheight":2048,
          "imagewidth":2048,
          "margin":0,
@@ -3308,7 +3308,7 @@
         {
          "columns":64,
          "firstgid":8478,
-         "image":"tilesets\/tileset_02_bis.png",
+         "image":"..\/tilesets\/tileset_02_bis.png",
          "imageheight":2048,
          "imagewidth":2048,
          "margin":0,
@@ -3321,7 +3321,7 @@
         {
          "columns":32,
          "firstgid":12574,
-         "image":"tilesets\/spritesheet_02_01.png",
+         "image":"..\/tilesets\/spritesheet_02_01.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
@@ -3334,7 +3334,7 @@
         {
          "columns":16,
          "firstgid":13598,
-         "image":"tilesets\/MV Icons Keyboard - ALL.png",
+         "image":"..\/tilesets\/MV Icons Keyboard - ALL.png",
          "imageheight":448,
          "imagewidth":512,
          "margin":0,
@@ -3396,7 +3396,7 @@
         {
          "columns":20,
          "firstgid":13822,
-         "image":"tilesets\/Anm_circle.png",
+         "image":"..\/tilesets\/Anm_circle.png",
          "imageheight":64,
          "imagewidth":640,
          "margin":0,
@@ -3586,7 +3586,7 @@
         {
          "columns":22,
          "firstgid":13862,
-         "image":"tilesets\/Asset Flats.png",
+         "image":"..\/tilesets\/Asset Flats.png",
          "imageheight":672,
          "imagewidth":704,
          "margin":0,
@@ -3599,7 +3599,7 @@
         {
          "columns":102,
          "firstgid":14324,
-         "image":"tilesets\/breadcrumb.png",
+         "image":"..\/tilesets\/breadcrumb2.png",
          "imageheight":1854,
          "imagewidth":3266,
          "margin":0,
@@ -3612,7 +3612,7 @@
         {
          "columns":3,
          "firstgid":20138,
-         "image":"tilesets\/Male 14-1.png",
+         "image":"..\/tilesets\/Male 14-1.png",
          "imageheight":128,
          "imagewidth":96,
          "margin":0,
@@ -3625,7 +3625,7 @@
         {
          "columns":64,
          "firstgid":20150,
-         "image":"tilesets\/Flat_Office.png",
+         "image":"..\/tilesets\/Flat_Office.png",
          "imageheight":2048,
          "imagewidth":2048,
          "margin":0,
@@ -4227,7 +4227,7 @@
         {
          "columns":16,
          "firstgid":24246,
-         "image":"tilesets\/Set_Icons.png",
+         "image":"..\/tilesets\/Set_Icons.png",
          "imageheight":960,
          "imagewidth":512,
          "margin":0,
@@ -5825,7 +5825,7 @@
         {
          "columns":64,
          "firstgid":24726,
-         "image":"tilesets\/Set_Icons3.png",
+         "image":"..\/tilesets\/Set_Icons3.png",
          "imageheight":2048,
          "imagewidth":2048,
          "margin":0,
@@ -5838,7 +5838,7 @@
         {
          "columns":102,
          "firstgid":28822,
-         "image":"tilesets\/custom-effect.png",
+         "image":"..\/tilesets\/custom-effect.png",
          "imageheight":1662,
          "imagewidth":3266,
          "margin":0,
@@ -5851,7 +5851,7 @@
         {
          "columns":86,
          "firstgid":34024,
-         "image":"tilesets\/light-1.png",
+         "image":"..\/tilesets\/light-1.png",
          "imageheight":1633,
          "imagewidth":2752,
          "margin":0,
@@ -5864,7 +5864,7 @@
         {
          "columns":86,
          "firstgid":38410,
-         "image":"tilesets\/litght-2.png",
+         "image":"..\/tilesets\/litght-2.png",
          "imageheight":1633,
          "imagewidth":2752,
          "margin":0,
@@ -5877,7 +5877,7 @@
         {
          "columns":3,
          "firstgid":42796,
-         "image":"tilesets\/Female 20-4.png",
+         "image":"..\/tilesets\/Female 20-4.png",
          "imageheight":128,
          "imagewidth":96,
          "margin":0,
@@ -5890,7 +5890,7 @@
         {
          "columns":3,
          "firstgid":42808,
-         "image":"tilesets\/Male 14-4.png",
+         "image":"..\/tilesets\/Male 14-4.png",
          "imageheight":128,
          "imagewidth":96,
          "margin":0,
@@ -5903,7 +5903,7 @@
         {
          "columns":3,
          "firstgid":42820,
-         "image":"tilesets\/su1 Student fmale 06.png",
+         "image":"..\/tilesets\/su1 Student fmale 06.png",
          "imageheight":128,
          "imagewidth":96,
          "margin":0,
@@ -5915,6 +5915,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.10",
+ "version":"1.9",
  "width":86
 }
