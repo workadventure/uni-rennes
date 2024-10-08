@@ -1826,12 +1826,12 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"SV.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"Salon"
         }, 
         {
          "name":"script",
