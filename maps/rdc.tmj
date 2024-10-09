@@ -4629,6 +4629,12 @@
          "imagewidth":192,
          "margin":0,
          "name":"WA_Special_Zones",
+         "properties":[
+                {
+                 "name":"collides",
+                 "type":"bool",
+                 "value":true
+                }],
          "spacing":0,
          "tilecount":12,
          "tileheight":32,
