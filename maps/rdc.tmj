@@ -3095,13 +3095,13 @@
         {
          "columns":2,
          "firstgid":257,
-         "image":"tilesets\/logotcm.png",
+         "image":"..\/tilesets\/logotcm.png",
          "imageheight":32,
          "imagewidth":64,
          "margin":0,
          "name":"logotcm",
          "spacing":0,
-         "tilecount":0,
+         "tilecount":2,
          "tileheight":32,
          "tilewidth":32
         }, 
@@ -4598,13 +4598,13 @@
         {
          "columns":1,
          "firstgid":3564,
-         "image":"tilesets\/logo-WA.png",
+         "image":"..\/tilesets\/logo-WA.png",
          "imageheight":64,
          "imagewidth":32,
          "margin":0,
          "name":"logo-WA",
          "spacing":0,
-         "tilecount":0,
+         "tilecount":2,
          "tileheight":32,
          "tilewidth":32
         }, 
