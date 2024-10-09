@@ -2264,7 +2264,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 257, 258, 0, 0, 0, 0, 0, 0, 257, 258, 0, 0, 0, 0, 0, 0, 257, 258, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -2724,13 +2724,13 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.9.1",
  "tileheight":32,
  "tilesets":[
         {
          "columns":16,
          "firstgid":1,
-         "image":"tilesets\/walls2.png",
+         "image":"..\/tilesets\/walls2.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -3101,14 +3101,14 @@
          "margin":0,
          "name":"logotcm",
          "spacing":0,
-         "tilecount":2,
+         "tilecount":0,
          "tileheight":32,
          "tilewidth":32
         }, 
         {
          "columns":11,
          "firstgid":259,
-         "image":"tilesets\/tileset1.png",
+         "image":"..\/tilesets\/tileset1.png",
          "imageheight":352,
          "imagewidth":352,
          "margin":0,
@@ -3446,7 +3446,7 @@
         {
          "columns":11,
          "firstgid":380,
-         "image":"tilesets\/tileset1-repositioning.png",
+         "image":"..\/tilesets\/tileset1-repositioning.png",
          "imageheight":352,
          "imagewidth":352,
          "margin":0,
@@ -3784,7 +3784,7 @@
         {
          "columns":12,
          "firstgid":501,
-         "image":"tilesets\/tileset2.png",
+         "image":"..\/tilesets\/tileset2.png",
          "imageheight":320,
          "imagewidth":384,
          "margin":0,
@@ -4285,7 +4285,7 @@
         {
          "columns":10,
          "firstgid":621,
-         "image":"tilesets\/tileset3.2.png",
+         "image":"..\/tilesets\/tileset3.2.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,
@@ -4497,7 +4497,7 @@
         {
          "columns":21,
          "firstgid":721,
-         "image":"tilesets\/terrain.png",
+         "image":"..\/tilesets\/terrain.png",
          "imageheight":736,
          "imagewidth":672,
          "margin":0,
@@ -4510,7 +4510,7 @@
         {
          "columns":46,
          "firstgid":1204,
-         "image":"tilesets\/map.png",
+         "image":"..\/tilesets\/map.png",
          "imageheight":800,
          "imagewidth":1472,
          "margin":0,
@@ -4523,7 +4523,7 @@
         {
          "columns":2,
          "firstgid":2354,
-         "image":"tilesets\/pin.png",
+         "image":"..\/tilesets\/pin.png",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,
@@ -4536,7 +4536,7 @@
         {
          "columns":1,
          "firstgid":2358,
-         "image":"tilesets\/le-coq.png",
+         "image":"..\/tilesets\/le-coq.png",
          "imageheight":64,
          "imagewidth":32,
          "margin":0,
@@ -4549,7 +4549,7 @@
         {
          "columns":12,
          "firstgid":2360,
-         "image":"tilesets\/tileset2.2.png",
+         "image":"..\/tilesets\/tileset2.2.png",
          "imageheight":320,
          "imagewidth":384,
          "margin":0,
@@ -4562,7 +4562,7 @@
         {
          "columns":5,
          "firstgid":2480,
-         "image":"tilesets\/ALL.png",
+         "image":"..\/tilesets\/ALL.png",
          "imageheight":128,
          "imagewidth":160,
          "margin":0,
@@ -4585,7 +4585,7 @@
         {
          "columns":8,
          "firstgid":2500,
-         "image":"tilesets\/fantasy.png",
+         "image":"..\/tilesets\/fantasy.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
@@ -4604,14 +4604,14 @@
          "margin":0,
          "name":"logo-WA",
          "spacing":0,
-         "tilecount":2,
+         "tilecount":0,
          "tileheight":32,
          "tilewidth":32
         }, 
         {
          "columns":4,
          "firstgid":3566,
-         "image":"tilesets\/logo-funlearn.png",
+         "image":"..\/tilesets\/logo-funlearn.png",
          "imageheight":32,
          "imagewidth":128,
          "margin":0,
@@ -4624,7 +4624,7 @@
         {
          "columns":6,
          "firstgid":3570,
-         "image":"tilesets\/WA_Special_Zones.png",
+         "image":"..\/tilesets\/WA_Special_Zones.png",
          "imageheight":64,
          "imagewidth":192,
          "margin":0,
