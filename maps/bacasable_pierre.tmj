@@ -2432,7 +2432,7 @@
             {
               "name": "exitUrl",
               "type": "string",
-              "value": "/@/universite-rennes-2/bac-à-sable-pierre-#left"
+              "value": "/@/bac-à-sable-pierre-#left"
             }
           ],
           "x": 0,
@@ -4872,7 +4872,7 @@
             {
               "name": "exitUrl",
               "type": "string",
-              "value": "/@/universite-rennes-2/accueil-villejean"
+              "value": "/@/accueil-villejean"
             }
           ],
           "x": 0,
@@ -13492,7 +13492,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "bacasable_pierre-chunk-1-8c04a6c1.png",
+      "image": "bacasable_pierre-chunk-1-d5bf2b8d.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -13528,7 +13528,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "bacasable_pierre-chunk-2-8c04a6c1.png",
+      "image": "bacasable_pierre-chunk-2-d5bf2b8d.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -13543,7 +13543,7 @@
     {
       "columns": 6,
       "firstgid": 513,
-      "image": "bacasable_pierre-chunk-3-8c04a6c1.png",
+      "image": "bacasable_pierre-chunk-3-d5bf2b8d.png",
       "imageheight": 192,
       "imagewidth": 192,
       "margin": 0,
