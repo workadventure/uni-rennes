@@ -781,7 +781,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/i@h"
+                 "value":"https:\/\/mondevirtuel.univ-rennes2.fr\/@\/universite-rennes-2\/metavers\/i@h"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2081,7 +2081,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/mus%C3%A9e"
+                 "value":"https:\/\/mondevirtuel.univ-rennes2.fr\/@\/universite-rennes-2\/metavers\/mus%C3%A9e"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -2158,7 +2158,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/rennes-2-hall#from-campus"
+                 "value":"https:\/\/mondevirtuel.univ-rennes2.fr\/@\/universite-rennes-2\/metavers\/rennes-2-hall#from-campus"
                 }],
          "type":"tilelayer",
          "visible":false,

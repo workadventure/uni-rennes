@@ -210,7 +210,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/universite-rennes-2\/metavers\/gameland#from-jitsi"
+                 "value":"https:\/\/mondevirtuel.univ-rennes2.fr\/@\/universite-rennes-2\/metavers\/gameland#from-jitsi"
                 }],
          "type":"tilelayer",
          "visible":true,
