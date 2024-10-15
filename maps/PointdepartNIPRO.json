@@ -2178,7 +2178,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/salle_sant%C3%A9"
+                 "value":"\/@\/universite-rennes-2\/salle_sant%C3%A9"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2305,7 +2305,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/internationalspace"
+                 "value":"\/@\/universite-rennes-2\/internationalspace"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2432,7 +2432,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/metro"
+                 "value":"\/@\/universite-rennes-2\/metro"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2559,7 +2559,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/tambour#from-presidence"
+                 "value":"\/@\/universite-rennes-2\/tambour#from-presidence"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2686,7 +2686,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/mus\u00e9e"
+                 "value":"\/@\/universite-rennes-2\/mus\u00e9e"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2813,7 +2813,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/universite-rennes-2\/metavers\/presidence"
+                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/universite-rennes-2\/presidence"
                 }],
          "type":"tilelayer",
          "visible":false,
