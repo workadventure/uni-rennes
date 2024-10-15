@@ -290,7 +290,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/accueil-villejean" //
+                 "value":"\/@\/accueil-villejean"
                 }],
          "type":"tilelayer",
          "visible":true,
