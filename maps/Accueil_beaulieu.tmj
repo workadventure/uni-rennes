@@ -290,7 +290,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/accueil-villejean"
+                 "value":"\/@\/accueil-villejean" //
                 }],
          "type":"tilelayer",
          "visible":true,
