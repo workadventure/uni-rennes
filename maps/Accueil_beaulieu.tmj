@@ -28860,7 +28860,7 @@
         {
           "name": "exitUrl",
           "type": "string",
-          "value": "/@/universite-rennes-2/metavers/accueil-villejean"
+          "value": "/@/universite-rennes-2/accueil-villejean"
         }
       ],
       "x": 0,
@@ -57735,7 +57735,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "Accueil_beaulieu-chunk-1-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-1-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57771,7 +57771,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "Accueil_beaulieu-chunk-2-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-2-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57786,7 +57786,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "Accueil_beaulieu-chunk-3-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-3-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57801,7 +57801,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "Accueil_beaulieu-chunk-4-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-4-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57816,7 +57816,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "Accueil_beaulieu-chunk-5-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-5-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57831,7 +57831,7 @@
     {
       "columns": 16,
       "firstgid": 1281,
-      "image": "Accueil_beaulieu-chunk-6-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-6-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57846,7 +57846,7 @@
     {
       "columns": 16,
       "firstgid": 1537,
-      "image": "Accueil_beaulieu-chunk-7-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-7-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57861,7 +57861,7 @@
     {
       "columns": 16,
       "firstgid": 1793,
-      "image": "Accueil_beaulieu-chunk-8-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-8-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57876,7 +57876,7 @@
     {
       "columns": 16,
       "firstgid": 2049,
-      "image": "Accueil_beaulieu-chunk-9-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-9-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57891,7 +57891,7 @@
     {
       "columns": 16,
       "firstgid": 2305,
-      "image": "Accueil_beaulieu-chunk-10-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-10-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57906,7 +57906,7 @@
     {
       "columns": 16,
       "firstgid": 2561,
-      "image": "Accueil_beaulieu-chunk-11-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-11-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57921,7 +57921,7 @@
     {
       "columns": 16,
       "firstgid": 2817,
-      "image": "Accueil_beaulieu-chunk-12-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-12-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57936,7 +57936,7 @@
     {
       "columns": 16,
       "firstgid": 3073,
-      "image": "Accueil_beaulieu-chunk-13-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-13-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57951,7 +57951,7 @@
     {
       "columns": 16,
       "firstgid": 3329,
-      "image": "Accueil_beaulieu-chunk-14-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-14-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57966,7 +57966,7 @@
     {
       "columns": 16,
       "firstgid": 3585,
-      "image": "Accueil_beaulieu-chunk-15-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-15-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57981,7 +57981,7 @@
     {
       "columns": 16,
       "firstgid": 3841,
-      "image": "Accueil_beaulieu-chunk-16-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-16-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -57996,7 +57996,7 @@
     {
       "columns": 16,
       "firstgid": 4097,
-      "image": "Accueil_beaulieu-chunk-17-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-17-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58011,7 +58011,7 @@
     {
       "columns": 16,
       "firstgid": 4353,
-      "image": "Accueil_beaulieu-chunk-18-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-18-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58026,7 +58026,7 @@
     {
       "columns": 16,
       "firstgid": 4609,
-      "image": "Accueil_beaulieu-chunk-19-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-19-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58041,7 +58041,7 @@
     {
       "columns": 16,
       "firstgid": 4865,
-      "image": "Accueil_beaulieu-chunk-20-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-20-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58056,7 +58056,7 @@
     {
       "columns": 16,
       "firstgid": 5121,
-      "image": "Accueil_beaulieu-chunk-21-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-21-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58071,7 +58071,7 @@
     {
       "columns": 16,
       "firstgid": 5377,
-      "image": "Accueil_beaulieu-chunk-22-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-22-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58086,7 +58086,7 @@
     {
       "columns": 16,
       "firstgid": 5633,
-      "image": "Accueil_beaulieu-chunk-23-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-23-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58101,7 +58101,7 @@
     {
       "columns": 16,
       "firstgid": 5889,
-      "image": "Accueil_beaulieu-chunk-24-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-24-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58116,7 +58116,7 @@
     {
       "columns": 16,
       "firstgid": 6145,
-      "image": "Accueil_beaulieu-chunk-25-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-25-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58131,7 +58131,7 @@
     {
       "columns": 16,
       "firstgid": 6401,
-      "image": "Accueil_beaulieu-chunk-26-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-26-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58146,7 +58146,7 @@
     {
       "columns": 16,
       "firstgid": 6657,
-      "image": "Accueil_beaulieu-chunk-27-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-27-985cfee5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -58161,7 +58161,7 @@
     {
       "columns": 13,
       "firstgid": 6913,
-      "image": "Accueil_beaulieu-chunk-28-2e6ab0ef.png",
+      "image": "Accueil_beaulieu-chunk-28-985cfee5.png",
       "imageheight": 416,
       "imagewidth": 416,
       "margin": 0,
