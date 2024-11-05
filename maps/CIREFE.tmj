@@ -1434,9 +1434,9 @@
                 }, 
                 {
                  "class":"",
-                 "height":55.5,
+                 "height":113.5,
                  "id":37,
-                 "name":"",
+                 "name":"livre d'or",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1457,7 +1457,7 @@
                  "visible":true,
                  "width":103.5,
                  "x":1922.5,
-                 "y":325.5
+                 "y":294.166666666667
                 }, 
                 {
                  "class":"area",
