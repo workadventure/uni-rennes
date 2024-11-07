@@ -3118,7 +3118,7 @@
                 {
                  "height":43.3333333333334,
                  "id":20,
-                 "name":"",
+                 "name":"Module-Transport-spawn",
                  "properties":[
                         {
                          "name":"start",
@@ -3126,7 +3126,7 @@
                          "value":"Module-Transport"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":87.3333333333333,
                  "x":455.333333333333,
