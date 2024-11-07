@@ -3091,20 +3091,20 @@
                 {
                  "height":78.6666666666666,
                  "id":19,
-                 "name":"Module-Transport",
+                 "name":"Transport",
                  "properties":[
                         {
-                         "name":"onWebsite",
+                         "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/view.genially.com\/665ebe7576f55a0014e16783"
                         }, 
                         {
-                         "name":"onWebsiteTrigger",
+                         "name":"openWebsiteTrigger",
                          "type":"string",
                          "value":"onaction"
                         }, 
                         {
-                         "name":"onWebsiteTriggerMessage",
+                         "name":"openWebsiteTriggerMessage",
                          "type":"string",
                          "value":"Module Transport - Cliquez sur \"espace\""
                         }],
