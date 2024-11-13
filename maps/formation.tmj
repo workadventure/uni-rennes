@@ -465,7 +465,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10956, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -526,7 +526,7 @@
                  "y":532
                 }, 
                 {
-                 "height":114,
+                 "height":82,
                  "id":10,
                  "name":"poster",
                  "properties":[
@@ -538,9 +538,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":74,
-                 "x":302,
-                 "y":484
+                 "width":111,
+                 "x":279,
+                 "y":534.5
                 }, 
                 {
                  "height":119,
@@ -597,107 +597,9 @@
                  "y":79.3335
                 }, 
                 {
-                 "height":0,
-                 "id":18,
-                 "name":"Module1",
-                 "polygon":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":-1,
-                         "y":48
-                        }, 
-                        {
-                         "x":108,
-                         "y":47
-                        }, 
-                        {
-                         "x":108,
-                         "y":-76
-                        }, 
-                        {
-                         "x":0,
-                         "y":-76
-                        }, 
-                        {
-                         "x":0,
-                         "y":-53
-                        }, 
-                        {
-                         "x":84,
-                         "y":-53
-                        }, 
-                        {
-                         "x":84,
-                         "y":1
-                        }],
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/view.genial.ly\/65a7ef535c413a0014e0e871"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"formation au monde virtuel - Module 1 - Cliquez sur \"espace\""
-                        }, 
-                        {
-                         "name":"start",
-                         "type":"string",
-                         "value":"Module1"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":0,
-                 "x":15,
-                 "y":229
-                }, 
-                {
-                 "height":0,
-                 "id":19,
+                 "height":135.5,
+                 "id":22,
                  "name":"Module2",
-                 "polygon":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":-1,
-                         "y":48
-                        }, 
-                        {
-                         "x":108,
-                         "y":47
-                        }, 
-                        {
-                         "x":108,
-                         "y":-76
-                        }, 
-                        {
-                         "x":0,
-                         "y":-76
-                        }, 
-                        {
-                         "x":0,
-                         "y":-53
-                        }, 
-                        {
-                         "x":84,
-                         "y":-53
-                        }, 
-                        {
-                         "x":84,
-                         "y":1
-                        }],
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -722,144 +624,14 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":0,
-                 "x":595,
-                 "y":175
+                 "width":109,
+                 "x":594,
+                 "y":90.5
                 }, 
                 {
-                 "height":0,
-                 "id":20,
-                 "name":"Module3",
-                 "polygon":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":1,
-                         "y":48
-                        }, 
-                        {
-                         "x":-108,
-                         "y":47
-                        }, 
-                        {
-                         "x":-108,
-                         "y":-76
-                        }, 
-                        {
-                         "x":0,
-                         "y":-76
-                        }, 
-                        {
-                         "x":0,
-                         "y":-53
-                        }, 
-                        {
-                         "x":-84,
-                         "y":-53
-                        }, 
-                        {
-                         "x":-84,
-                         "y":1
-                        }],
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/view.genial.ly\/65a6727748e2b60014094fac"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"formation au monde virtuel - Module 3 - Cliquez sur \"espace\""
-                        }, 
-                        {
-                         "name":"start",
-                         "type":"string",
-                         "value":"Module3"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":0,
-                 "x":1453.66666666667,
-                 "y":345.333333333333
-                }, 
-                {
-                 "height":0,
-                 "id":21,
+                 "height":101.333333333333,
+                 "id":23,
                  "name":"Presentation",
-                 "polygon":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":-0.666666666666742,
-                         "y":34.6666666666667
-                        }, 
-                        {
-                         "x":10.6666666666666,
-                         "y":47.3333333333334
-                        }, 
-                        {
-                         "x":16,
-                         "y":66
-                        }, 
-                        {
-                         "x":16.6666666666666,
-                         "y":87.3333333333334
-                        }, 
-                        {
-                         "x":10.6666666666666,
-                         "y":95.3333333333334
-                        }, 
-                        {
-                         "x":20.6666666666666,
-                         "y":101.333333333333
-                        }, 
-                        {
-                         "x":21.3333333333333,
-                         "y":110.666666666667
-                        }, 
-                        {
-                         "x":21.3333333333333,
-                         "y":118
-                        }, 
-                        {
-                         "x":-25.3333333333334,
-                         "y":144.666666666667
-                        }, 
-                        {
-                         "x":-52.6666666666667,
-                         "y":134.666666666667
-                        }, 
-                        {
-                         "x":-107.333333333333,
-                         "y":149.333333333333
-                        }, 
-                        {
-                         "x":-63.3333333333334,
-                         "y":204
-                        }, 
-                        {
-                         "x":46,
-                         "y":182.666666666667
-                        }, 
-                        {
-                         "x":74,
-                         "y":114.666666666667
-                        }, 
-                        {
-                         "x":48,
-                         "y":37.3333333333334
-                        }],
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -884,9 +656,73 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":0,
-                 "x":574,
-                 "y":430.666666666667
+                 "width":120,
+                 "x":512,
+                 "y":500
+                }, 
+                {
+                 "height":123.5,
+                 "id":24,
+                 "name":"Module1",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/view.genial.ly\/65a7ef535c413a0014e0e871"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"formation au monde virtuel - Module 1 - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"Module1"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":113,
+                 "x":14,
+                 "y":147.25
+                }, 
+                {
+                 "height":135.5,
+                 "id":25,
+                 "name":"Module3",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/view.genial.ly\/65a6727748e2b60014094fac"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"formation au monde virtuel - Module 3 - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"Module3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":121,
+                 "x":1343.5,
+                 "y":250.25
                 }],
          "opacity":1,
          "properties":[
@@ -989,7 +825,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":22,
+ "nextobjectid":26,
  "orientation":"orthogonal",
  "properties":[
         {
