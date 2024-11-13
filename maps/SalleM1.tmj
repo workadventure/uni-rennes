@@ -1423,24 +1423,6 @@
                  "y":1646
                 }, 
                 {
-                 "class":"area",
-                 "ellipse":true,
-                 "height":69.3333333333335,
-                 "id":35,
-                 "name":"\u00e9tages CIREFE",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/view.genial.ly\/6613010e51ca9d00142e32f0"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":73.3333333333335,
-                 "x":2837.33333333333,
-                 "y":1646.66666666667
-                }, 
-                {
                  "class":"",
                  "height":113.5,
                  "id":37,
