@@ -1281,7 +1281,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":1146,
                  "id":24,
                  "name":"ChatZone",
@@ -1297,13 +1296,13 @@
                          "value":"Amphi"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":1568,
                  "x":222,
                  "y":294
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":25,
                  "name":"mapName",
@@ -1320,13 +1319,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":2608,
                  "y":1409
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":26,
                  "name":"accueil",
@@ -1337,14 +1336,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":2592,
                  "y":928
                 }, 
                 {
-                 "class":"area",
-                 "height":1050.30303030303,
                  "id":27,
                  "name":"ChatGeneral",
                  "properties":[
@@ -1354,13 +1352,10 @@
                          "value":"G\u00e9n\u00e9ral"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
-                 "width":3071.0303030303,
-                 "x":1890.9696969697,
-                 "y":387.69696969697
                 }, 
                 {
-                 "class":"area",
                  "height":141.333333333333,
                  "id":28,
                  "name":"jitsi 1",
@@ -1376,13 +1371,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":288,
                  "x":2093.33333333333,
                  "y":545.333333333333
                 }, 
                 {
-                 "class":"area",
                  "height":141.333,
                  "id":29,
                  "name":"jitsi 2",
@@ -1398,13 +1393,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":288,
                  "x":2093.33333333333,
                  "y":1032.00016666667
                 }, 
                 {
-                 "class":"area",
                  "height":141.333,
                  "id":30,
                  "name":"jitsi 3",
@@ -1420,13 +1415,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":288,
                  "x":2837.33333333333,
                  "y":1032.00016666667
                 }, 
                 {
-                 "class":"area",
                  "height":141.333,
                  "id":31,
                  "name":"jitsi 4",
@@ -1442,13 +1437,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":288,
                  "x":2832,
                  "y":558.666833333333
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":34,
                  "name":"my_dome",
@@ -1480,13 +1475,13 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":2789.33333333333,
                  "y":1646
                 }, 
                 {
-                 "class":"area",
                  "ellipse":true,
                  "height":69.3333333333335,
                  "id":35,
@@ -1498,13 +1493,13 @@
                          "value":"https:\/\/view.genial.ly\/6613010e51ca9d00142e32f0"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":73.3333333333335,
                  "x":2837.33333333333,
                  "y":1646.66666666667
                 }, 
                 {
-                 "class":"",
                  "height":113.5,
                  "id":37,
                  "name":"livre d'or",
@@ -1525,14 +1520,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos messages"
                         }],
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":103.5,
                  "x":1922.5,
                  "y":294.166666666667
                 }, 
                 {
-                 "class":"area",
-                 "height":69.0909090909088,
                  "id":38,
                  "name":"YT 2",
                  "properties":[
@@ -1547,14 +1541,8 @@
                          "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
-                 "width":271.757575757579,
-                 "x":228.030303030303,
-                 "y":306.272727272727
-                }, 
-                {
-                 "class":"area",
-                 "height":61.6057272727273,
                  "id":39,
                  "name":"Podium",
                  "properties":[
@@ -1574,13 +1562,13 @@
                          "value":"Podium"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":152.363303030303,
                  "x":527.212287878788,
                  "y":306.045621212118
                 }, 
                 {
-                 "class":"",
                  "height":19,
                  "id":43,
                  "name":"",
@@ -1590,32 +1578,13 @@
                      "text":"Livre d'or",
                      "wrap":true
                     },
+                 "type":"",
                  "visible":true,
                  "width":108,
                  "x":1926,
                  "y":271.833333333333
                 }, 
                 {
-                 "class":"area",
-                 "height":907.999666666667,
-                 "id":45,
-                 "name":"JED",
-                 "properties":[
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"JED"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"admin"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":1481.93939393939,
-                 "x":286.30303030303,
-                 "y":386.909257575758
                 }],
          "opacity":1,
          "properties":[
@@ -1772,7 +1741,6 @@
          "y":0
         }],
  "nextlayerid":79,
- "nextobjectid":46,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -1801,7 +1769,7 @@
          "value":"..\/src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -2320,6 +2288,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":163
 }
