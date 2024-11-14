@@ -1216,7 +1216,7 @@
          "objects":[
                 {
                  "class":"area",
-                 "height":1032,
+                 "height":354.666666666667,
                  "id":24,
                  "name":"ChatAmphitheatre",
                  "properties":[
@@ -1227,9 +1227,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":1568,
-                 "x":224,
-                 "y":408
+                 "width":597.333333333333,
+                 "x":1194.66666666667,
+                 "y":1085.33333333333
                 }, 
                 {
                  "class":"variable",
@@ -1270,23 +1270,6 @@
                  "width":32,
                  "x":2592,
                  "y":928
-                }, 
-                {
-                 "class":"area",
-                 "height":1120,
-                 "id":27,
-                 "name":"ChatGeneral",
-                 "properties":[
-                        {
-                         "name":"chatName",
-                         "type":"string",
-                         "value":"G\u00e9n\u00e9ral"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":3168,
-                 "x":1792,
-                 "y":320
                 }, 
                 {
                  "class":"area",
@@ -1461,7 +1444,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":663.333333333333,
+                 "height":114,
                  "id":38,
                  "name":"YT 2",
                  "properties":[
@@ -1477,13 +1460,13 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":1260.66666666667,
-                 "x":317,
-                 "y":406.333333333333
+                 "width":174.000000000003,
+                 "x":230.333333333333,
+                 "y":301
                 }, 
                 {
                  "class":"area",
-                 "height":134.333,
+                 "height":83.6663333333334,
                  "id":39,
                  "name":"Podium",
                  "properties":[
@@ -1499,9 +1482,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":249.333,
-                 "x":806.000166666667,
-                 "y":1118.16683333333
+                 "width":129.333,
+                 "x":411.3335,
+                 "y":302.16683333333
                 }, 
                 {
                  "class":"",
@@ -1518,10 +1501,32 @@
                  "width":108,
                  "x":1926,
                  "y":271.833333333333
+                }, 
+                {
+                 "class":"area",
+                 "height":859.514818181818,
+                 "id":47,
+                 "name":"JED",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Salle1"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"admin"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":1463.75757575758,
+                 "x":301.454545454545,
+                 "y":432.363803030303
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -1668,7 +1673,7 @@
          "y":0
         }],
  "nextlayerid":78,
- "nextobjectid":44,
+ "nextobjectid":48,
  "orientation":"orthogonal",
  "properties":[
         {
