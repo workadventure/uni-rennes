@@ -1343,7 +1343,6 @@
                  "y":928
                 }, 
                 {
-                 "height":1120,
                  "id":27,
                  "name":"ChatGeneral",
                  "properties":[
@@ -1355,9 +1354,6 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":3168,
-                 "x":1794,
-                 "y":318
                 }, 
                 {
                  "height":141.333333333333,
@@ -1531,7 +1527,6 @@
                  "y":294.166666666667
                 }, 
                 {
-                 "height":793.333333333333,
                  "id":38,
                  "name":"YT 2",
                  "properties":[
@@ -1548,12 +1543,6 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":1562.66666666667,
-                 "x":225,
-                 "y":312.333333333333
-                }, 
-                {
-                 "height":134.333,
                  "id":39,
                  "name":"Podium",
                  "properties":[
@@ -1575,9 +1564,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":249.333,
-                 "x":806.000166666667,
-                 "y":1118.16683333333
+                 "width":152.363303030303,
+                 "x":527.212287878788,
+                 "y":306.045621212118
                 }, 
                 {
                  "height":19,
@@ -1596,26 +1585,6 @@
                  "y":271.833333333333
                 }, 
                 {
-                 "height":1126.66633333333,
-                 "id":44,
-                 "name":"YT 2",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/live_stream?channel=UCDX5M3-pP_EoSfWPPyV6qnQ"
-                        }, 
-                        {
-                         "name":"openWebsitePolicy",
-                         "type":"string",
-                         "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":3208.12454545455,
-                 "x":1796.665,
-                 "y":305.3335
                 }],
          "opacity":1,
          "properties":[
@@ -1772,7 +1741,6 @@
          "y":0
         }],
  "nextlayerid":79,
- "nextobjectid":45,
  "orientation":"orthogonal",
  "properties":[
         {
