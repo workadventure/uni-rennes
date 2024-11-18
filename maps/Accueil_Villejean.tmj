@@ -3067,7 +3067,7 @@
                 {
                  "height":60,
                  "id":13,
-                 "name":"visite de rennes",
+                 "name":"Visite-de-Rennes",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -3083,6 +3083,11 @@
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
                          "value":"Visite de Rennes - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"Visite-de-Rennes-balade"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -3100,6 +3105,21 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.thinglink.com\/view\/scene\/1357170246300991491"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"FLEscape - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"FLEscape"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -3111,12 +3131,27 @@
                 {
                  "height":137.333333333333,
                  "id":15,
-                 "name":"Sortie EREVE",
+                 "name":"Sortie-ereve",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.thinglink.com\/view\/scene\/1886086680138482341"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Ereve \/ Bat R - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"Sortie-ereve"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -3128,12 +3163,27 @@
                 {
                  "height":92,
                  "id":16,
-                 "name":"accueil bat S",
+                 "name":"accueil-bat-S",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.thinglink.com\/view\/scene\/1886086681656820389"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"B\u00e2timent S - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"accueil-bat-S"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -3145,12 +3195,27 @@
                 {
                  "height":132,
                  "id":17,
-                 "name":"ereve",
+                 "name":"ereve-inside",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.thinglink.com\/view\/scene\/1886086688061522597"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Ereve \/ Bat R - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"ereve-inside"
                         }],
                  "rotation":0,
                  "type":"area",
