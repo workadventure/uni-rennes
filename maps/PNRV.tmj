@@ -506,7 +506,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21639, 21640, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21666, 21667, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21693, 21694, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22229, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -532,12 +532,27 @@
                 {
                  "height":112,
                  "id":2,
-                 "name":"visite 360",
+                 "name":"Visite-360",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.thinglink.com\/view\/scene\/1788189131210228580"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Visite de l'EDULAB - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"Visite-360"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -547,9 +562,9 @@
                  "y":908
                 }, 
                 {
-                 "height":83.5,
+                 "height":122.5,
                  "id":3,
-                 "name":"site EDULAB",
+                 "name":"site-EDULAB",
                  "properties":[
                         {
                          "name":"openTab",
@@ -564,7 +579,12 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour aller vers le site de l'Edulab"
+                         "value":"Site de l'edulab - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"site-EDULAB"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -591,6 +611,12 @@
                  "y":889
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -883,6 +909,41 @@
          "tilecount":200,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":18,
+         "firstgid":22103,
+         "image":"..\/tilesets\/LimeZu_24_User_Interface_32x32_edited.png",
+         "imageheight":448,
+         "imagewidth":576,
+         "margin":0,
+         "name":"LimeZu_24_User_Interface_32x32_edited",
+         "spacing":0,
+         "tilecount":252,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "animation":[
+                        {
+                         "duration":200,
+                         "tileid":126
+                        }, 
+                        {
+                         "duration":200,
+                         "tileid":127
+                        }, 
+                        {
+                         "duration":200,
+                         "tileid":128
+                        }, 
+                        {
+                         "duration":200,
+                         "tileid":129
+                        }],
+                 "id":126
+                }],
+         "tilewidth":32,
+         "transparentcolor":"#ff00ff"
         }],
  "tilewidth":32,
  "type":"map",
