@@ -416,7 +416,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":134.333333333333,
                  "id":10,
                  "name":"Podium",
@@ -432,13 +431,13 @@
                          "value":"speaker"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":193.333333333333,
-                 "x":796,
+                 "x":782,
                  "y":695.666666666667
                 }, 
                 {
-                 "class":"area",
                  "height":206,
                  "id":14,
                  "name":"YT 2",
@@ -454,13 +453,13 @@
                          "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":230,
                  "x":7,
                  "y":170
                 }, 
                 {
-                 "class":"area",
                  "height":887,
                  "id":15,
                  "name":"YT 2",
@@ -476,16 +475,16 @@
                          "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":289,
                  "x":1309,
                  "y":167.5
                 }, 
                 {
-                 "class":"area",
                  "height":118.666666666667,
                  "id":16,
-                 "name":"MOOC DECLAME'FLE",
+                 "name":"MOOC",
                  "properties":[
                         {
                          "name":"openTab",
@@ -496,14 +495,31 @@
                          "name":"openWebsiteTrigger",
                          "type":"string",
                          "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"MOOC DECLAME'FLE - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"MOOC"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":249.333333333333,
                  "x":822.666666666667,
                  "y":230.666666666667
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -629,7 +645,7 @@
          "value":"..\/src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -881,6 +897,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":50
 }
