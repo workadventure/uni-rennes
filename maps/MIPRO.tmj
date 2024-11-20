@@ -1,4 +1,12 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"tmx",
+         "target":"MIPRO..tmx"
+        }
+    },
  "height":18,
  "infinite":false,
  "layers":[
@@ -26,7 +34,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -52,7 +60,7 @@
             9772, 0, 9772, 9772, 0, 9772, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":18,
          "id":25,
-         "name":"collision",
+         "name":"collisions",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -84,7 +92,7 @@
          "name":"sol",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -113,7 +121,7 @@
          "name":"sol m\u00e9tro",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -142,7 +150,7 @@
          "name":"fl\u00e8ches",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -200,7 +208,7 @@
          "name":"logo",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -229,7 +237,7 @@
          "name":"metro",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -258,7 +266,7 @@
          "name":"int\u00e9rieur m\u00e9tro",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -287,7 +295,7 @@
          "name":"mur",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
