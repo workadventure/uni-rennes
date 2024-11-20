@@ -1653,7 +1653,7 @@
                 {
                  "height":219.01667749621,
                  "id":24,
-                 "name":"13-UR1",
+                 "name":"13_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1673,7 +1673,7 @@
                         {
                          "name":"start",
                          "type":"string",
-                         "value":"13-UR1"
+                         "value":"13_UR1"
                         }],
                  "rotation":0,
                  "type":"area",
