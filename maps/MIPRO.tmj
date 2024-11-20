@@ -548,7 +548,7 @@
       "name": "start",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "x": 0,
       "y": 0
@@ -1098,7 +1098,7 @@
       ],
       "height": 18,
       "id": 25,
-      "name": "collision",
+      "name": "collisions",
       "opacity": 1,
       "type": "tilelayer",
       "visible": true,
@@ -1654,7 +1654,7 @@
       "name": "sol",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "x": 0,
       "y": 0
@@ -2207,7 +2207,7 @@
       "name": "sol métro",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "x": 0,
       "y": 0
@@ -2760,7 +2760,7 @@
       "name": "flèches",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "x": 0,
       "y": 0
@@ -3866,7 +3866,7 @@
       "name": "logo",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "x": 0,
       "y": 0
@@ -4419,7 +4419,7 @@
       "name": "metro",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "x": 0,
       "y": 0
@@ -4972,7 +4972,7 @@
       "name": "intérieur métro",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "x": 0,
       "y": 0
@@ -5525,7 +5525,7 @@
       "name": "mur",
       "opacity": 1,
       "type": "tilelayer",
-      "visible": false,
+      "visible": true,
       "width": 30,
       "x": 0,
       "y": 0
@@ -7759,7 +7759,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "MIPRO-chunk-1-ae469bce.png",
+      "image": "MIPRO-chunk-1-3f4abbc7.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -7795,7 +7795,7 @@
     {
       "columns": 6,
       "firstgid": 257,
-      "image": "MIPRO-chunk-2-ae469bce.png",
+      "image": "MIPRO-chunk-2-3f4abbc7.png",
       "imageheight": 192,
       "imagewidth": 192,
       "margin": 0,
@@ -7819,5 +7819,11 @@
   "tileheight": 32,
   "tilewidth": 32,
   "version": "1.10",
-  "width": 30
+  "width": 30,
+  "editorsettings": {
+    "export": {
+      "format": "tmx",
+      "target": "MIPRO..tmx"
+    }
+  }
 }
