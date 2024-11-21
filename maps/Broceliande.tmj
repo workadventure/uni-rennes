@@ -383,7 +383,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.10.2",
+ "tiledversion":"1.9.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -561,12 +561,12 @@
          "margin":0,
          "name":"Henry_David_Thoreau",
          "spacing":0,
-         "tilecount":12,
+         "tilecount":6,
          "tileheight":32,
          "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.10",
+ "version":"1.9",
  "width":65
 }
