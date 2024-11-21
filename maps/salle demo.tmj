@@ -381,7 +381,7 @@
          "name":"fireLight",
          "opacity":0.73,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":30,
          "x":0,
          "y":0
@@ -412,7 +412,7 @@
          "name":"darkness",
          "opacity":0.73,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":30,
          "x":0,
          "y":0
