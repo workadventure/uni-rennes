@@ -310,7 +310,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":50,
          "id":9,
-         "name":"AbovePlayer1",
+         "name":"abovePlayer1",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -371,7 +371,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":50,
          "id":11,
-         "name":"AbovePlayer2",
+         "name":"abovePlayer2",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -383,7 +383,11 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
-  "tiledversion":"1.9.1",
+<<<<<<< Updated upstream
+ "tiledversion":"1.11.0",
+=======
+ "tiledversion":"1.9.1",
+>>>>>>> Stashed changes
  "tileheight":32,
  "tilesets":[
         {
@@ -434,7 +438,8 @@
                         }]
                 }],
          "tilewidth":32
-        }
+<<<<<<< Updated upstream
+=======
         }, 
         {
          "columns":20,
@@ -578,9 +583,10 @@
          "tilecount":6,
          "tileheight":32,
          "tilewidth":32
-],
+>>>>>>> Stashed changes
+        }],
  "tilewidth":32,
  "type":"map",
- "version":"1.10",
+ "version":"1.9",
  "width":65
 }
