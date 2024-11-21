@@ -9,7 +9,6 @@ const sub = WA.room.onEnterLayer("fireLight").subscribe(() => {
   WA.room.onLeaveLayer("fireLight").subscribe(() => {
     WA.room.hideLayer("fireLight");
     WA.room.hideLayer("darkness");
-    sub.unsubscribe();
   });
 
 // Create a new website object
