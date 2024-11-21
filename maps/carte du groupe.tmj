@@ -316,7 +316,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":20,
          "id":17,
-         "name":"d\u00e9co",
+         "name":"deco",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -431,12 +431,6 @@
  "nextlayerid":18,
  "nextobjectid":1,
  "orientation":"orthogonal",
- "properties":[
-        {
-         "name":"script",
-         "type":"string",
-         "value":".\/src\/main.ts"
-        }],
  "renderorder":"right-down",
  "tiledversion":"1.11.0",
  "tileheight":32,
