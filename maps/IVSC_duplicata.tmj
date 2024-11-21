@@ -1325,6 +1325,17 @@
                  "width":0,
                  "x":1120.25,
                  "y":636.75
+                }, 
+                {
+                 "height":228,
+                 "id":9,
+                 "name":"Zone de test",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":121.333333333333,
+                 "x":1008,
+                 "y":182.666666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1486,7 +1497,7 @@
          "y":0
         }],
  "nextlayerid":40,
- "nextobjectid":9,
+ "nextobjectid":10,
  "orientation":"orthogonal",
  "properties":[
         {
