@@ -267,7 +267,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/campus#from-rennes1"
+                 "value":"\/@\/campus#from-rennes1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -453,7 +453,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes1-amphi#from-amphi"
+                 "value":"\/@\/rennes1-amphi#from-amphi"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1163,7 +1163,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":150,
                  "id":18,
                  "name":"jiTSI1",
@@ -1179,13 +1178,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":92,
                  "x":1122,
                  "y":416
                 }, 
                 {
-                 "class":"area",
                  "height":576,
                  "id":20,
                  "name":"L207_Website",
@@ -1194,15 +1193,30 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/view.genial.ly\/63c64bec8790d50011d838a9"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Exemple de didacticiel des NIPROS - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"L207_Website"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":576,
                  "x":32,
                  "y":96
                 }, 
                 {
-                 "class":"area",
                  "height":56.9999666666668,
                  "id":21,
                  "name":"digipad",
@@ -1223,13 +1237,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1023.66666666667,
                  "y":497.666666666667
                 }, 
                 {
-                 "class":"area",
                  "height":192,
                  "id":23,
                  "name":"L207",
@@ -1250,13 +1264,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":288,
                  "x":32,
                  "y":736
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":24,
                  "name":"L208",
@@ -1277,13 +1291,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":288,
                  "x":32,
                  "y":2176
                 }, 
                 {
-                 "class":"area",
                  "height":192,
                  "id":25,
                  "name":"L248",
@@ -1304,13 +1318,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":3360,
                  "y":736
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":26,
                  "name":"L249",
@@ -1331,81 +1345,121 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":3360,
                  "y":2176
                 }, 
                 {
-                 "class":"area",
                  "height":544,
                  "id":27,
-                 "name":"22 UR1",
+                 "name":"22_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/LcEXe97Zml8"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Travaux pratiques de reverse engineering au scanner - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"22_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":248,
                  "x":32,
                  "y":1568
                 }, 
                 {
-                 "class":"area",
                  "height":576,
                  "id":28,
-                 "name":"11 UR1",
+                 "name":"11_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/player.vimeo.com\/video\/798684327?h=20818fbb98"
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"11_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":576,
                  "x":3040,
                  "y":96
                 }, 
                 {
-                 "class":"area",
                  "height":544,
                  "id":29,
-                 "name":"19 UR1",
+                 "name":"19_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/NBhjkoggF98"
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"19_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":576,
                  "x":3040,
                  "y":1568
                 }, 
                 {
-                 "class":"area",
                  "height":100,
                  "id":30,
-                 "name":"30 UR1",
+                 "name":"30_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/COI70r2NSkM"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Pr\u00e9sentation du master Gestion de l'environnement - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"30_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":103,
                  "x":1231.33,
                  "y":754
                 }, 
                 {
-                 "class":"area",
                  "height":57,
                  "id":31,
                  "name":"coordonn\u00e9es",
@@ -1426,13 +1480,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1020,
                  "y":1189.667
                 }, 
                 {
-                 "class":"area",
                  "height":122,
                  "id":32,
                  "name":"CN",
@@ -1448,16 +1502,16 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":86,
                  "x":1112.33,
                  "y":1144
                 }, 
                 {
-                 "class":"area",
                  "height":57,
                  "id":33,
-                 "name":"24 UR1",
+                 "name":"24_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1472,16 +1526,21 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
+                         "value":"Pr\u00e9sentation de la license info\/elec - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"24_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":69,
                  "x":992,
                  "y":1079.667
                 }, 
                 {
-                 "class":"area",
                  "height":57,
                  "id":35,
                  "name":"EN_Form",
@@ -1502,13 +1561,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1024,
                  "y":1553.667
                 }, 
                 {
-                 "class":"area",
                  "height":156,
                  "id":36,
                  "name":"ES",
@@ -1524,16 +1583,16 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1114.33,
                  "y":1856
                 }, 
                 {
-                 "class":"area",
                  "height":73,
                  "id":37,
-                 "name":"26 UR1",
+                 "name":"26_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1548,19 +1607,24 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
+                         "value":"Vid\u00e9o de pr\u00e9sentation du PASS (parcours d'acc\u00e8s sp\u00e9cifique sant\u00e9) - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"26_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":82,
                  "x":988,
                  "y":1818.667
                 }, 
                 {
-                 "class":"area",
                  "height":135,
                  "id":38,
-                 "name":"29 UR1",
+                 "name":"29_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1568,50 +1632,80 @@
                          "value":"https:\/\/video.univ-rennes1.fr\/permalink\/v12618e55801b1phcawv\/iframe\/"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":85,
                  "x":2323.33,
                  "y":380
                 }, 
                 {
-                 "class":"area",
                  "height":118,
                  "id":40,
-                 "name":"33 UR1",
+                 "name":"33_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/MMO3Zdl0zL8"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Vid\u00e9o de pr\u00e9sentation de l'IGR-IAE Rennes - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"33_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":84,
                  "x":2324,
                  "y":737
                 }, 
                 {
-                 "class":"area",
                  "height":162,
                  "id":42,
-                 "name":"14 UR1",
+                 "name":"14_UR1",
                  "properties":[
                         {
                          "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/mon-espace.siuaps.univ-rennes.fr\/#activites"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Liste des activit\u00e9s disponibles avec le cursus SIUAPS - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"14_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":78,
                  "x":2328,
                  "y":1059
                 }, 
                 {
-                 "class":"area",
                  "height":84,
                  "id":43,
-                 "name":"15 UR1 ",
+                 "name":"15_UR1 ",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1626,33 +1720,53 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Appuyez sur ESPACE ou touchez pour voir la vid\u00e9o"
+                         "value":"Vid\u00e9o de pr\u00e9sentation du cursus SIUAPS - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"15_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":89,
                  "x":2583.17,
                  "y":1063.167
                 }, 
                 {
-                 "class":"area",
                  "height":104,
                  "id":44,
-                 "name":"16",
+                 "name":"16_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/Zyxl2hVc1yg"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Vid\u00e9o de pr\u00e9sentation de l'alternance - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"16_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":86,
                  "x":2322,
                  "y":1446
                 }, 
                 {
-                 "class":"area",
                  "height":182,
                  "id":46,
                  "name":"FR",
@@ -1668,16 +1782,16 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":100,
                  "x":2440,
                  "y":1860
                 }, 
                 {
-                 "class":"area",
                  "height":83,
                  "id":47,
-                 "name":"17 UR1",
+                 "name":"17_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1693,15 +1807,20 @@
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
                          "value":"Appuyez sur ESPACE ou touchez pour voir la vid\u00e9o"
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"17_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":80,
                  "x":2583.17,
                  "y":1794.167
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":48,
                  "name":"Cafet",
@@ -1722,13 +1841,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":384,
                  "x":1632,
                  "y":1152
                 }, 
                 {
-                 "class":"area",
                  "height":72.5,
                  "id":50,
                  "name":"info",
@@ -1747,15 +1866,20 @@
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
                          "value":"Appuyez sur ESPACE ou touchez pour ouvrir le Appuyez sur ESPACE ou touchez pour ouvrir le panneau d\u2019information"
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"info"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":52.75,
                  "x":1909.33333333333,
                  "y":2112.29166666667
                 }, 
                 {
-                 "class":"area",
                  "height":72.5,
                  "id":51,
                  "name":"survey",
@@ -1776,16 +1900,16 @@
                          "value":"Appuyez sur ESPACE ou touchez pour ouvrir le questionnaire d\u2019\u00e9valuation de la plateforme"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":52.75,
                  "x":1684.33333333333,
                  "y":2113.04166666667
                 }, 
                 {
-                 "class":"area",
                  "height":81,
                  "id":52,
-                 "name":"VISITE 360 SCD",
+                 "name":"VISITE-360-SCD",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1796,15 +1920,25 @@
                          "name":"openWebsiteTrigger",
                          "type":"string",
                          "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Visite des BU de l'universit\u00e9 de Rennes - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"VISITE-360-SCD"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":102.25,
                  "x":248.125,
                  "y":1172
                 }, 
                 {
-                 "class":"area",
                  "height":47,
                  "id":53,
                  "name":"L208_Website_Bonus",
@@ -1820,16 +1954,16 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":48.25,
                  "x":249.125,
                  "y":1368
                 }, 
                 {
-                 "class":"area",
                  "height":47,
                  "id":54,
-                 "name":"1 UR1",
+                 "name":"1_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1840,15 +1974,25 @@
                          "name":"openWebsiteTrigger",
                          "type":"string",
                          "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Vid\u00e9o de bande annonce de soir\u00e9e - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"1_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":48.25,
                  "x":3417.625,
                  "y":1107.75
                 }, 
                 {
-                 "class":"area",
                  "height":47,
                  "id":55,
                  "name":"L249_Website_Bonus",
@@ -1862,69 +2006,92 @@
                          "name":"openWebsiteTrigger",
                          "type":"string",
                          "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Bonus L249 - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"L249_Website_Bonus"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":48.25,
                  "x":3352.875,
                  "y":1368.5
                 }, 
                 {
-                 "class":"area",
-                 "height":66,
-                 "id":64,
-                 "name":"ressourceUR1",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/qc3gEyikfLo"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":88,
-                 "x":88,
-                 "y":1033
-                }, 
-                {
-                 "class":"area",
                  "height":66,
                  "id":65,
-                 "name":"4 UR1",
+                 "name":"4_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/lBHkzgN-8ws"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Vid\u00e9o Bienvenue \u00e0 la BU de l'universit\u00e9 de Rennes - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"4_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":88,
                  "x":254,
                  "y":1029
                 }, 
                 {
-                 "class":"area",
                  "height":112,
                  "id":66,
-                 "name":"5 UR1",
+                 "name":"5_UR1",
                  "properties":[
                         {
                          "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/bibliotheques.univ-rennes.fr\/"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Site des BU de l'universit\u00e9 de Rennes - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"5_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":50,
                  "x":96,
                  "y":1163
                 }, 
                 {
-                 "class":"area",
                  "height":74,
                  "id":67,
-                 "name":"6 UR1",
+                 "name":"6_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1932,186 +2099,326 @@
                          "value":"https:\/\/www.youtube.com\/embed\/jwDFZTgjzAo"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":90,
                  "x":3396,
                  "y":984
                 }, 
                 {
-                 "class":"area",
                  "height":52,
                  "id":68,
-                 "name":"9 UR1",
+                 "name":"9_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/WBu8WJ2ArLs"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Diaporama de la hauteur - Marc Loyon - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"9_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":178,
                  "x":3338,
                  "y":1178
                 }, 
                 {
-                 "class":"area",
                  "height":66,
                  "id":69,
-                 "name":"10 UR1",
+                 "name":"10_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/UDzOtA6vZnM"
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"10_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":48,
                  "x":3244,
                  "y":1120
                 }, 
                 {
-                 "class":"area",
                  "height":544,
                  "id":70,
-                 "name":"21 UR1",
+                 "name":"21_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/oJYKfCM6V9A"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Optimisation topologique - projet v\u00e9lo - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"21_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":248,
                  "x":354,
                  "y":1572
                 }, 
                 {
-                 "class":"area",
                  "height":122,
                  "id":71,
-                 "name":"31 UR1",
+                 "name":"31_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/osur.univ-rennes.fr\/sites\/osur.univ-rennes.fr\/files\/styles\/max_2600x2600\/public\/medias\/images\/Geosciences_metiers_avenir_HDm.jpg?itok=tfXj3nPm"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"R\u00e9capitulatif OSUR (d\u00e9bouch\u00e9s d'\u00e9tudes) - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"31_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":58,
                  "x":1256,
                  "y":394
                 }, 
                 {
-                 "class":"area",
                  "height":130,
                  "id":73,
-                 "name":"32 UR1",
+                 "name":"32_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/CrPrln0L70w"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Vid\u00e9o de pr\u00e9sentation du portail info - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"32_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":76,
                  "x":1230,
                  "y":1084
                 }, 
                 {
-                 "class":"area",
                  "height":78,
                  "id":74,
-                 "name":"25 UR1",
+                 "name":"25_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.univ-rennes.fr\/sites\/www.univ-rennes.fr\/files\/medias\/files\/Fiche-portail_2023_ISTN_V10.01.2023.pdf"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Pdf de pr\u00e9sentation de la license ISNT - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"25_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":88,
                  "x":1066,
                  "y":1300
                 }, 
                 {
-                 "class":"area",
                  "height":194,
                  "id":75,
-                 "name":"7 UR1",
+                 "name":"7_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/lHY0Zdwy33E"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Vid\u00e9o de la galerie de zoologie de l'universit\u00e9 de Rennes - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"7_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":110,
                  "x":1242,
                  "y":1386
                 }, 
                 {
-                 "class":"area",
                  "height":106,
                  "id":76,
-                 "name":"23 UR1",
+                 "name":"23_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/qXaEL07jGo8"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Pr\u00e9sentation du portail Biologie environnement chimie du vivant - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"23_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":82,
                  "x":984,
                  "y":1394
                 }, 
                 {
-                 "class":"area",
                  "height":104,
                  "id":77,
-                 "name":"27 UR1",
+                 "name":"27_UR1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.univ-rennes.fr\/sites\/www.univ-rennes.fr\/files\/medias\/files\/Fiche_PASS_2023_V14.12.2022.pdf"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Pdf de pr\u00e9sentation du PASS (parcours d'acc\u00e8s sp\u00e9cifique sant\u00e9) - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"27_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":98,
                  "x":1220,
                  "y":1778
                 }, 
                 {
-                 "class":"area",
                  "height":86,
                  "id":78,
-                 "name":"28 UR1",
+                 "name":"28_UR1",
                  "properties":[
                         {
                          "name":"OpenWebsite",
                          "type":"string",
                          "value":"https:\/\/www.univ-rennes.fr\/sites\/www.univ-rennes.fr\/files\/medias\/files\/fiche_l.as_2022_v21.02.2022_0.pdf"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Pdf de pr\u00e9sentation de la licence acc\u00e8s sant\u00e9 - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"26_UR1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":116,
                  "x":1196,
                  "y":2000
                 }, 
                 {
-                 "class":"area",
                  "height":122,
                  "id":81,
-                 "name":"vid\u00e9o pr\u00e9sentation ",
+                 "name":"Presentation",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -2126,16 +2433,21 @@
                         {
                          "name":"openWebsiteTiggerMessage",
                          "type":"string",
-                         "value":"Appuyez sur ESPACE pour voir la ressource"
+                         "value":"Pr\u00e9sentation de la formation PCSTM (Physique-Chimie Sciences de la Terre et M\u00e9canique) - Cliquez sur \"espace\""
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"Presentation"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":90,
                  "x":2307,
                  "y":1784
                 }, 
                 {
-                 "class":"area",
                  "height":83,
                  "id":82,
                  "name":"DIGIPAD",
@@ -2156,13 +2468,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":80,
                  "x":2564,
                  "y":1917.5
                 }, 
                 {
-                 "class":"area",
                  "height":182,
                  "id":86,
                  "name":"IT",
@@ -2178,13 +2490,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":100,
                  "x":2450,
                  "y":1459
                 }, 
                 {
-                 "class":"area",
                  "height":83,
                  "id":87,
                  "name":"DIGIPAD",
@@ -2205,13 +2517,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":80,
                  "x":2569,
                  "y":1529.5
                 }, 
                 {
-                 "class":"area",
                  "height":83,
                  "id":88,
                  "name":"DIGIPAD",
@@ -2232,13 +2544,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":80,
                  "x":2562,
                  "y":1173.5
                 }, 
                 {
-                 "class":"area",
                  "height":182,
                  "id":89,
                  "name":"JP",
@@ -2254,13 +2566,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":100,
                  "x":2445,
                  "y":766
                 }, 
                 {
-                 "class":"area",
                  "height":83,
                  "id":90,
                  "name":"DIGIPAD",
@@ -2281,13 +2593,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":80,
                  "x":2568,
                  "y":825.5
                 }, 
                 {
-                 "class":"area",
                  "height":182,
                  "id":91,
                  "name":"JP",
@@ -2303,13 +2615,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":100,
                  "x":2454,
                  "y":1104
                 }, 
                 {
-                 "class":"area",
                  "height":83,
                  "id":92,
                  "name":"DIGIPAD",
@@ -2330,13 +2642,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":80,
                  "x":2563,
                  "y":480.5
                 }, 
                 {
-                 "class":"area",
                  "height":182,
                  "id":93,
                  "name":"Jitsi",
@@ -2352,13 +2664,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":100,
                  "x":2443,
                  "y":413
                 }, 
                 {
-                 "class":"area",
                  "height":150,
                  "id":94,
                  "name":"jiTSI2",
@@ -2374,13 +2686,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":92,
                  "x":1110,
                  "y":776
                 }, 
                 {
-                 "class":"area",
                  "height":57,
                  "id":95,
                  "name":"BZH_Form",
@@ -2401,13 +2713,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1037,
                  "y":849.5
                 }, 
                 {
-                 "class":"area",
                  "height":136,
                  "id":96,
                  "name":"CN",
@@ -2423,13 +2735,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":86,
                  "x":1112,
                  "y":1474
                 }, 
                 {
-                 "class":"area",
                  "height":57,
                  "id":97,
                  "name":"EN_Form2",
@@ -2450,12 +2762,19 @@
                          "value":"Appuyez sur ESPACE ou touchez pour laisser vos coordonn\u00e9es"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1021,
                  "y":1938.5
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -2637,7 +2956,7 @@
          "y":0
         }],
  "nextlayerid":57,
- "nextobjectid":98,
+ "nextobjectid":99,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -2671,7 +2990,7 @@
          "value":true
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -3202,6 +3521,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":114
 }

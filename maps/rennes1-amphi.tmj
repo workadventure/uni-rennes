@@ -124,7 +124,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/universite-rennes-2\/metavers\/rennes1#from-amphi"
+                 "value":"\/@\/rennes1#from-amphi"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -510,7 +510,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":96,
                  "id":18,
                  "name":"Amphi_Bureau",
@@ -526,13 +525,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":1056,
                  "x":160,
                  "y":1504
                 }, 
                 {
-                 "class":"area",
                  "height":952.909750866196,
                  "id":19,
                  "name":"Amphi_Website",
@@ -541,14 +540,26 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/player.vimeo.com\/video\/809110292?h=77f2f4d4ff"
+                        }, 
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"Amphi_Website"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":1008.31941923775,
                  "x":41.2268602540837,
                  "y":224.211846229995
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -713,7 +724,7 @@
          "value":true
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -1027,6 +1038,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":39
 }
