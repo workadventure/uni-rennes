@@ -1,6 +1,6 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 
-import { cpSync } from "fs";
+// import { cpSync } from "fs";
 
 // préparer le son "fireSound.ogg" =======================
 var fireSound = WA.sound.loadSound("../public/fireSound.ogg");
@@ -44,7 +44,7 @@ WA.ui.onRemotePlayerClicked.subscribe((remotePlayer) => {
 //=====================================================================
 
 // Ajouter un nouveau site dans une zone sur la carte ====
-const website = WA.room.website.create({
+WA.room.website.create({
     name: "my_website",
     url: "https://www.youtube.com/embed/lBHkzgN-8ws",
     position: {
@@ -65,7 +65,7 @@ const website = WA.room.website.create({
 
 
 //Type à metter en paramètre de la fonction
-interface CreateUIWebsiteEvent {
+/*interface CreateUIWebsiteEvent {
     url: string,            // URL du site internet
     visible?: boolean,      // Si la zone doit ou pas être visible
     allowApi?: boolean,     // autoriser le site à utiliser l'api Workadventure
@@ -84,10 +84,10 @@ interface CreateUIWebsiteEvent {
         left?: string,
         right?: string,
     },
-}
+}*/
 
 // Type de la "promesse" renvoyée par la fonction, les champs avec "?" sont facultatifs
-interface UIWebsite {
+/*interface UIWebsite {
     readonly id: string,            // Identifiant unique
     url: string,                    // URL
     visible: boolean,               // visibilité
@@ -108,7 +108,7 @@ interface UIWebsite {
         right?: string,
     },
     close(): Promise<void>,         // Fermeture de l'instance actuelle
-}
+}*/
 
 // -> utilisation: 
 const myWebsite = await WA.ui.website.open({
