@@ -1,9 +1,9 @@
 /// <reference types="@workadventure/iframe-api-typings" />
-
+import "./main.js";
 // import { cpSync } from "fs";
 
 // préparer le son "fireSound.ogg" =======================
-var fireSound = WA.sound.loadSound("../public/fireSound.ogg");
+var fireSound = WA.sound.loadSound("../fireSound.ogg"); // le dossier public est cast en racine du repo donc il faut juste revenir à la racine en chemin relatif
 var config = {
       volume : 0.75,
       loop : true,
@@ -62,7 +62,7 @@ const run = async () => {
     });
   //========================================================
 
-  // Pour ouvir un site internet dans une zone donnée ======
+  // Pour ouvir un site internet dans une zone sur l'écran ======
 
 
   //Type à metter en paramètre de la fonction
@@ -113,7 +113,7 @@ const run = async () => {
 
   // -> utilisation: 
   const myWebsite = await WA.ui.website.open({
-    url: "https://wikipedia.org",
+    url: "https://www.youtube.com/embed/lBHkzgN-8ws",
     position: {
         vertical: "middle",
         horizontal: "left",
@@ -149,10 +149,11 @@ const run = async () => {
     allowApi: true,                   // Autorisation (obligatoire)
     position: "left",                 // Position (facultatif) par défaut à droite | "center" OU "left" OU "right"|
   }, () => {                          // Fonction appelée à la fermeture
-    console.info  ('The modal wa closed');
+    console.info  ('The modal was closed');
+    WA.ui.modal.closeModal();
   });
 
-  WA.ui.modal.closeModal() // Pour fermer un modal
+  // WA.ui.modal.closeModal() // Pour fermer un modal
 
   //========================================================
 
@@ -171,7 +172,7 @@ const run = async () => {
 
   // Ajouter un nouveau bouton logo au menu
 
-  const bouton_chelou = await WA.ui.website.open({
+  const Stitch = await WA.ui.website.open({
     url: "https://i.etsystatic.com/42919322/r/il/5da703/5702221647/il_570xN.5702221647_ibkz.jpg",
     position: {
         vertical: "middle",
@@ -191,7 +192,7 @@ const run = async () => {
     toolTip: "Ahhhh",
     callback: (event) => {
       console.log("Il a cliqué sur le logo chelouuuu", event);
-      bouton_chelou.visible === true ? bouton_chelou.visible = false : bouton_chelou.visible = true;
+      Stitch.visible === true ? Stitch.visible = false : Stitch.visible = true; // Ligne vaudou pour rendre la visibilité de Stitch en toggle
     }
   });
 };

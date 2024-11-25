@@ -20,27 +20,27 @@ WA.onInit().then(() => {
 
     const mapUrl = WA.room.mapURL
     const root = mapUrl.substring(0, mapUrl.lastIndexOf("/"))
-    let currentMapName = "campus"
+    console.log("root is: ", root);
+    let currentMapName = WA.room.mapURL;
 
     if(WA.player.tags.includes("admin")) {
         WA.player.setOutlineColor(0, 119, 141);
     }
 
     WA.ui.actionBar.addButton({
-        id: 'move-btn',
+        id: 'home',
         type: 'action',
         imageSrc: root + '/../arrows-to-center.svg',
         toolTip: "M'envoyer à l'accueil de Villejean",
         callback: () => {
             console.log("Returning to starting point from " + currentMapName);
-            // If the player is already on the destination map, the page won't reload and the moveTo parameter won't be applied
-            // So we make a direct call to the moveTo feature instead using the API
+            // changes the url to homepage
             if (currentMapName === "accueil-villejean") {
                 const x = 25 * 32;
                 const y = 7 * 32;
                 WA.player.moveTo(x, y);
             } else {
-                WA.nav.goToRoom("https://play.workadventu.re/@/universite-rennes-2/metavers/accueil-villejean#moveTo=from-presidence")
+                WA.nav.goToRoom("https://mondevirtuel.univ-rennes2.fr/@/accueil-villejean#from-presidence")
             }
         }
     });
