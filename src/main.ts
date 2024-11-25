@@ -40,7 +40,7 @@ WA.onInit().then(() => {
                 const y = 7 * 32;
                 WA.player.moveTo(x, y);
             } else {
-                WA.nav.goToRoom("https://mondevirtuel.univ-rennes2.fr/@/universite-rennes-2/metavers/accueil-villejean#from-presidence")
+                WA.nav.goToRoom("https://mondevirtuel.univ-rennes2.fr/@/accueil-villejean#from-presidence")
             }
         }
     });
