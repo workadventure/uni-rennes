@@ -22,9 +22,22 @@ const live = await WA.ui.website.open({
     }
 });
 
+function isAllowed(tags: string[]): boolean {
+    for (const tag of tags) {
+        if (tag === "admin")
+            return true;
+        if (tag === "speaker")
+            return true;
+        if (tag === "lecteur")
+            return true; 
+    }
+    return false; // Le joueur ne peut pas entrer en live si il n'est pas admin, speaker ou lecteur
+};
+
 WA.room.area.onEnter("scene").subscribe(() => { // Accorder l'accès à la scene selon les tags
     console.log("Tags: ", WA.player.tags);
-    if ("admin" in WA.player.tags || "speaker" in WA.player.tags || "lecteur" in WA.player.tags) {
+    if (isAllowed(WA.player.tags)) {
+        console.log("Ouverture pour un.e", WA.player.tags);
         WA.room.hideLayer("floor/collisions-scene");
     }
 });
