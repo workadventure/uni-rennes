@@ -29,10 +29,11 @@ WA.room.area.onEnter("scene").subscribe(() => { // Accorder l'accès à la scene
     }
 });
 WA.room.area.onLeave("scene").subscribe(() => { // Accorder l'accès à la scene selon les tags
-    WA.room.hideLayer("floor/collisions-scene");
+    WA.room.showLayer("floor/collisions-scene");
 });
 
 WA.room.area.onEnter("Podium").subscribe(() => {live.visible = false;}); // Couper le live pour ceux sur scène
+WA.room.area.onLeave("Podium").subscribe(() => {live.visible = true;}); // Couper le live pour ceux sur scène
 WA.room.onEnterLayer("floor/speaker").subscribe(() => { // Couper le son des participants en backstage
     live.visible = true;
 });
