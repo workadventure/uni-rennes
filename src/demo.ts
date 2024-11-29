@@ -16,8 +16,8 @@ var config = {
 // faire jouer le son: fireSound.play(config);
 // arrêter le son: fireSound.stop();
 // ==========================================================
-
 const run = async () => {
+
   // Afficher/Cacher certains layers quand on entre/sort d'un layer ==
   WA.room.onEnterLayer("fireLight").subscribe(() => {
       WA.room.showLayer("fireLight");
@@ -32,6 +32,10 @@ const run = async () => {
   });
 
   // =================================================================
+
+  // Ajouter un Popup
+
+
 
   // Ajouter des actions possible qaund on clique sur les autres joueurs=
   WA.ui.onRemotePlayerClicked.subscribe((remotePlayer) => {
@@ -86,31 +90,6 @@ const run = async () => {
           right?: string,
       },
   }*/
-
-  // Type de la "promesse" renvoyée par la fonction, les champs avec "?" sont facultatifs
-  /*interface UIWebsite {
-      readonly id: string,            // Identifiant unique
-      url: string,                    // URL
-      visible: boolean,               // visibilité
-      readonly allowApi: boolean,     // authorisation d'API
-      readonly allowPolicy: string,   // Liste des authorisation
-      position: {
-          vertical: string,           // position Verticale (top, middle, bottom)
-          horizontal: string,         // position Horizontale (left, middle, right)
-      },
-      size: {                         // Taille de la zone
-          height: string,
-          width: string,
-      },
-      margin?: {                      // décalage de la zone
-          top?: string,
-          bottom?: string,
-          left?: string,
-          right?: string,
-      },
-      close(): Promise<void>,         // Fermeture de l'instance actuelle
-  }*/
-
   // -> utilisation: 
   const myWebsite = await WA.ui.website.open({
     url: "https://www.youtube.com/embed/lBHkzgN-8ws",
@@ -147,7 +126,7 @@ const run = async () => {
     src: 'https://workadventu.re',    // Site source (obligatoire)
     allow: "fullscreen",              // Autorisation (facultatif)
     allowApi: true,                   // Autorisation (obligatoire)
-    position: "left",                 // Position (facultatif) par défaut à droite | "center" OU "left" OU "right"|
+    position: "center",                 // Position (facultatif) par défaut à droite | "center" OU "left" OU "right"|
   }, () => {                          // Fonction appelée à la fermeture
     console.info  ('The modal was closed');
     WA.ui.modal.closeModal();

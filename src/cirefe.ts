@@ -45,13 +45,9 @@ WA.room.area.onLeave("scene").subscribe(() => { // Accorder l'accès à la scene
     WA.room.showLayer("floor/collisions-scene");
 });
 
-WA.room.area.onEnter("Podium").subscribe(() => {live.visible = false;}); // Couper le live pour ceux sur scène
-WA.room.area.onLeave("Podium").subscribe(() => {live.visible = true;}); // Couper le live pour ceux sur scène
-WA.room.onEnterLayer("floor/speaker").subscribe(() => { // Couper le son des participants en backstage
-    live.visible = true;
-});
-WA.room.onLeaveLayer("floor/speaker").subscribe(() => { // Rétablir le son des participants en quittant les backstage
-    live.visible = false;
-});
+WA.room.onEnterLayer("floor/speaker").subscribe(() => {live.visible = true;});
+WA.room.onLeaveLayer("floor/speaker").subscribe(() => { live.visible = false});
+WA.room.onEnterLayer("floor/fond-de-raie-bas").subscribe(() => {live.visible = true;});
+WA.room.onEnterLayer("floor/raie").subscribe(() => {live.visible = false;});
 
 });
