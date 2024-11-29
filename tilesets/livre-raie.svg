@@ -29,8 +29,8 @@
      inkscape:document-units="px"
      showguides="true"
      inkscape:zoom="1"
-     inkscape:cx="672"
-     inkscape:cy="376.5"
+     inkscape:cx="1332"
+     inkscape:cy="415.5"
      inkscape:window-width="2400"
      inkscape:window-height="1271"
      inkscape:window-x="2391"
@@ -520,7 +520,13 @@
      clip-path="url(#clipPath3)"
      transform="matrix(3.1808594,0,0,3.1598106,-302.83659,-359.82124)"
      style="display:inline"
-     inkscape:label="raie de gauche" /><image
+     inkscape:label="raie de gauche" /><rect
+     style="fill:#ffffff;fill-rule:evenodd;stroke-width:2.63018;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100"
+     id="rect5"
+     width="226.82886"
+     height="178.29549"
+     x="228.3766"
+     y="0.093544334" /><image
      width="158.75"
      height="66.145836"
      preserveAspectRatio="none"
@@ -531,4 +537,4 @@
      clip-path="url(#clipPath4)"
      style="display:inline"
      inkscape:label="raie de droite"
-     transform="matrix(3.1808593,0,0,3.1598105,-74.492918,-359.82127)" /></svg>
+     transform="matrix(3.1808592,0,0,3.1598105,-74.492919,-359.82127)" /></svg>
