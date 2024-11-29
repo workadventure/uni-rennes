@@ -51,8 +51,8 @@ const run = async () => {
       position: {
         x: 64,
         y: 128,
-        width: 320,
-        height: 240,
+        width: 200,
+        height: 150,
       },
       visible: false,
       allowApi: true,
@@ -118,10 +118,10 @@ const run = async () => {
         vertical: "middle",
         horizontal: "left",
       },
-    visible: false,
+    visible: true,
     size: {
-        height: "50vh",
-        width: "50vw",
+        height: "30vh",
+        width: "30vw",
     },
     margin: {
       left: "5vw"
@@ -131,13 +131,13 @@ const run = async () => {
   // Montrer le site en fonction de l'entrée/sortie d'un layer
 
   WA.room.onEnterLayer("chaise").subscribe(() => {
-    myWebsite.visible = true;
-  });
-
-  WA.room.onLeaveLayer("chaise").subscribe(() => {
     myWebsite.visible = false;
   });
 
+  /*WA.room.onLeaveLayer("chaise").subscribe(() => {
+    myWebsite.visible = false;
+  });
+*/
   //========================================================
 
   // Comment ouvrir un "modal" (menu fermable != popup)
