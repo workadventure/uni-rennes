@@ -33,9 +33,9 @@ const run = async () => {
 
   // =================================================================
 
-  // Ajouter un Popup
+  // Chasse aux mots: 
 
-
+    
 
   // Ajouter des actions possible qaund on clique sur les autres joueurs=
   WA.ui.onRemotePlayerClicked.subscribe((remotePlayer) => {
@@ -48,22 +48,40 @@ const run = async () => {
   })
   //=====================================================================
 
-  // Ajouter un nouveau site dans une zone sur la carte ====
+  // Ajouter un nouveau lien twitch dans une zone sur la carte ====
   WA.room.website.create({
-      name: "my_website",
-      url: "https://www.youtube.com/embed/lBHkzgN-8ws",
+      name: "livePlayer",
+      url: "https://player.twitch.tv/?&channel=rennes2D&parent=mondevirtuel.univ-rennes2.fr", // parent=play.workadventu.re en local || parent=mondevirtuel.univ-rennes2.fr
       position: {
         x: 64,
         y: 128,
-        width: 200,
-        height: 150,
+        width: 350,
+        height: 250,
       },
-      visible: false,
+      visible: true,
       allowApi: true,
       allow: "fullscreen",
       origin: "map",
       scale: 1,
     });
+
+  // Ajouer le chat du twitch fixé sur la map
+
+    WA.room.website.create({
+      name: "Chat",
+      url: "https://www.twitch.tv/embed/rennes2D/chat?parent=play.workadventu.re", // parent=play.workadventu.re en local || parent=mondevirtuel.univ-rennes2.fr
+      position: {
+        x: 270,
+        y: 128,
+        width: 150,
+        height: 500,
+      },
+      visible: false,
+      allowApi: false,
+      origin: "map",
+      scale: 0.5,
+    });
+
   //========================================================
 
   // Pour ouvir un site internet dans une zone sur l'écran ======
@@ -97,7 +115,7 @@ const run = async () => {
         vertical: "middle",
         horizontal: "left",
       },
-    visible: true,
+    visible: false,
     size: {
         height: "30vh",
         width: "30vw",
@@ -131,6 +149,7 @@ const run = async () => {
     console.info  ('The modal was closed');
     WA.ui.modal.closeModal();
   });
+  WA.ui.modal.closeModal();
 
   // WA.ui.modal.closeModal() // Pour fermer un modal
 
@@ -175,7 +194,6 @@ const run = async () => {
     }
   });
 };
-
 
 WA.onInit().then(run);
 
