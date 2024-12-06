@@ -5,6 +5,10 @@ console.log("cirefe lancé")
 
 WA.onInit().then(async() => {
 
+let pos = (await WA.player.getPosition()) ;
+
+WA.camera.set(pos.x, pos.y, 1600, 1800, false, true);
+
 const live = await WA.ui.website.open({
     url: "https://www.youtube.com/embed/live_stream?channel=UCDX5M3-pP_EoSfWPPyV6qnQ",
     allowPolicy: "fullscreen; autoplay; picture-in-picture",
@@ -45,13 +49,9 @@ WA.room.area.onLeave("scene").subscribe(() => { // Accorder l'accès à la scene
     WA.room.showLayer("floor/collisions-scene");
 });
 
-WA.room.area.onEnter("Podium").subscribe(() => {live.visible = false;}); // Couper le live pour ceux sur scène
-WA.room.area.onLeave("Podium").subscribe(() => {live.visible = true;}); // Couper le live pour ceux sur scène
-WA.room.onEnterLayer("floor/speaker").subscribe(() => { // Couper le son des participants en backstage
-    live.visible = true;
-});
-WA.room.onLeaveLayer("floor/speaker").subscribe(() => { // Rétablir le son des participants en quittant les backstage
-    live.visible = false;
-});
+WA.room.onEnterLayer("floor/speaker").subscribe(() => {live.visible = true;});
+WA.room.onLeaveLayer("floor/speaker").subscribe(() => { live.visible = false});
+WA.room.onEnterLayer("public").subscribe(() => {live.visible = true;});
+WA.room.onEnterLayer("floor/raie").subscribe(() => {live.visible = false;});
 
 });
