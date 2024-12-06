@@ -278,7 +278,7 @@
          "name":"Floor",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -674,7 +674,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src/\/hp.ts"
+         "value":"..\/src\/hp.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.0",
