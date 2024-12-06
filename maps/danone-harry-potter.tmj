@@ -3359,7 +3359,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/hp.ts"
+         "value":"..\/src\/hp.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.0",
