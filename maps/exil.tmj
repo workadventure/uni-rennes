@@ -185,6 +185,8 @@
          "height":27,
          "id":4,
          "name":"rail",
+         "offsetx":-1.33333333333337,
+         "offsety":-30.0000000000001,
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
