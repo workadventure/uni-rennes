@@ -638,6 +638,11 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"Dolly Ramella "
+        }, 
+        {
          "name":"mapName",
          "type":"string",
          "value":"Migration et exil "
