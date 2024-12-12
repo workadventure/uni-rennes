@@ -3048,6 +3048,7 @@
          "name":"floorLayer",
          "objects":[
                 {
+                 "class":"area",
                  "height":75,
                  "id":2,
                  "name":"metro",
@@ -3058,45 +3059,13 @@
                          "value":"\/@\/metro"
                         }],
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":60,
                  "x":256,
                  "y":126
                 }, 
                 {
-                 "height":60,
-                 "id":13,
-                 "name":"Visite-de-Rennes",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/view.genial.ly\/66052d70e2dbdf00149217a5"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"Visite de Rennes - Cliquez sur \"espace\""
-                        }, 
-                        {
-                         "name":"start",
-                         "type":"string",
-                         "value":"Visite-de-Rennes-balade"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":81,
-                 "x":104.333333333333,
-                 "y":212.333333333333
-                }, 
-                {
+                 "class":"area",
                  "height":103,
                  "id":14,
                  "name":"FLEscape ",
@@ -3122,13 +3091,13 @@
                          "value":"FLEscape"
                         }],
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":89.5,
                  "x":1539.83333333333,
                  "y":1067.33333333333
                 }, 
                 {
+                 "class":"area",
                  "height":137.333333333333,
                  "id":15,
                  "name":"Sortie-ereve",
@@ -3154,13 +3123,13 @@
                          "value":"Sortie-ereve"
                         }],
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":244,
                  "x":2180.66666666667,
                  "y":1188
                 }, 
                 {
+                 "class":"area",
                  "height":92,
                  "id":16,
                  "name":"accueil-bat-S",
@@ -3186,13 +3155,13 @@
                          "value":"accueil-bat-S"
                         }],
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":228,
                  "x":2574.66666666667,
                  "y":1192
                 }, 
                 {
+                 "class":"area",
                  "height":132,
                  "id":17,
                  "name":"ereve-inside",
@@ -3218,43 +3187,10 @@
                          "value":"ereve-inside"
                         }],
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":92,
                  "x":1563.33333333333,
                  "y":1193.33333333333
-                }, 
-                {
-                 "height":95.1666666666666,
-                 "id":19,
-                 "name":"Module-Transport",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/view.genially.com\/665ebe7576f55a0014e16783"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"Module Transport - Cliquez sur \"espace\""
-                        }, 
-                        {
-                         "name":"start",
-                         "type":"string",
-                         "value":"Module-Transport"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":85.3333333333333,
-                 "x":452.083333333333,
-                 "y":125
                 }],
          "offsetx":0.66666666666697,
          "offsety":14.6666666666665,
@@ -4157,7 +4093,7 @@
          "value":false
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.9.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -4545,6 +4481,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.10",
+ "version":"1.9",
  "width":120
 }
