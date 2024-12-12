@@ -1347,23 +1347,6 @@
          "y":0
         }, 
         {
-         "draworder":"topdown",
-         "id":93,
-         "name":"configuration",
-         "objects":[],
-         "opacity":1,
-         "properties":[
-                {
-                 "name":"tag",
-                 "type":"string",
-                 "value":"admin"
-                }],
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
          "id":51,
          "layers":[
                 {
