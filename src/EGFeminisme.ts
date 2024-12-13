@@ -20,7 +20,7 @@ WA.onInit().then(async() => {
         WA.room.area.onEnter(zoneName).subscribe(() => {
             WA.ui.modal.openModal({
                 title: zoneName,
-                src: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/serpentard/" : '/'}EGFeminisme/${zoneName}.html`, // ligne vaudou pour ouvrir le fichier html
+                src: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/uni-rennes/" : '/'}EGFeminisme/${zoneName}.html`, // ligne vaudou pour ouvrir le fichier html
                 allowApi: true,
                 allow: "microphone; camera",
                 position: "center",
@@ -79,7 +79,7 @@ WA.onInit().then(async() => {
       }
 
     let tableau: CreateUIWebsiteEvent = { // tableau de bord
-        url: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/serpentard/" : '/'}EGFeminisme/Tableau_de_bord.html`,
+        url: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/uni-rennes/" : '/'}EGFeminisme/Tableau_de_bord.html`,
         visible: false,
         allowApi: true,
         allowPolicy: "",
