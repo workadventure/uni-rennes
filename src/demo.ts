@@ -84,8 +84,7 @@ const run = async () => {
 
   //========================================================
 
-  // Pour ouvir un site internet dans une zone sur l'écran ======
-
+  // Pour ouvir un site internet fixe sur l'écran ======
 
   //Type à metter en paramètre de la fonction
   /*interface CreateUIWebsiteEvent {
