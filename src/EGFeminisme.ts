@@ -8,13 +8,25 @@ console.info('Script started successfully');
 WA.onInit().then(async() => {
     // Disable tutotial
     WA.player.state.tutorialDone = true;
+    WA.controls.restorePlayerProximityMeeting();
     const url = new URL(WA.room.mapURL);
+
+    WA.room.onEnterLayer('to-hall').subscribe(() => {
+        WA.ui.actionBar.removeButton("Tableau");
+        WA.ui.actionBar.removeButton("Briefing");
+    });
 
     for (let i = 1; i < 6; i++) {
         console.log(`Saving variable Enigme${i}`);
         WA.player.state.saveVariable(`Enigme${i}`, 0, {public: true, persist: true, ttl: 60 * 35, scope: "room"});
         console.log(`Saved variable Enigme${i} as`, WA.player.state.loadVariable(`Enigme${i}`));
     }
+
+    WA.players.onVariableChange("Enigme1").subscribe((event) => {WA.player.state.Enigme1 = event.value});
+    WA.players.onVariableChange("Enigme2").subscribe((event) => {WA.player.state.Enigme2 = event.value});
+    WA.players.onVariableChange("Enigme3").subscribe((event) => {WA.player.state.Enigme3 = event.value});
+    WA.players.onVariableChange("Enigme4").subscribe((event) => {WA.player.state.Enigme4 = event.value});
+    WA.players.onVariableChange("Enigme5").subscribe((event) => {WA.player.state.Enigme5 = event.value});
 
     function enigmaCheck(zoneName :string) {
         WA.room.area.onEnter(zoneName).subscribe(() => {
