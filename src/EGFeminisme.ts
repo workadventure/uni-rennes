@@ -8,7 +8,13 @@ console.info('Script started successfully');
 WA.onInit().then(async() => {
     // Disable tutotial
     WA.player.state.tutorialDone = true;
+    WA.controls.restorePlayerProximityMeeting();
     const url = new URL(WA.room.mapURL);
+
+    WA.room.onEnterLayer('to-hall').subscribe(() => {
+        WA.ui.actionBar.removeButton("Tableau");
+        WA.ui.actionBar.removeButton("Briefing");
+    });
 
     for (let i = 1; i < 6; i++) {
         console.log(`Saving variable Enigme${i}`);
@@ -16,11 +22,17 @@ WA.onInit().then(async() => {
         console.log(`Saved variable Enigme${i} as`, WA.player.state.loadVariable(`Enigme${i}`));
     }
 
+    WA.players.onVariableChange("Enigme1").subscribe((event) => {WA.player.state.Enigme1 = event.value});
+    WA.players.onVariableChange("Enigme2").subscribe((event) => {WA.player.state.Enigme2 = event.value});
+    WA.players.onVariableChange("Enigme3").subscribe((event) => {WA.player.state.Enigme3 = event.value});
+    WA.players.onVariableChange("Enigme4").subscribe((event) => {WA.player.state.Enigme4 = event.value});
+    WA.players.onVariableChange("Enigme5").subscribe((event) => {WA.player.state.Enigme5 = event.value});
+
     function enigmaCheck(zoneName :string) {
         WA.room.area.onEnter(zoneName).subscribe(() => {
             WA.ui.modal.openModal({
                 title: zoneName,
-                src: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/serpentard/" : '/'}EGFeminisme/${zoneName}.html`, // ligne vaudou pour ouvrir le fichier html
+                src: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/uni-rennes/" : '/'}EGFeminisme/${zoneName}.html`, // ligne vaudou pour ouvrir le fichier html
                 allowApi: true,
                 allow: "microphone; camera",
                 position: "center",
@@ -79,7 +91,7 @@ WA.onInit().then(async() => {
       }
 
     let tableau: CreateUIWebsiteEvent = { // tableau de bord
-        url: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/serpentard/" : '/'}EGFeminisme/Tableau_de_bord.html`,
+        url: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/uni-rennes/" : '/'}EGFeminisme/Tableau_de_bord.html`,
         visible: false,
         allowApi: true,
         allowPolicy: "",
