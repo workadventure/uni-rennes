@@ -109,6 +109,8 @@
          "height":25,
          "id":81,
          "name":"to-hall",
+         "offsetx":426,
+         "offsety":240,
          "opacity":1,
          "properties":[
                 {
@@ -714,7 +716,7 @@
          "y":0
         }],
  "nextlayerid":84,
- "nextobjectid":35,
+ "nextobjectid":36,
  "orientation":"orthogonal",
  "properties":[
         {
