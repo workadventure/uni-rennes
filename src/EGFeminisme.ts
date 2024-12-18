@@ -1,9 +1,7 @@
 /// <reference types="@workadventure/iframe-api-typings" />
-import { UIWebsite } from "@workadventure/iframe-api-typings";
 import "./main.js";
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
-import { waitForDebugger } from "inspector";
 
 console.info('Script started successfully');
 
