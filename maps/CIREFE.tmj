@@ -3159,7 +3159,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":184,
+                 "height":114.666666666667,
                  "id":56,
                  "name":"Organiser-un-debat",
                  "properties":[
@@ -3187,7 +3187,7 @@
                  "visible":true,
                  "width":213.333,
                  "x":4293.66683333333,
-                 "y":1409.66666666667
+                 "y":1449.66666666667
                 }, 
                 {
                  "class":"area",
