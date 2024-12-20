@@ -33,10 +33,6 @@ const run = async () => {
 
   // =================================================================
 
-  // Chasse aux mots: 
-
-    
-
   // Ajouter des actions possible qaund on clique sur les autres joueurs=
   WA.ui.onRemotePlayerClicked.subscribe((remotePlayer) => {
       remotePlayer.addAction('Ask to tell a joke', () => {
