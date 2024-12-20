@@ -3095,7 +3095,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":184,
+                 "height":137.333333333333,
                  "id":54,
                  "name":"creer-video-filee",
                  "properties":[
@@ -3123,11 +3123,11 @@
                  "visible":true,
                  "width":213.333333333333,
                  "x":4517.33333333333,
-                 "y":1760
+                 "y":1796
                 }, 
                 {
                  "class":"area",
-                 "height":184,
+                 "height":144,
                  "id":55,
                  "name":"Journal",
                  "properties":[
@@ -3155,7 +3155,7 @@
                  "visible":true,
                  "width":213.333,
                  "x":4070.00016666667,
-                 "y":1762.33333333333
+                 "y":1802.33333333333
                 }, 
                 {
                  "class":"area",
@@ -3223,7 +3223,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":184,
+                 "height":150.666666666667,
                  "id":58,
                  "name":"Travail-de-groupe",
                  "properties":[
@@ -3251,7 +3251,7 @@
                  "visible":true,
                  "width":213.333,
                  "x":3618.66683333333,
-                 "y":1765.33333333333
+                 "y":1798.66666666666
                 }, 
                 {
                  "class":"area",
@@ -3346,6 +3346,91 @@
                  "width":1073.03,
                  "x":3861.485,
                  "y":953.153333333333
+                }, 
+                {
+                 "class":"zone",
+                 "height":153.693333333333,
+                 "id":89,
+                 "name":"focus2",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":213.03,
+                 "x":4296.81833333333,
+                 "y":1418.48666666667
+                }, 
+                {
+                 "class":"zone",
+                 "height":153.693,
+                 "id":90,
+                 "name":"focus3",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":213.03,
+                 "x":3846.81833333333,
+                 "y":1309.82016666667
+                }, 
+                {
+                 "class":"zone",
+                 "height":153.693,
+                 "id":91,
+                 "name":"focus6",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":213.03,
+                 "x":4517.485,
+                 "y":1788.48683333333
+                }, 
+                {
+                 "class":"zone",
+                 "height":153.693,
+                 "id":92,
+                 "name":"focus4",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":213.03,
+                 "x":4072.15166666667,
+                 "y":1796.48683333333
+                }, 
+                {
+                 "class":"zone",
+                 "height":153.693,
+                 "id":93,
+                 "name":"focus5",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":213.03,
+                 "x":3617.485,
+                 "y":1769.82016666667
                 }],
          "opacity":1,
          "properties":[
@@ -3742,7 +3827,7 @@
          "y":0
         }],
  "nextlayerid":90,
- "nextobjectid":89,
+ "nextobjectid":94,
  "orientation":"orthogonal",
  "properties":[
         {
