@@ -1,8 +1,6 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 import "./main.js";
 
-import { bootstrapExtra } from "@workadventure/scripting-api-extra";
-
 console.info('Script started successfully');
 
 WA.onInit().then(async() => {
