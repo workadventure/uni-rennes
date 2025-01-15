@@ -276,7 +276,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"@\/cirefe#public"
+                 "value":"\/@\/cirefe#public"
                 }],
          "type":"tilelayer",
          "visible":true,
