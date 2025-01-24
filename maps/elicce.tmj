@@ -447,6 +447,8 @@
          "height":33,
          "id":21,
          "name":"Tapis visio",
+         "offsetx":6.66666666666652,
+         "offsety":-4,
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -581,6 +583,8 @@
          "height":33,
          "id":16,
          "name":"Chaises",
+         "offsetx":41.3333333333333,
+         "offsety":-38.6666666666666,
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -1022,8 +1026,8 @@
                  "x":1395.45783333333,
                  "y":453.849833333333
                 }],
-         "offsetx":-1.33333333333326,
-         "offsety":6.66666666666663,
+         "offsetx":-156,
+         "offsety":265.333333333333,
          "opacity":1,
          "properties":[
                 {
@@ -1032,7 +1036,7 @@
                  "value":true
                 }],
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
