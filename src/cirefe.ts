@@ -31,10 +31,3 @@ WA.room.area.onEnter("scene").subscribe(() => { // Accorder l'accès à la scene
 WA.room.area.onLeave("scene").subscribe(() => { // Accorder l'accès à la scene selon les tags
     WA.room.showLayer("floor/collisions-scene");
 });
-
-WA.room.onEnterLayer("floor/speaker").subscribe(() => {live.visible = true;});
-WA.room.onLeaveLayer("floor/speaker").subscribe(() => { live.visible = false});
-WA.room.onEnterLayer("public").subscribe(() => {live.visible = true;});
-WA.room.onEnterLayer("floor/raie").subscribe(() => {live.visible = false;});
-
-});
