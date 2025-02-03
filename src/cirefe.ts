@@ -7,24 +7,7 @@ WA.onInit().then(async() => {
 
 let pos = (await WA.player.getPosition()) ;
 
-WA.camera.set(pos.x, pos.y, 1600, 1800, false, true);
 
-const live = await WA.ui.website.open({
-    url: "https://www.youtube.com/embed/live_stream?channel=UCDX5M3-pP_EoSfWPPyV6qnQ",
-    allowPolicy: "fullscreen; autoplay; picture-in-picture",
-    position: {
-        vertical: "middle",
-        horizontal: "left",
-        },
-    visible: true,
-    size: {
-        height: "30vh",
-        width: "30vw",
-    },
-    margin: {
-        left: "5vw"
-    }
-});
 
 function isAllowed(tags: string[]): boolean {
     for (const tag of tags) {
