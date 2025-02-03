@@ -5,7 +5,6 @@ console.log("cirefe lancé")
 
 WA.onInit().then(async() => {
 
-let pos = (await WA.player.getPosition()) ;
 
 
 
