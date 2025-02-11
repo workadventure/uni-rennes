@@ -2239,39 +2239,40 @@
          "name":"floorLayer",
          "objects":[
                 {
+                 "class":"area",
                  "height":23.3484848484852,
                  "id":20,
                  "name":"hallDoor",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":351.5,
                  "x":1792,
                  "y":1344
                 }, 
                 {
+                 "class":"area",
                  "height":137.515166666667,
                  "id":21,
                  "name":"libraryDoor",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":21.0833333333333,
                  "x":923.666666666667,
                  "y":1855.32575
                 }, 
                 {
+                 "class":"area",
                  "height":273.515166666667,
                  "id":22,
                  "name":"bankDoor",
                  "rotation":0,
-                 "type":"area",
                  "visible":true,
                  "width":31.5,
                  "x":3264.25,
                  "y":1278.90908333333
                 }, 
                 {
+                 "class":"variable",
                  "height":0,
                  "id":23,
                  "name":"isRoofVisible",
@@ -2283,12 +2284,29 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1964,
                  "y":1442.66666666667
+                }, 
+                {
+                 "class":"",
+                 "height":19,
+                 "id":26,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "text":"Calendrier TD1 et TD2",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":168,
+                 "x":252.75,
+                 "y":1701
                 }],
+         "offsetx":-23.75,
+         "offsety":0,
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -3333,7 +3351,7 @@
          "y":0
         }],
  "nextlayerid":84,
- "nextobjectid":25,
+ "nextobjectid":27,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -3362,7 +3380,7 @@
          "value":"..\/src\/hp.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.9.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -8668,6 +8686,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.10",
+ "version":"1.9",
  "width":128
 }
