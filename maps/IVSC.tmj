@@ -1350,7 +1350,25 @@
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"",
+                 "height":28,
+                 "id":24,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "fontfamily":"Alef",
+                     "pixelsize":22,
+                     "text":"Grupo 1",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":112,
+                 "x":1615,
+                 "y":648.5
+                }],
          "offsetx":-3,
          "offsety":0,
          "opacity":1,
@@ -1492,7 +1510,7 @@
          "y":0
         }],
  "nextlayerid":66,
- "nextobjectid":24,
+ "nextobjectid":29,
  "orientation":"orthogonal",
  "properties":[
         {
