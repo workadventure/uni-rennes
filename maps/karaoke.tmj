@@ -139,6 +139,17 @@
  "nextlayerid":5,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"MapCopyright",
+         "type":"string",
+         "value":"Cr\u00e9dits : Dolly Ramella "
+        }, 
+        {
+         "name":"mapImagi",
+         "type":"string",
+         "value":"karaoke.png"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
  "tileheight":32,
