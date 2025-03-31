@@ -170,7 +170,26 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"",
+                 "height":41,
+                 "id":1,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "bold":true,
+                     "fontfamily":"Alef",
+                     "pixelsize":21,
+                     "text":"Bibloth\u00e8que",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":175.333333333333,
+                 "x":930.666666666667,
+                 "y":367.166666666667
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -301,7 +320,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":1,
+ "nextobjectid":2,
  "orientation":"orthogonal",
  "properties":[
         {
