@@ -182,14 +182,39 @@
                      "bold":true,
                      "fontfamily":"Alef",
                      "pixelsize":21,
-                     "text":"Biblioth\u00e8que",
+                     "text":"ChansonsTh\u00e8que",
                      "wrap":true
                     },
                  "visible":true,
                  "width":175.333333333333,
                  "x":930.666666666667,
                  "y":367.166666666667
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":86,
+                 "id":2,
+                 "name":"Salle 3",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"salle3"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"admin"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":92,
+                 "x":321.333333333333,
+                 "y":147.666666666667
                 }],
+         "offsetx":-45.3333333333334,
+         "offsety":0.333333333333314,
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -320,7 +345,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":2,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "properties":[
         {
