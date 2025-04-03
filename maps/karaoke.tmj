@@ -212,6 +212,144 @@
                  "width":92,
                  "x":321.333333333333,
                  "y":147.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":104,
+                 "id":3,
+                 "name":"Salle 2",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"salle2"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"admin"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":126,
+                 "x":141.333333333333,
+                 "y":336.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":110,
+                 "id":4,
+                 "name":"Salle 1",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"salle1"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"admin"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":134,
+                 "x":187.333333333333,
+                 "y":848.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":100,
+                 "id":5,
+                 "name":"Salle 4",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"salle4"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"admin"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":112,
+                 "x":735.333333333333,
+                 "y":434.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":100,
+                 "id":6,
+                 "name":"Salle 3",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"salle7"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"admin"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":112,
+                 "x":593.333333333333,
+                 "y":685.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":100,
+                 "id":7,
+                 "name":"Salle 3",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"salle6"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"admin"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":222,
+                 "x":1339.33333333333,
+                 "y":483.666666666667
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":100,
+                 "id":8,
+                 "name":"Salle 3",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"salle5"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"admin"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":112,
+                 "x":1429.33333333333,
+                 "y":135.666666666667
                 }],
          "offsetx":-45.3333333333334,
          "offsety":0.333333333333314,
@@ -345,7 +483,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":3,
+ "nextobjectid":9,
  "orientation":"orthogonal",
  "properties":[
         {
