@@ -29,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="-134.8025"
-     inkscape:cy="342.43965"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-16.633251"
+     inkscape:cy="386.21039"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -842,5 +842,22 @@
          x="73.876312"
          id="tspan875-4-5-8"
          sodipodi:role="line">H</tspan></text>
+    <text
+       id="text877-7-1-7"
+       y="215.94022"
+       x="48.742001"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.65781164px;line-height:1.25;font-family:alef;-inkscape-font-specification:alef;letter-spacing:0px;word-spacing:0px;fill:#646068;fill-opacity:1;stroke:#808080;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="fill:#646068;fill-opacity:1;stroke:#808080;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="215.94022"
+         x="48.742001"
+         id="tspan875-7-6-0"
+         sodipodi:role="line">S</tspan></text>
+    <circle
+       r="5.3262491"
+       cy="213.60284"
+       cx="50.752674"
+       id="path884-0-7-8"
+       style="opacity:0.98999999;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:1.10000002;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
 </svg>
