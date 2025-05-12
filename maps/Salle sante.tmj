@@ -182,7 +182,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/accueil_villejean#from-campusS"
+                 "value":"https:\/\/mondevirtuel.univ-rennes2.fr\/@\/accueil-villejean#from-campusS"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -289,6 +289,7 @@
          "name":"floorLayer",
          "objects":[
                 {
+                 "class":"",
                  "height":52.3333333333333,
                  "id":2,
                  "name":"Zone d\u00e9part",
@@ -301,7 +302,6 @@
                      "text":"D\u00e9part Escape Game",
                      "wrap":true
                     },
-                 "type":"",
                  "visible":true,
                  "width":236,
                  "x":351.333333333333,
@@ -377,7 +377,7 @@
  "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.9.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -550,6 +550,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.10",
+ "version":"1.9",
  "width":30
 }
