@@ -1388,7 +1388,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/view.genial.ly\/64388dffa6acec0012e4da9d"
+                         "value":"https:\/\/view.genially.com\/68233b4989218dc29c45e06d"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -2215,17 +2215,17 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A perfect virtual office to get started with WorkAdventure!"
+         "value":"Salle decouverte des langues de l'Universit\u00e9 Rennes 2"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"accueilEDL.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"Espace des Langues"
         }, 
         {
          "name":"script",
