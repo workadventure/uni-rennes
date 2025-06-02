@@ -189,6 +189,40 @@
                  "width":210.448884250286,
                  "x":933.720192833359,
                  "y":374.800482083396
+                }, 
+                {
+                 "class":"area",
+                 "height":112,
+                 "id":9,
+                 "name":"parcours 1",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1950918661296358053"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":97.3333333333334,
+                 "x":580,
+                 "y":685
+                }, 
+                {
+                 "class":"area",
+                 "height":161.333333333333,
+                 "id":10,
+                 "name":"parcours 2",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.thinglink.com\/view\/scene\/1951310443741971300"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":189.333333333333,
+                 "x":121.333333333333,
+                 "y":319.666666666667
                 }],
          "offsetx":-45.3333333333334,
          "offsety":0.333333333333314,
@@ -322,7 +356,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":9,
+ "nextobjectid":11,
  "orientation":"orthogonal",
  "properties":[
         {
