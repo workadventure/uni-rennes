@@ -492,7 +492,7 @@
          "value":"Cr\u00e9dits : Dolly Ramella "
         }, 
         {
-         "name":"mapImagi",
+         "name":"mapImage",
          "type":"string",
          "value":"karaoke.png"
         }],
