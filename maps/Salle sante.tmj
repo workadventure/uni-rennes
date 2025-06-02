@@ -376,6 +376,12 @@
  "nextlayerid":15,
  "nextobjectid":3,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"MapCopyright ",
+         "type":"string",
+         "value":"Tous les cr\u00e9dits : Dolly Ramella "
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.9.1",
  "tileheight":32,
