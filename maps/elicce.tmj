@@ -1058,28 +1058,6 @@
                 }, 
                 {
                  "class":"area",
-                 "height":216.300484841404,
-                 "id":2,
-                 "name":"salleJitsi",
-                 "properties":[
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"salleELICCE"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"admin"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":534.417547753958,
-                 "x":1571.93011663454,
-                 "y":130.379850847986
-                }, 
-                {
-                 "class":"area",
                  "height":99.666666666667,
                  "id":3,
                  "name":"Poster2",
@@ -1437,6 +1415,23 @@
                  "width":113.333333333333,
                  "x":387.666666666667,
                  "y":644.5
+                }, 
+                {
+                 "class":"area",
+                 "height":202,
+                 "id":26,
+                 "name":"vid\u00e9o conf IA",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/view.genially.com\/686ba774b3545db9bd886123"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":504,
+                 "x":1589,
+                 "y":140.666666666667
                 }],
          "offsetx":1,
          "offsety":-0.666666666667027,
@@ -1571,7 +1566,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":26,
+ "nextobjectid":27,
  "orientation":"orthogonal",
  "properties":[
         {
