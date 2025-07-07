@@ -1340,27 +1340,6 @@
                 }, 
                 {
                  "class":"",
-                 "height":91,
-                 "id":21,
-                 "name":"",
-                 "rotation":0,
-                 "text":
-                    {
-                     "bold":true,
-                     "fontfamily":"Alef",
-                     "halign":"center",
-                     "pixelsize":37,
-                     "text":"Posters  Doctorants",
-                     "valign":"center",
-                     "wrap":true
-                    },
-                 "visible":true,
-                 "width":424.666666666667,
-                 "x":36,
-                 "y":884.5
-                }, 
-                {
-                 "class":"",
                  "height":37.6666666666666,
                  "id":22,
                  "name":"",
@@ -1432,6 +1411,27 @@
                  "width":504,
                  "x":1589,
                  "y":140.666666666667
+                }, 
+                {
+                 "class":"",
+                 "height":37,
+                 "id":28,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "bold":true,
+                     "fontfamily":"Alef",
+                     "halign":"center",
+                     "pixelsize":27,
+                     "text":"Posters des doctorants ",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":378,
+                 "x":71.0000000000001,
+                 "y":913.166666666667
                 }],
          "offsetx":1,
          "offsety":-0.666666666667027,
@@ -1566,7 +1566,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":27,
+ "nextobjectid":29,
  "orientation":"orthogonal",
  "properties":[
         {
