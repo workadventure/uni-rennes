@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tileset version="1.10" tiledversion="1.11.1-99-gec89c545" name="mid_Inside-Wall_colored" tilewidth="32" tileheight="32" tilecount="1144" columns="22">
+ <image source="../../assets-matrix/hp-assets/mid_Inside-Wall_colored.png" width="704" height="1664"/>
+</tileset>
