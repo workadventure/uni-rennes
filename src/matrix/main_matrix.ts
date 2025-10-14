@@ -1,6 +1,7 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 
 import { ActionMessage, Area } from "@workadventure/iframe-api-typings";
+import { ITiledMap } from '@workadventure/tiled-map-type-guard'
 import { bootstrap } from "./main";
 
 // Adds a class to store each area's name and the associated properties
@@ -10,13 +11,15 @@ class areaobjects {
 }
 
 // Array for all areas
-const map = await WA.room.getTiledMap()
+let map!: ITiledMap;
 let currareaprop: Array<areaobjects> = []
 let triggerMessage!: ActionMessage;
 
 // Waiting for the API to be ready
-WA.onInit().then(() => {
+WA.onInit().then(async() => {
     bootstrap()
+
+    map = await WA.room.getTiledMap()
 
     hideAll()
     getAreaObjects()
