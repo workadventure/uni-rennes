@@ -165,6 +165,12 @@
                  "id":971,
                  "name":"to-matrix",
                  "opacity":1,
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"\/@\/the-matrix#from-salle-support"
+                        }],
                  "type":"tilelayer",
                  "visible":true,
                  "width":50,
@@ -714,7 +720,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/matrix\/main_blank_space.ts"
+         "value":"..\/src\/matrix\/main_support_room.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.1-99-gec89c545",
