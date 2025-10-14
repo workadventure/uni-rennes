@@ -1,6 +1,6 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 
-import { ActionMessage, Area, Position } from "@workadventure/iframe-api-typings";
+import { ActionMessage, Area } from "@workadventure/iframe-api-typings";
 import { bootstrap } from "./main";
 
 // Adds a class to store each area's name and the associated properties
@@ -62,8 +62,8 @@ function setAreaBehaviour() {
     }
 }
 
-function isInArea(player: Position, Object: Area) {
-    if (Object.x < player.x && player.x < Object.x + Object.width && Object.y < player.y && player.y < Object.y + Object.height)
+function isInArea(player_x: number, player_y: number, Object: Area) {
+    if (Object.x < player_x && player_x < Object.x + Object.width && Object.y < player_y && player_y < Object.y + Object.height)
         return true
     return false
 }
@@ -72,7 +72,7 @@ async function displayOnArrival() {
     let position = await WA.player.getPosition()
     for (let Zone of currareaprop) {
         let Object = await WA.room.area.get(Zone.name)
-        if (Object != undefined && isInArea(position, Object)) {
+        if (Object != undefined && isInArea(position.x, position.y, Object)) {
             for (let Layers of Zone.associatedlayers) {
                 WA.room.showLayer(Layers)
             }
