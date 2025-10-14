@@ -1,14 +1,17 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 
-import { ActionMessage } from "@workadventure/iframe-api-typings";
+import { ActionMessage } from '@workadventure/iframe-api-typings';
+import { ITiledMap } from '@workadventure/tiled-map-type-guard'
 import { bootstrap } from "./main";
 
-const map = await WA.room.getTiledMap()
+let map!: ITiledMap
 let triggerMessage!: ActionMessage;
 
 // Waiting for the API to be ready
-WA.onInit().then(() => {
+WA.onInit().then(async() => {
     bootstrap()
+
+    map = await WA.room.getTiledMap()
 
     setExitPrompt()
 
