@@ -29,7 +29,6 @@ WA.onInit().then(() => {
 
     WA.ui.actionBar.addButton({
         id: 'home',
-        type: 'action',
         imageSrc: root + '/../arrows-to-center.svg',
         toolTip: "M'envoyer à l'accueil de Villejean",
         callback: () => {
@@ -47,8 +46,6 @@ WA.onInit().then(() => {
 
     WA.ui.actionBar.addButton({
         id: 'map-btn',
-        // @ts-ignore
-        type: 'action',
         imageSrc: 'https://hugoaverty.github.io/map-overview/img/map.svg',
         toolTip: 'Map overview',
         callback: () => {
@@ -67,6 +64,7 @@ WA.onInit().then(() => {
                 allow: "fullscreen; clipboard-read; clipboard-write",
                 allowApi: true,
                 position: "right",
+                allowFullScreen: true,
             });
         }
     }).catch(e => console.error(e));
@@ -83,6 +81,7 @@ const openMapOverview = async() => {
         title: "Map Overview",
         allowApi: true,
         position: "center",
+        allowFullScreen: true,
     });
 }
 

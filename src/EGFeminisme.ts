@@ -27,11 +27,12 @@ WA.onInit().then(async() => {
     function enigmaCheck(zoneName :string) { // Ouvre l'enigme correspondant à la zone sur laquelle le joueur se trouve
         WA.room.area.onEnter(zoneName).subscribe(() => {
             WA.ui.modal.openModal({
+                allowFullScreen: true,
                 title: zoneName,
                 src: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/uni-rennes/" : '/'}EGFeminisme/${zoneName}.html`, // ligne vaudou pour ouvrir le fichier html
                 allowApi: true,
                 allow: "microphone; camera",
-                position: "center",
+                position: "center"
             }, () => {
                 WA.ui.modal.closeModal();
             });
@@ -69,7 +70,6 @@ WA.onInit().then(async() => {
     let toggle = true;
     WA.ui.actionBar.addButton({ // Ajout du bouton du tableau de bord
         id: "Tableau",
-        type: "button",
         label: "Tableau de bord",
         callback: async() => {
             if (toggle) {
@@ -79,6 +79,7 @@ WA.onInit().then(async() => {
                     allowApi: true,
                     allow: "",
                     position: "center",
+                    allowFullScreen: true,
                 }, () => {WA.ui.modal.closeModal();});
             } else {
                 WA.ui.modal.closeModal();
