@@ -2,7 +2,7 @@
 
 import { ActionMessage, Area } from "@workadventure/iframe-api-typings";
 import { ITiledMap } from '@workadventure/tiled-map-type-guard'
-import { bootstrap } from "./main";
+import { bootstrap } from "./matrix_init";
 
 // Adds a class to store each area's name and the associated properties
 class areaobjects {
