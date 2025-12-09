@@ -2737,7 +2737,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"..\/public\/thumbnails\/map.png"
         }, 
         {
          "name":"mapName",
@@ -2747,7 +2747,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+          "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.1",

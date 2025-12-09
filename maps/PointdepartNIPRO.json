@@ -2176,7 +2176,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitPromptMessage",
+                 "type":"string",
+                 "value":"Aller à salle santé ?"
+                },
+                {
+                 "name":"exitPromptUrl",
                  "type":"string",
                  "value":"\/@\/salle_sant%C3%A9"
                 }],
@@ -2303,7 +2308,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitPromptMessage",
+                 "type":"string",
+                 "value":"Aller à internationalspace ?"
+                },
+                {
+                 "name":"exitPromptUrl",
                  "type":"string",
                  "value":"\/@\/internationalspace"
                 }],
@@ -2430,7 +2440,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitPromptMessage",
+                 "type":"string",
+                 "value":"Aller au métro ?"
+                },
+                {
+                 "name":"exitPromptUrl",
                  "type":"string",
                  "value":"\/@\/metro"
                 }],
@@ -2557,7 +2572,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitPromptMessage",
+                 "type":"string",
+                 "value":"Aller au tambour ?"
+                },
+                {
+                 "name":"exitPromptUrl",
                  "type":"string",
                  "value":"\/@\/tambour#from-presidence"
                 }],
@@ -2684,7 +2704,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitPromptMessage",
+                 "type":"string",
+                 "value":"Aller au musée ?"
+                },
+                {
+                 "name":"exitPromptUrl",
                  "type":"string",
                  "value":"\/@\/mus\u00e9e"
                 }],
@@ -2811,9 +2836,14 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitPromptMessage",
                  "type":"string",
-                 "value":"https://mondevirtuel.univ-rennes2.fr/@\/presidence"
+                 "value":"Aller à présidence ?"
+                },
+                {
+                 "name":"exitPromptUrl",
+                 "type":"string",
+                 "value":"\/@\/presidence"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -2827,7 +2857,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":66.6666666666665,
                  "id":232,
                  "name":"Sant\u00e9 1",
@@ -2838,13 +2867,13 @@
                          "value":"https:\/\/www.youtube.com\/embed\/5w9MDAry5ho?feature=oembed"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":86.6666666666666,
                  "x":542.666666666667,
                  "y":3280
                 }, 
                 {
-                 "class":"area",
                  "height":64,
                  "id":233,
                  "name":"musique",
@@ -2855,13 +2884,13 @@
                          "value":"https:\/\/view.genial.ly\/656b999945803600138d841e\/"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":82.6666666666665,
                  "x":944,
                  "y":3206.66666666667
                 }, 
                 {
-                 "class":"area",
                  "height":66.666666666667,
                  "id":234,
                  "name":"transport",
@@ -2872,13 +2901,13 @@
                          "value":"https:\/\/www.youtube.com\/embed\/L-JGltY2YYE?feature=oembed"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":68,
                  "x":1194.66666666667,
                  "y":3065.33333333333
                 }, 
                 {
-                 "class":"area",
                  "height":66.666666666667,
                  "id":235,
                  "name":"ALE",
@@ -2889,13 +2918,13 @@
                          "value":"https:\/\/www.youtube.com\/embed\/5xeNbeKZJcc?feature=oembed"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":72,
                  "x":1356,
                  "y":3064
                 }, 
                 {
-                 "class":"area",
                  "height":56,
                  "id":236,
                  "name":"culture",
@@ -2906,13 +2935,13 @@
                          "value":"https:\/\/view.genial.ly\/6570d2b8dcff660014196dce"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":70.6666666666666,
                  "x":664.666666666667,
                  "y":2768.66666666667
                 }, 
                 {
-                 "class":"area",
                  "height":66,
                  "id":237,
                  "name":"administration",
@@ -2923,6 +2952,7 @@
                          "value":"https:\/\/www.youtube.com\/embed\/MRS9VG7xY9U?si=wDhsLAPrnd3XE8VY"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":81.3333333333333,
                  "x":358,
@@ -3679,7 +3709,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"..\/public\/thumbnails\/map.png"
         }, 
         {
          "name":"mapName",
@@ -3689,10 +3719,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+          "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -4094,6 +4124,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":51
 }

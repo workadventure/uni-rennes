@@ -172,7 +172,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"",
                  "height":41,
                  "id":1,
                  "name":"",
@@ -185,13 +184,13 @@
                      "text":"D\u00e9part du parcours",
                      "wrap":true
                     },
+                 "type":"",
                  "visible":true,
                  "width":210.448884250286,
                  "x":933.720192833359,
                  "y":374.800482083396
                 }, 
                 {
-                 "class":"area",
                  "height":112,
                  "id":9,
                  "name":"parcours 1",
@@ -202,13 +201,13 @@
                          "value":"https:\/\/www.thinglink.com\/view\/scene\/1950918661296358053"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":97.3333333333334,
                  "x":580,
                  "y":685
                 }, 
                 {
-                 "class":"area",
                  "height":161.333333333333,
                  "id":10,
                  "name":"parcours 2",
@@ -219,13 +218,13 @@
                          "value":"https:\/\/www.thinglink.com\/view\/scene\/1951310443741971300"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":189.333333333333,
                  "x":121.333333333333,
                  "y":319.666666666667
                 }, 
                 {
-                 "class":"area",
                  "height":102.666666666667,
                  "id":11,
                  "name":"Plan",
@@ -236,6 +235,7 @@
                          "value":"https:\/\/view.genially.com\/683da44865aa3d5517b995bb"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":170.666666666667,
                  "x":932,
@@ -384,10 +384,15 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"karaoke.png"
+         "value":"..\/public\/thumbnails\/karaoke.png"
+        }, 
+        {
+         "name":"script",
+         "type":"string",
+         "value":"..\/..\/scr\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -506,6 +511,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":48
 }

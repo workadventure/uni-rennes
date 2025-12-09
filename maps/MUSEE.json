@@ -1218,7 +1218,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":102.827763496144,
                  "id":153,
                  "name":"",
@@ -1229,13 +1228,13 @@
                          "value":"EDMBABHlol131023"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":82.017382788591,
                  "x":1511.81295140164,
                  "y":2554.46688701187
                 }, 
                 {
-                 "class":"area",
                  "height":51.413881748072,
                  "id":154,
                  "name":"",
@@ -1246,13 +1245,13 @@
                          "value":"https:\/\/lolbeans.io\/"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":35.5000612070021,
                  "x":1532.62333210919,
                  "y":2582.62210796915
                 }, 
                 {
-                 "class":"area",
                  "height":56.5740908815874,
                  "id":229,
                  "name":"",
@@ -1263,6 +1262,7 @@
                          "value":"13Oct2023teacherdesk"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":83.1971924729232,
                  "x":950.868276154172,
@@ -2017,7 +2017,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":""
+         "value":"..\/public\/thumbnails\/"
         }, 
         {
          "name":"mapName",
@@ -2027,10 +2027,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+          "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -2992,6 +2992,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":51
 }

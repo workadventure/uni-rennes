@@ -1,5 +1,5 @@
 /// <reference types="@workadventure/iframe-api-typings" />
-import "./main.js";
+import "./main_new.js";
 // import { cpSync } from "fs";
 
 // préparer le son "fireSound.ogg" =======================
@@ -140,6 +140,7 @@ const run = async () => {
     allow: "fullscreen",              // Autorisation (facultatif)
     allowApi: true,                   // Autorisation (obligatoire)
     position: "center",                 // Position (facultatif) par défaut à droite | "center" OU "left" OU "right"|
+    allowFullScreen: false,
   }, () => {                          // Fonction appelée à la fermeture
     console.info  ('The modal was closed');
     WA.ui.modal.closeModal();
@@ -154,7 +155,6 @@ const run = async () => {
 
   WA.ui.actionBar.addButton({
     id: "Nouveau bouton",
-    type: "button",
     label: "Nouveau Bouton",
     callback: (event) => {
       console.log("Nouveau bouton cliqué", event);
@@ -180,7 +180,6 @@ const run = async () => {
 
   WA.ui.actionBar.addButton({
     id: "Nouveau logo",
-    type: 'action',
     imageSrc: "https://i.etsystatic.com/42919322/r/il/5da703/5702221647/il_570xN.5702221647_ibkz.jpg", // utiliser une image en ligne sinon ça ne marche pas
     toolTip: "Ahhhh",
     callback: (event) => {

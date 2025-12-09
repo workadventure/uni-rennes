@@ -114,7 +114,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitPromptMessage",
+                 "type":"string",
+                 "value":"Aller à Villejean ?"
+                },
+                {
+                 "name":"exitPromptUrl",
                  "type":"string",
                  "value":"\/@\/accueil-villejean#from-presidence"
                 }],
@@ -277,7 +282,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitPromptMessage",
+                 "type":"string",
+                 "value":"Aller à présidence ?"
+                },
+                {
+                 "name":"exitPromptUrl",
                  "type":"string",
                  "value":"\/@\/presidence#from-interieur"
                 }],
@@ -450,10 +460,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+          "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -585,6 +595,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":30
 }

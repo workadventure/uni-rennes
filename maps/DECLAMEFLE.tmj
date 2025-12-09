@@ -306,7 +306,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitPromptMessage",
+                 "type":"string",
+                 "value":"Retourner à Villejean ?"
+                }, 
+                {
+                 "name":"exitPromptUrl",
                  "type":"string",
                  "value":"\/@\/accueil-villejean#from-DECLAME"
                 }],
@@ -632,7 +637,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"DECLAMEFLE.png"
+         "value":"..\/public\/thumbnails\/DECLAMEFLE.png"
         }, 
         {
          "name":"mapName",
@@ -642,10 +647,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+         "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {

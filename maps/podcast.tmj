@@ -704,7 +704,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":1120,
                  "id":24,
                  "name":"ChatAmphitheatre",
@@ -715,13 +714,13 @@
                          "value":"Amphith\u00e9\u00e2tre"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":1568,
                  "x":224,
                  "y":320
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":25,
                  "name":"mapName",
@@ -738,13 +737,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":2608,
                  "y":1409
                 }, 
                 {
-                 "class":"area",
                  "height":228,
                  "id":26,
                  "name":"accueil",
@@ -755,13 +754,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":332,
                  "x":2370,
                  "y":740
                 }, 
                 {
-                 "class":"area",
                  "height":1120,
                  "id":27,
                  "name":"ChatGeneral",
@@ -772,13 +771,13 @@
                          "value":"G\u00e9n\u00e9ral"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":3168,
                  "x":1792,
                  "y":320
                 }, 
                 {
-                 "class":"area",
                  "height":827.156933670594,
                  "id":28,
                  "name":"jitsi 1",
@@ -794,6 +793,7 @@
                          "value":"admin"
                         }],
                  "rotation":359.410942754921,
+                 "type":"area",
                  "visible":true,
                  "width":1260.92044444589,
                  "x":297.94776652543,
@@ -964,7 +964,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"podcast.png"
+         "value":"..\/public\/thumbnails\/podcast.png"
         }, 
         {
          "name":"mapName",
@@ -974,10 +974,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+          "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -1473,6 +1473,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":163
 }

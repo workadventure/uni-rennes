@@ -1363,7 +1363,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":32,
                  "id":24,
                  "name":"3",
@@ -1374,13 +1373,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":6432,
                  "y":2848
                 }, 
                 {
-                 "class":"area",
                  "height":92.25,
                  "id":28,
                  "name":"floorPlan",
@@ -1401,13 +1400,13 @@
                          "value":"Appuyez sur ESPACE pour ouvrir le plan de la carte"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":92.5,
                  "x":7281.5,
                  "y":3601.5
                 }, 
                 {
-                 "class":"area",
                  "height":185.590909090908,
                  "id":31,
                  "name":"conference",
@@ -1428,13 +1427,13 @@
                          "value":"Appuyez sur ESPACE pour assister \u00e0 la conf\u00e9rence"
                         }],
                  "rotation":324.496804604532,
+                 "type":"area",
                  "visible":true,
                  "width":408.893939393939,
                  "x":6052.54357499576,
                  "y":3936.34811869723
                 }, 
                 {
-                 "class":"area",
                  "height":244.258,
                  "id":32,
                  "name":"conference",
@@ -1455,13 +1454,13 @@
                          "value":"Appuyez sur ESPACE pour assister \u00e0 la conf\u00e9rence"
                         }],
                  "rotation":326.288850491872,
+                 "type":"area",
                  "visible":true,
                  "width":631.560333333334,
                  "x":6226.87045601455,
                  "y":4215.00078215041
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":65,
                  "name":"2",
@@ -1472,13 +1471,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":5824,
                  "y":2432
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":72,
                  "name":"1",
@@ -1489,13 +1488,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":5120,
                  "y":2016
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":79,
                  "name":"0",
@@ -1506,13 +1505,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":5024,
                  "y":1248
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":86,
                  "name":"4",
@@ -1523,13 +1522,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":7648,
                  "y":2816
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":93,
                  "name":"5",
@@ -1540,13 +1539,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":8320,
                  "y":2272
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":100,
                  "name":"6",
@@ -1557,13 +1556,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":8352,
                  "y":1408
                 }, 
                 {
-                 "class":"area",
                  "height":619.6667,
                  "id":112,
                  "name":"nord",
@@ -1584,13 +1583,13 @@
                          "value":"Appuyez sur ESCAPE ou touchez ici pour entrer en r\u00e9union"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":918,
                  "x":6204,
                  "y":1108
                 }, 
                 {
-                 "class":"",
                  "height":69,
                  "id":113,
                  "name":"",
@@ -1603,6 +1602,7 @@
                      "text":"Point de d\u00e9part",
                      "wrap":true
                     },
+                 "type":"",
                  "visible":true,
                  "width":276,
                  "x":6673.18722880763,
@@ -1620,7 +1620,6 @@
          "name":"configuration",
          "objects":[
                 {
-                 "class":"variable",
                  "height":0,
                  "id":30,
                  "name":"available",
@@ -1642,6 +1641,7 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":6592,
@@ -2220,7 +2220,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"accueilEDL.png"
+         "value":"..\/public\/thumbnails\/accueilEDL.png"
         }, 
         {
          "name":"mapName",
@@ -2230,10 +2230,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/main.ts"
+         "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -3013,6 +3013,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":412
 }
