@@ -11,7 +11,7 @@ WA.onInit().then(() => {
 
     let currentMapName = WA.room.mapURL;
     const mapUrl = WA.room.mapURL;
-    const re = new RegExp(/^http:\/\/\w+(\.\w+)*(:[0-9]+)?/);
+    const re = new RegExp(/^http(s)?:\/\/\w+(\.\w+)*(:[0-9]+)?/);
     const root2 = mapUrl.match(re);
     const root = root2 != undefined ? root2[0] : undefined;
 
