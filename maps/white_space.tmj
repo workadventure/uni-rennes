@@ -163,7 +163,12 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"exitUrl",
+                         "name":"exitPromptMessage",
+                         "type":"string",
+                         "value":"Retourner à the matrix ?"
+                        }, 
+                        {
+                         "name":"exitPromptUrl",
                          "type":"string",
                          "value":"\/@\/the-matrix"
                         }],
@@ -332,7 +337,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"office.png"
+         "value":"..\/public\/thumbnails\/office.png"
         }, 
         {
          "name":"mapName",

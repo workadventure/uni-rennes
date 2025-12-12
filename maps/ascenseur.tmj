@@ -260,7 +260,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":74.6666666666667,
                  "id":1,
                  "name":"portes",
@@ -271,6 +270,7 @@
                          "value":"https:\/\/view.genial.ly\/6613010e51ca9d00142e32f0"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":84.6666666666667,
                  "x":199.333333333333,
@@ -355,15 +355,20 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"ascenseur.png"
+         "value":"..\/public\/thumbnails\/ascenseur.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
          "value":"Ascenseur CIREFE"
+        }, 
+        {
+         "name":"script",
+         "type":"string",
+         "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -430,6 +435,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":15
 }

@@ -1456,7 +1456,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitPromptMessage",
+                 "type":"string",
+                 "value":"Aller au tambour ?"
+                },
+                {
+                 "name":"exitPromptUrl",
                  "type":"string",
                  "value":"\/@\/tambour#from-interieur"
                 }],
@@ -2077,7 +2082,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":94.666666666667,
                  "id":232,
                  "name":"CHATBOOT",
@@ -2088,6 +2092,7 @@
                          "value":"https:\/\/yourhelp.fly.dev\/chat\/2378"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":117.333333333333,
                  "x":1028,
@@ -2479,7 +2484,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"pres.png"
+         "value":"..\/public\/thumbnails\/pres.png"
         }, 
         {
          "name":"mapName",
@@ -2489,10 +2494,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+          "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -3076,6 +3081,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":51
 }

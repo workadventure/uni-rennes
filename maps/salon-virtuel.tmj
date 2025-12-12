@@ -1354,7 +1354,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"",
                  "height":0,
                  "id":225,
                  "name":"doorMain",
@@ -1386,83 +1385,84 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":0,
                  "x":1893,
                  "y":873.5
                 }, 
                 {
-                 "class":"area",
                  "height":87.3333333333333,
                  "id":228,
                  "name":"NPC_8",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":133,
                  "x":230.333333333333,
                  "y":216.666666666667
                 }, 
                 {
-                 "class":"area",
                  "height":87.3333,
                  "id":229,
                  "name":"NPC_7",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":133,
                  "x":151.5,
                  "y":67.000016666667
                 }, 
                 {
-                 "class":"area",
                  "height":87.3333,
                  "id":230,
                  "name":"NPC_6",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":133,
                  "x":517.833333333333,
                  "y":67.666683333333
                 }, 
                 {
-                 "class":"area",
                  "height":87.3333,
                  "id":231,
                  "name":"NPC_5",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":133,
                  "x":887.166666666667,
                  "y":63.000016666667
                 }, 
                 {
-                 "class":"area",
                  "height":87.3333,
                  "id":232,
                  "name":"NPC_4",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":133,
                  "x":1221.83333333333,
                  "y":68.83335
                 }, 
                 {
-                 "class":"area",
                  "height":95.9999666666666,
                  "id":233,
                  "name":"NPC_3",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":155.666666666667,
                  "x":1603.5,
                  "y":357.666683333333
                 }, 
                 {
-                 "class":"area",
                  "height":103.999966666666,
                  "id":234,
                  "name":"NPC_2",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":122,
                  "x":2281.16666666667,
@@ -2001,7 +2001,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"SV.png"
+         "value":"..\/public\/thumbnails\/SV.png"
         }, 
         {
          "name":"mapName",
@@ -2011,7 +2011,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/main.ts"
+          "value":"..\/src\/default.ts"
         }, 
         {
          "name":"tutorial",
@@ -2019,7 +2019,7 @@
          "value":false
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -6156,6 +6156,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":86
 }

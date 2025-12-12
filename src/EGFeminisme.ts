@@ -1,5 +1,5 @@
 /// <reference types="@workadventure/iframe-api-typings" />
-import "./main.js";
+import "./main_new.js";
 
 console.info('Script started successfully');
 
@@ -32,7 +32,8 @@ WA.onInit().then(async() => {
                 src: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/uni-rennes/" : '/'}EGFeminisme/${zoneName}.html`, // ligne vaudou pour ouvrir le fichier html
                 allowApi: true,
                 allow: "microphone; camera",
-                position: "center"
+                position: "center",
+                allowFullScreen: false,
             }, () => {
                 WA.ui.modal.closeModal();
             });
@@ -55,18 +56,17 @@ WA.onInit().then(async() => {
         position: {
             vertical: "top",
             horizontal: "right",
-          },
+        },
         size: {
             height: "20vh",
             width: "20vw",
         },
         margin: {
-          right: "2vw",
-          top: "5vh",
+            right: "2vw",
+            top: "5vh",
         },
-      });
+    });
 
-    
     let toggle = true;
     WA.ui.actionBar.addButton({ // Ajout du bouton du tableau de bord
         id: "Tableau",
@@ -79,7 +79,7 @@ WA.onInit().then(async() => {
                     allowApi: true,
                     allow: "",
                     position: "center",
-                    allowFullScreen: true,
+                    allowFullScreen: false,
                 }, () => {WA.ui.modal.closeModal();});
             } else {
                 WA.ui.modal.closeModal();

@@ -240,7 +240,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"PrezBeaulieu.png"
+         "value":"..\/public\/thumbnails\/PrezBeaulieu.png"
         }, 
         {
          "name":"mapName",
@@ -248,12 +248,12 @@
          "value":"Presidence Beaulieu"
         }, 
         {
-         "name":"scipt",
+         "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+         "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.2",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {

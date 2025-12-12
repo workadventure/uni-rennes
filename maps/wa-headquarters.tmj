@@ -5429,7 +5429,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"..\/public\/thumbnails\/map.png"
         }, 
         {
          "name":"mapName",
@@ -5439,10 +5439,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+          "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {

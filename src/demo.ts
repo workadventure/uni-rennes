@@ -1,5 +1,5 @@
 /// <reference types="@workadventure/iframe-api-typings" />
-import "./main.js";
+import "./main_new.js";
 // import { cpSync } from "fs";
 
 // préparer le son "fireSound.ogg" =======================
@@ -140,7 +140,7 @@ const run = async () => {
     allow: "fullscreen",              // Autorisation (facultatif)
     allowApi: true,                   // Autorisation (obligatoire)
     position: "center",                 // Position (facultatif) par défaut à droite | "center" OU "left" OU "right"|
-    allowFullScreen: true,            // Autoriser le plein écran (facultatif)
+    allowFullScreen: false,
   }, () => {                          // Fonction appelée à la fermeture
     console.info  ('The modal was closed');
     WA.ui.modal.closeModal();

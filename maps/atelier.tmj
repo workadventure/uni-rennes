@@ -514,7 +514,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"atelier.png"
+         "value":"..\/public\/thumbnails\/atelier.png"
         }, 
         {
          "name":"mapName",
@@ -524,10 +524,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+         "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -607,6 +607,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":59
 }

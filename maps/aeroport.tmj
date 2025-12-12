@@ -2454,7 +2454,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":102.827763496144,
                  "id":153,
                  "name":"",
@@ -2465,13 +2464,13 @@
                          "value":"EDMBABHlol131023"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":82.017382788591,
                  "x":1511.81295140164,
                  "y":2554.46688701187
                 }, 
                 {
-                 "class":"area",
                  "height":191.6057,
                  "id":199,
                  "name":"jitsi",
@@ -2482,13 +2481,13 @@
                          "value":"Salle d'attente"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":269.103333333333,
                  "x":34.178829787234,
                  "y":2320.1191358156
                 }, 
                 {
-                 "class":"area",
                  "height":96,
                  "id":232,
                  "name":"Briefing",
@@ -2504,13 +2503,13 @@
                          "value":"Briefing"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":280,
                  "x":98,
                  "y":3352
                 }, 
                 {
-                 "class":"area",
                  "height":144,
                  "id":233,
                  "name":"enigme 1",
@@ -2521,13 +2520,13 @@
                          "value":"https:\/\/view.genial.ly\/6559a7472ac6b600113ed185"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":102,
                  "x":924,
                  "y":3278
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":236,
                  "name":"door_customs",
@@ -2559,13 +2558,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":720,
                  "y":3260
                 }, 
                 {
-                 "class":"area",
                  "height":53,
                  "id":238,
                  "name":"Enigme 2",
@@ -2576,13 +2575,13 @@
                          "value":"https:\/\/view.genial.ly\/6559e2e4dbe05800110eb71b"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":162,
                  "x":712,
                  "y":3305
                 }, 
                 {
-                 "class":"area",
                  "height":54,
                  "id":239,
                  "name":"sac \u00e0 dos",
@@ -2603,13 +2602,13 @@
                          "value":"Appuyez sur ESPACE ou touchez pour ouvrir votre sac \u00e0 dos"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":26.6666666666666,
                  "x":578.666666666667,
                  "y":3330.66666666667
                 }, 
                 {
-                 "class":"area",
                  "height":54,
                  "id":240,
                  "name":"sac \u00e0 dos",
@@ -2630,6 +2629,7 @@
                          "value":"Appuyez sur ESPACE ou touchez pour ouvrir votre sac \u00e0 dos"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":26.6667,
                  "x":1378.66665,
@@ -4237,7 +4237,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"aeroport.png"
+         "value":"..\/public\/thumbnails\/aeroport.png"
         }, 
         {
          "name":"mapName",
@@ -4247,10 +4247,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/main.ts"
+         "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -5174,6 +5174,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":51
 }

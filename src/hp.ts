@@ -1,41 +1,75 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 
-import { bootstrapExtra } from "@workadventure/scripting-api-extra";
+import { ActionMessage } from "@workadventure/iframe-api-typings";
+import * as extraUtils from "./extra-utilities";
+import { areaobjects } from "./extra-types";
+import "./main_new.js";
 
 console.log('Script started successfully');
 
+let toggle : boolean = true;
+
 // Waiting for the API to be ready
-WA.onInit().then(() => {
-    console.log('Scripting API ready');
-    console.log('Player tags: ',WA.player.tags)
+WA.onInit().then(async () => {
 
-    // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
-    bootstrapExtra().then(() => {
-        console.log('Scripting API Extra ready');
+    let triggerMessage!: ActionMessage;
+    let map = await WA.room.getTiledMap();
+    let EntryAreas : Array<areaobjects> = extraUtils.getAreaObjects("EntryAreas", "associatedLayers", map);
+    let ExitAreas : Array<areaobjects> = extraUtils.getAreaObjects("ExitAreas", "associatedLayers", map);
 
-        listenDoor('hallDoor')
-        listenDoor('libraryDoor')
-        listenDoor('bankDoor')
-    }).catch(e => console.error(e));
-
+    await setRoofDisplayonArrival(EntryAreas, ExitAreas);
+    setBuildingEntries(EntryAreas);
+    setBuildingExits(ExitAreas);
+    extraUtils.setAllExitPrompts("ExitZones", "exitPromptUrl", "exitPromptMessage", triggerMessage, map)
 }).catch(e => console.error(e));
 
-function listenDoor(door: string) {
-    WA.room.area.onEnter(door).subscribe(() => {
-        if (WA.state.isRoofVisible === true) {
-            WA.state.isRoofVisible = false
-            WA.room.hideLayer('Roof/Roof3')
-            WA.room.hideLayer('Roof/Roof2')
-            WA.room.hideLayer('Roof/Roof1')
-            WA.room.hideLayer('Roof/Roof0')
-        } else {
-            WA.state.isRoofVisible = true
-            WA.room.showLayer('Roof/Roof3')
-            WA.room.showLayer('Roof/Roof2')
-            WA.room.showLayer('Roof/Roof1')
-            WA.room.showLayer('Roof/Roof0')
+async function setRoofDisplayonArrival(EntryAreas : Array<areaobjects>, ExitAreas : Array<areaobjects>): Promise<void> {
+    let player = await WA.player.getPosition();
+    let currentarea!: areaobjects;
+    for (let areaobject of EntryAreas.concat(ExitAreas)) {
+        let area = await WA.room.area.get(areaobject.name);
+        if (extraUtils.isinArea(player, area)) {
+            currentarea = areaobject;
+            break;
         }
-    })
-}
+    }
+    if (!currentarea)
+        return;
+    if (EntryAreas.map(obj => obj.name).includes(currentarea.name)) {
+        for (let layer of currentarea.associatedlayers)
+            WA.room.hideLayer(layer);
+        toggle = false;
+        return;
+    }
+    //---- A décommenter si le toit commence caché sur la map et que isRoofVisible est false par défaut (et aussi commenter la partie du "if" précedent) ----
+    //if (ExitAreas.map(obj => obj.name).includes(currentarea.name)) {
+    //    for (let layer of currentarea.associatedlayers)
+    //        WA.room.showLayer(layer);
+    //    toggle = true;
+    //    return;
+    //}
+};
+function setBuildingExits(areas : Array<areaobjects>) {
+    for (let area of areas) {
+        WA.room.area.onEnter(area.name).subscribe(() => {
+            if (!toggle){
+                 for (let layer of area.associatedlayers)
+                    WA.room.showLayer(layer);
+                toggle = true;
+            }
+        });
+    }
+};
+function setBuildingEntries(areas : Array<areaobjects>) {
+    for (let area of areas) {
+        WA.room.area.onEnter(area.name).subscribe(() => {
+            if (toggle) {
+                for (let layer of area.associatedlayers)
+                    WA.room.hideLayer(layer);
+                toggle = false;
+            }
+        });
+    }
+};
 
 export {};

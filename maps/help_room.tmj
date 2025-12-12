@@ -167,7 +167,12 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"exitUrl",
+                         "name":"exitPromptMessage",
+                         "type":"string",
+                         "value":"Retourner \u00e0 the matrix ?"
+                        }, 
+                        {
+                         "name":"exitPromptUrl",
                          "type":"string",
                          "value":"\/@\/the-matrix#from-salle-support"
                         }],
@@ -710,7 +715,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"office.png"
+         "value":"..\/public\/thumbnails\/office.png"
         }, 
         {
          "name":"mapName",
@@ -720,7 +725,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"..\/src\/matrix\/main_blank_space.ts"
+         "value":"..\/src\/matrix\/main_help_room.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.1-99-gec89c545",

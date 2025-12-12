@@ -172,7 +172,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"",
                  "height":41,
                  "id":1,
                  "name":"",
@@ -185,13 +184,13 @@
                      "text":"ChansonsTh\u00e8que",
                      "wrap":true
                     },
+                 "type":"",
                  "visible":true,
                  "width":175.333333333333,
                  "x":930.666666666667,
                  "y":367.166666666667
                 }, 
                 {
-                 "class":"area",
                  "ellipse":true,
                  "height":86,
                  "id":2,
@@ -208,13 +207,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":92,
                  "x":321.333333333333,
                  "y":147.666666666667
                 }, 
                 {
-                 "class":"area",
                  "ellipse":true,
                  "height":104,
                  "id":3,
@@ -231,13 +230,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":126,
                  "x":141.333333333333,
                  "y":336.666666666667
                 }, 
                 {
-                 "class":"area",
                  "ellipse":true,
                  "height":110,
                  "id":4,
@@ -254,13 +253,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":134,
                  "x":187.333333333333,
                  "y":848.666666666667
                 }, 
                 {
-                 "class":"area",
                  "ellipse":true,
                  "height":100,
                  "id":5,
@@ -277,13 +276,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":112,
                  "x":735.333333333333,
                  "y":434.666666666667
                 }, 
                 {
-                 "class":"area",
                  "ellipse":true,
                  "height":100,
                  "id":6,
@@ -300,13 +299,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":112,
                  "x":593.333333333333,
                  "y":685.666666666667
                 }, 
                 {
-                 "class":"area",
                  "ellipse":true,
                  "height":100,
                  "id":7,
@@ -323,13 +322,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":222,
                  "x":1339.33333333333,
                  "y":483.666666666667
                 }, 
                 {
-                 "class":"area",
                  "ellipse":true,
                  "height":100,
                  "id":8,
@@ -346,6 +345,7 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":112,
                  "x":1429.33333333333,
@@ -494,10 +494,15 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"karaoke.png"
+         "value":"..\/public\/thumbnails\/karaoke.png"
+        }, 
+        {
+         "name":"script",
+         "type":"string",
+         "value":"..\/src\/default.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.11.1-99-gec89c545",
  "tileheight":32,
  "tilesets":[
         {
@@ -616,6 +621,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":48
 }
