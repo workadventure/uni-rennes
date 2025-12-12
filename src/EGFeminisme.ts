@@ -27,7 +27,6 @@ WA.onInit().then(async() => {
     function enigmaCheck(zoneName :string) { // Ouvre l'enigme correspondant à la zone sur laquelle le joueur se trouve
         WA.room.area.onEnter(zoneName).subscribe(() => {
             WA.ui.modal.openModal({
-                allowFullScreen: true,
                 title: zoneName,
                 src: `${url.protocol}//${url.host}${url.protocol === 'https:' ? "/uni-rennes/" : '/'}EGFeminisme/${zoneName}.html`, // ligne vaudou pour ouvrir le fichier html
                 allowApi: true,
