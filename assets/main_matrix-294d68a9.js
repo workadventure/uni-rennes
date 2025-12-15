@@ -1,0 +1,2 @@
+import{e}from"./extra-utilities-d8eb4fc0.js";import"./main_new-b4369ff4.js";WA.onInit().then(async()=>{const t=["collisions","background"];let o,r=await WA.room.getTiledMap();e.hideAll(r,t);let a=e.getAreaObjects("drawZones","associatedLayer",r);e.setAreaDisplayBehaviour(a),e.displayOnArrival(a),e.setAllExitPrompts("ExitZones","exitPromptUrl","exitPromptMessage",o,r)}).catch(t=>console.error(t));
+//# sourceMappingURL=main_matrix-294d68a9.js.map

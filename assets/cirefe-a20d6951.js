@@ -1,0 +1,2 @@
+import"./main_new-b4369ff4.js";console.log("cirefe lancé");WA.onInit().then(async()=>{WA.room.area.onEnter("scene").subscribe(()=>{console.log("Tags: ",WA.player.tags),s(WA.player.tags)&&(console.log("Ouverture pour un.e",WA.player.tags),WA.room.hideLayer("floor/collisions-scene"))}),WA.room.area.onLeave("scene").subscribe(()=>{WA.room.showLayer("floor/collisions-scene")})});function s(e){const o=["admin","speaker","lecteur"];for(const r of e)if(o.includes(r))return!0;return!1}
+//# sourceMappingURL=cirefe-a20d6951.js.map
