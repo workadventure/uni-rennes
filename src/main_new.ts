@@ -11,7 +11,7 @@ WA.onInit().then(() => {
 
     let currentMapName = WA.room.mapURL;
     const mapUrl = WA.room.mapURL;
-    const re = new RegExp(/^http(s)?:\/\/\w+(\.\w+)*(:[0-9]+)?/);
+    const re = new RegExp(/^http(s)?:\/\/\w+((\.)?(\-)?\w+)*(:[0-9]+)?/);
     const root2 = mapUrl.match(re);
     const root = root2 != undefined ? root2[0] : undefined;
 
@@ -21,7 +21,6 @@ WA.onInit().then(() => {
 
     WA.ui.actionBar.addButton({
         id: 'home',
-        //imageSrc: "https://raw.githubusercontent.com/workadventure/uni-rennes/8b0b48d41120ac59cb57ae90f78cd48813980a40/public/arrows-to-center.svg",
         imageSrc: root + "/arrows-to-center.svg",
         toolTip: "M'envoyer à l'accueil de Villejean",
         callback: () => {
@@ -39,7 +38,6 @@ WA.onInit().then(() => {
 
     WA.ui.actionBar.addButton({
         id: 'menu-btn',
-        //imageSrc: 'https://hugoaverty.github.io/map-overview/img/map.svg',
         imageSrc: root + "/brochure.png",
         toolTip: 'Interactive Menu',
         callback: () => {
